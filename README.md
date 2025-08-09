@@ -1,9 +1,11 @@
 # Gear VR Controller Motion Pointer for Windows
 
-Convert the Gear VR Controller into a PC air mouse, motion pointer, wireless preseneter and gyro gamepad. No VR headset or mobile phone needed.
-
 ![alt text](https://github.com/ShimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/blob/main/screenshot.png "screenshot")
 
+
+Convert the Gear VR Controller into a PC air mouse, motion pointer, wireless preseneter and gyro gamepad.
+
+Features
 - No VR headset or mobile phone needed
 - Wireless presenter, air mouse and motion pointer
 - Key or action mapping to buttons and motions
@@ -12,7 +14,7 @@ Convert the Gear VR Controller into a PC air mouse, motion pointer, wireless pre
 - Compass mode
 - Quick and easy calibration of sensors
 
-- System requirements:
+System requirements
 - Windows 10 x64 or Windows 11
 - .NET Desktop Runtime 9.0
 
@@ -23,3 +25,5 @@ Setup Guide
 
 Calibration for Motion Sensing and Motion Pointer
 - Place the controller upside down on a steady surface, then click the CAL button, that's it
+
+[Download latest version](https://drive.google.com/drive/folders/1FN2FOPHm6QyQqntdEFUnvLKOWFaLj8HI)
