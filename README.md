@@ -3,7 +3,7 @@
 ![alt text](https://github.com/ShimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/blob/main/screenshot.png "screenshot")
 
 
-Convert the Gear VR Controller into a PC air mouse, motion pointer, wireless preseneter and gyro gamepad.
+Convert the Gear VR Controller into a PC air mouse, motion pointer, wireless presenter and gyro gamepad.
 
 
 Features
