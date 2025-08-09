@@ -32,11 +32,13 @@ Calibration for Motion Sensing and Motion Pointer
 
 
 Download latest version
+
 [Link 1](https://drive.google.com/drive/folders/1FN2FOPHm6QyQqntdEFUnvLKOWFaLj8HI)
+
 [Link 2](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
 
 
-*Secret* gamepad emu in new version
+## *Secret* gamepad emu in new version
 
 Now you can use the controller like a gyro gamepad. Gyro aiming together with analog touch stick (needn't press) are supported. Gamepad buttons and sticks are added to key assignment list for mapping to touchpad press (8 directions, center and lower edge), other 5 buttons and 12 motions. For easier control, assign pointer toggle to a button.
 
@@ -67,4 +69,18 @@ DefaultGamepadUseYaw
 Some games may work better with keyboard+mouse emulation, in that case, leave the DefaultEmulateGamepad option to False.
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+
+## The House of the Dead 2 Remake sample config
+
+Download
+
+[Link](https://www.mediafire.com/file/ca3mrdhr4q8jl0g/Gear_VR_Controller.dll.config_the.house.of.the.dead.2.remake.zip/file)
+
+Update the app to v2.1.10, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
+
+Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
+
+Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporary off, North: Unassigned
+
+Switch to motion pointer mode before starting the game, then in game options, set control to Keyboard+Mouse, set mouse sensitivity to 1.0. For better aiming, disable "Enhance pointer precision" in Windows mouse settings -> Additional mouse options -> Pointer Options
 
