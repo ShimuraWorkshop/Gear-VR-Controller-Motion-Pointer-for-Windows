@@ -2,9 +2,7 @@
 
 ![Screenshot](./screenshot.png "Screenshot")
 
-
 Convert the Gear VR Controller into a PC air mouse, motion pointer, wireless presenter and gyro gamepad.
-
 
 Features
 - No VR headset or mobile phone needed
@@ -15,28 +13,22 @@ Features
 - Compass mode
 - Quick and easy calibration of sensors
 
-
 System requirements
 - Windows 10 x64 or Windows 11
 - .NET Desktop Runtime 9.0
-
 
 Setup Guide
 - No pairing needed, just turn on PC Bluetooth and install batteries to the controller
 - Press any button on the controller, then click the Search icon in app
 - Click the Connect button, that's it
 
-
 Calibration for Motion Sensing and Motion Pointer
 - Place the controller upside down on a steady surface, then click the CAL button, that's it
-
 
 Download latest version
 
 [Link 1](https://drive.google.com/drive/folders/1FN2FOPHm6QyQqntdEFUnvLKOWFaLj8HI)
-
 [Link 2](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
-
 
 Gear VR is a trademark of Samsung Electronics Co., Ltd.
 
@@ -75,7 +67,7 @@ Some games may work better with keyboard+mouse emulation, in that case, leave th
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
-## The House of the Dead 2 Remake sample config
+## The House of the Dead 2 Remake sample config (ViGEmBus not required)
 
 Download
 [Link](https://www.mediafire.com/file/ca3mrdhr4q8jl0g/Gear_VR_Controller.dll.config_the.house.of.the.dead.2.remake.zip/file)
