@@ -34,3 +34,37 @@ Calibration for Motion Sensing and Motion Pointer
 Download latest version
 [Link 1](https://drive.google.com/drive/folders/1FN2FOPHm6QyQqntdEFUnvLKOWFaLj8HI)
 [Link 2](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
+
+
+*Secret* gamepad emu in new version
+
+Now you can use the controller like a gyro gamepad. Gyro aiming together with analog touch stick (needn't press) are supported. Gamepad buttons and sticks are added to key assignment list for mapping to touchpad press (8 directions, center and lower edge), other 5 buttons and 12 motions. For easier control, assign pointer toggle to a button.
+
+To use the gamepad mode, install ViGEmBus https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0, edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default) and restart the app.
+
+Modify to False in the line under:
+
+DefaultStabilizePointerClick
+
+Modify to True in the lines under:
+
+DefaultGameMode
+
+DefaultGameKeyboardMode
+
+DefaultGamePointerMode
+
+DefaultEmulateGamepad
+
+You can also map controller roll, pitch, yaw motions to stick axes or triggers to make it a motion gamepad. Try to adjust motion pointer speed to 1~3 and assign a pointer reset button. Explore more settings if you're interested.
+
+Modify to True in the lines under:
+
+DefaultGamepadUsePitch
+
+DefaultGamepadUseYaw
+
+Some games may work better with keyboard+mouse emulation, in that case, leave the DefaultEmulateGamepad option to False.
+
+If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+
