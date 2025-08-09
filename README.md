@@ -34,7 +34,7 @@ Download latest version
 Gear VR is a trademark of Samsung Electronics Co., Ltd.
 
 ​Windows is a trademark of Microsoft Corporation
-<br>
+<br><br>
 
 ## *Secret* gamepad emu in new version
 
@@ -67,7 +67,7 @@ DefaultGamepadUseYaw
 Some games may work better with keyboard+mouse emulation, in that case, leave the DefaultEmulateGamepad option to False.
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
-<br>
+<br><br>
 
 ## The House of the Dead 2 Remake sample config (ViGEmBus not required)
 
