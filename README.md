@@ -39,6 +39,7 @@ Download latest version
 
 
 Gear VR is a trademark of Samsung Electronics Co., Ltd.
+
 ​Windows is a trademark of Microsoft Corporation
 
 
