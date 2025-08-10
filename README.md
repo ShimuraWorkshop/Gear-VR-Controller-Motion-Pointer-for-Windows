@@ -25,7 +25,7 @@ Setup Guide
 Calibration for Motion Sensing and Motion Pointer
 - Place the controller upside down on a steady surface, then click the CAL button, that's it
 
-Download latest version
+Download latest version 2.1.10
 
 [Link 1](https://drive.google.com/drive/folders/1FN2FOPHm6QyQqntdEFUnvLKOWFaLj8HI)
 [Link 2](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
