@@ -31,6 +31,8 @@ v2.1.10
 [Link 1](https://drive.google.com/drive/folders/1FN2FOPHm6QyQqntdEFUnvLKOWFaLj8HI)
 [Link 2](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
 
+SHA-256: b7805f16dfe7132c65658bd9301c0195f2e652eea69b8d39ef9685ce0585c9c5
+
 <br>
 
 Gear VR is a trademark of Samsung Electronics Co., Ltd.
