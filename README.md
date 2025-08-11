@@ -41,9 +41,9 @@ Gear VR is a trademark of Samsung Electronics Co., Ltd.
 
 ## See Wiki
 
-[*Secret* gamepad emu in new version](./wiki/Wiki-Home#secret-gamepad-emu-in-new-version)
+[*Secret* gamepad emu in new version](https://github.com/ShimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/wiki/Wiki-Home#secret-gamepad-emu-in-new-version)
 
-[The House of the Dead 2 Remake sample config (ViGEmBus not required)](./wiki/Wiki-Home#the-house-of-the-dead-2-remake-sample-config-vigembus-not-required)
+[The House of the Dead 2 Remake sample config (ViGEmBus not required)](https://github.com/ShimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/wiki/Wiki-Home#the-house-of-the-dead-2-remake-sample-config-vigembus-not-required)
 
 
 
