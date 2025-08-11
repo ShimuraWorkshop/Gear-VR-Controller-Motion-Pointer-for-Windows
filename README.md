@@ -2,7 +2,7 @@
 
 ![Screenshot](./screenshot.png "Screenshot")
 
-Convert the Gear VR Controller into a PC air mouse, motion pointer, wireless presenter and gyro gamepad.
+Convert the Gear VR Controller into a PC air mouse, motion pointer, wireless presenter and gyro/motion gamepad.
 
 Features
 - No VR headset or mobile phone needed
