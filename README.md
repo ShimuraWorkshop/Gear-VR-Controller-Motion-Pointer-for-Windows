@@ -75,7 +75,7 @@ If the game is run as admin, this app also needs to be run as admin, otherwise W
 
 <br>
 
-## The House of the Dead 2 Remake gyro aiming sample config (ViGEmBus not required)
+## << The House of the Dead 2 Remake >> PC gyro aiming sample config (ViGEmBus not required)
 
 Download
 [Link](https://www.mediafire.com/file/ca3mrdhr4q8jl0g/Gear_VR_Controller.dll.config_the.house.of.the.dead.2.remake.zip/file)
