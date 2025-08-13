@@ -41,11 +41,54 @@ Gear VR is a trademark of Samsung Electronics Co., Ltd.
 
 <br>
 
-## See Wiki
+## *Secret* gyro/motion gamepad emulation in new version
 
-[*Secret* gyro/motion gamepad emulation in new version](https://github.com/ShimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/wiki#secret-gyromotion-gamepad-emulation-in-new-version)
+Now you can use the controller like a gyro gamepad. Gyro aiming together with analog touch stick (needn't press) are supported. Gamepad buttons and sticks are added to key assignment list for mapping to touchpad press (8 directions, center and lower edge), other 5 buttons and 12 motions. For easier control, assign pointer toggle to a button.
 
-[The House of the Dead 2 Remake gyro aiming sample config (ViGEmBus not required)](https://github.com/ShimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/wiki#the-house-of-the-dead-2-remake-gyro-aiming-sample-config-vigembus-not-required)
+To use the gamepad mode, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default) and restart the app.
+
+Modify to False in the line under:
+
+DefaultStabilizePointerClick
+
+Modify to True in the lines under:
+
+DefaultGameMode
+
+DefaultGameKeyboardMode
+
+DefaultGamePointerMode
+
+DefaultEmulateGamepad
+
+You can also map controller roll, pitch, yaw motions to stick axes or triggers to make it a motion gamepad. Try to adjust motion pointer speed to 1~3 and assign a pointer reset button. Explore more settings if you're interested.
+
+Modify to True in the lines under:
+
+DefaultGamepadUsePitch
+
+DefaultGamepadUseYaw
+
+Some games may work better with keyboard+mouse emulation, in that case, leave the DefaultEmulateGamepad option to False.
+
+If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+
+<br>
+
+## The House of the Dead 2 Remake gyro aiming sample config (ViGEmBus not required)
+
+Download
+[Link](https://www.mediafire.com/file/ca3mrdhr4q8jl0g/Gear_VR_Controller.dll.config_the.house.of.the.dead.2.remake.zip/file)
+
+Update the app to v2.1.10, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
+
+Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
+
+Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporary off, North: Unassigned
+
+Switch to motion pointer mode before starting the game, then in game options, set control to Keyboard+Mouse, set mouse sensitivity to 1.0. For better aiming, disable "Enhance pointer precision" in Windows mouse settings -> Additional mouse options -> Pointer Options
+
+
 
 
 
