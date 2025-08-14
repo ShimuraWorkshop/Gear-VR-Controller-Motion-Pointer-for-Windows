@@ -27,11 +27,11 @@ Calibration for Motion Sensing and Motion Pointer
 
 Download latest version
 
-v2.1.10
+v2.1.11
 [Link 1](https://drive.google.com/drive/folders/1FN2FOPHm6QyQqntdEFUnvLKOWFaLj8HI)
 [Link 2](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
 
-SHA-256: b7805f16dfe7132c65658bd9301c0195f2e652eea69b8d39ef9685ce0585c9c5
+SHA-256: 76eb62c4fd7f4da84400697364c6729f34198e0832e366cca77e7f8d696c6293
 
 <br>
 
@@ -86,10 +86,7 @@ Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
 
 Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporary off, North: Unassigned
 
-Switch to motion pointer mode before starting the game, then in game options, set control to Keyboard+Mouse, set mouse sensitivity to 1.0. For better aiming, disable "Enhance pointer precision" in Windows mouse settings -> Additional mouse options -> Pointer Options
-
-
-
+Switch to motion pointer mode before starting the game, then in game options, set control to Keyboard+Mouse, set mouse sensitivity to 1.0.
 
 
 
