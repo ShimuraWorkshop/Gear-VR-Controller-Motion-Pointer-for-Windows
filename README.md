@@ -87,8 +87,3 @@ Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
 Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporary off, North: Unassigned
 
 Switch to motion pointer mode before starting the game, then in game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
-
-When necessary, fine-tune the gyro sensitivity by modifying ScaleRelativeMovement in the config file, then restarting the app.
-
-
-
