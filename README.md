@@ -86,6 +86,6 @@ Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
 
 Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporary off, North: Unassigned
 
-Touchpad (without press) is mapped to WASD by default, you can change it by modifying KeyTouchDirectNorth/East/South/West/Center in the config file (and restarting app) when necessary.
+Touchpad (without press) is mapped to WASD by default, you can change it by modifying KeyTouchDirectNorth/East/South/West/Center in the config file (and restarting app) when necessary or when you use the config for HOTD1Remake.
 
 Switch to motion pointer mode before starting the game, then in game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
