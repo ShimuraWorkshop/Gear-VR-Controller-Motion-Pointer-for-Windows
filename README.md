@@ -86,4 +86,6 @@ Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
 
 Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporary off, North: Unassigned
 
+Touchpad (without press) is mapped to WASD by default, you can modify KeyTouchDirectNorth/East/South/West/Center in the config file when necessary.
+
 Switch to motion pointer mode before starting the game, then in game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
