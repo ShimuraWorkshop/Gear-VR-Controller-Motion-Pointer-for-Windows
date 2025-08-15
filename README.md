@@ -77,7 +77,7 @@ If the game is run as admin, this app also needs to be run as admin, otherwise W
 
 ## < The House of the Dead 2: Remake > PC gyro aiming sample config
 
-Download config file
+Config file
 [Link](https://www.mediafire.com/file/ca3mrdhr4q8jl0g/Gear_VR_Controller.dll.config_the.house.of.the.dead.2.remake.zip/file)
 
 ViGEmBus not required, update the app to v2.1.11, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
