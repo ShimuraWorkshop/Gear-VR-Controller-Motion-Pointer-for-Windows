@@ -86,6 +86,21 @@ Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
 
 Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporary off, North: Unassigned
 
-Touchpad (without press) is mapped to WASD by default, you can change it by modifying KeyTouchDirectNorth/East/South/West/Center in the config file (and restarting app) when necessary or when you use the config for HOTD1Remake.
+Touchpad (without press) is mapped to WASD by default, you can change it by modifying KeyTouchDirectNorth/East/South/West/Center in the config file (and restarting app) when necessary.
 
 Switch to motion pointer mode before starting the game, then in game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
+
+<br>
+
+## < The House of the Dead: Remake > PC gyro aiming sample config
+
+Config file
+[Link](https://www.mediafire.com/file/yxi0v4sfd9ypkyy/Gear_VR_Controller.dll.config_the.house.of.the.dead.remake.zip/file)
+
+ViGEmBus not required, update the app to v2.1.11, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
+
+Trigger: Mouse left button, Back: Enter, -: Esc
+
+Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointer temporary off
+
+Switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00.
