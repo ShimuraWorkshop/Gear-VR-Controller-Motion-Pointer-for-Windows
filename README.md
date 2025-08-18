@@ -92,7 +92,7 @@ Switch to motion pointer mode before starting the game, then in game options, se
 
 <br>
 
-## < The House of the Dead: Remake > PC gyro aiming sample config
+## < The House of the Dead: Remake > PC gyro/lightgun aiming sample config
 
 Config file
 [Link](https://www.mediafire.com/file/yxi0v4sfd9ypkyy/Gear_VR_Controller.dll.config_the.house.of.the.dead.remake.zip/file)
