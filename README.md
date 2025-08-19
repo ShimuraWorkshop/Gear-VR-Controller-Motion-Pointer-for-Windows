@@ -92,6 +92,8 @@ Switch to motion pointer mode before starting the game, then in game options, se
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
+This config file is also suitable for < Panzer Dragoon: Remake >, just change the key assignments to match the game. But the game has forced mouse smoothing, you need to move the controller slowly.
+
 <br>
 
 ## < The House of the Dead: Remake > PC gyro/lightgun aiming sample config
@@ -115,9 +117,15 @@ The lightgun aiming config is also suitable for < The Typing of The Dead: Overki
 
 <br>
 
+## < Panzer Dragoon: Remake > PC gyro aiming sample config
+
+Use the same config file of < The House of the Dead 2: Remake >, and change the key assignments to match the game.
+
+<br>
+
 ## < The Typing of the Dead: Overkill > PC lightgun aiming sample config
 
-Use the same config file as < The House of the Dead: Remake >, follow the instructions of lightgun aiming config, and change the key assignments to match the game.
+Use the same config file of < The House of the Dead: Remake >, follow the instructions of lightgun aiming config, and change the key assignments to match the game.
 
 
 
