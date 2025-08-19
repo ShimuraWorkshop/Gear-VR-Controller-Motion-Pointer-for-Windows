@@ -117,6 +117,7 @@ The lightgun aiming config is also suitable for < The Typing of The Dead: Overki
 
 ## < The Typing of the Dead: Overkill > PC lightgun aiming sample config
 
-Use the same config file as < The House of the Dead: Remake > and follow the instructions of lightgun aiming config.
+Use the same config file as < The House of the Dead: Remake >, follow the instructions of lightgun aiming config, and change the key assignments to match the game.
+
 
 
