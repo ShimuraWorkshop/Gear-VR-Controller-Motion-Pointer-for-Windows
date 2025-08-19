@@ -115,7 +115,7 @@ If the game is run as admin, this app also needs to be run as admin, otherwise W
 
 <br>
 
-## < The Typing of The Dead: Overkill > PC lightgun aiming sample config
+## < The Typing of the Dead: Overkill > PC lightgun aiming sample config
 
 Use the same config file as < The House of the Dead: Remake > and follow the instructions of lightgun aiming config.
 
