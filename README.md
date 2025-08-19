@@ -90,6 +90,8 @@ Touchpad (without press) is mapped to WASD by default, you can change it by modi
 
 Switch to motion pointer mode before starting the game, then in game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
 
+If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+
 <br>
 
 ## < The House of the Dead: Remake > PC gyro/lightgun aiming sample config
@@ -106,3 +108,5 @@ Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointe
 If you have installed a lightgun or arcade plugin (like [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), you can emulate lightgun aiming by modifying GamePointerUseRelativeMovement to False in the config file (and restarting app), then assigning Pointer reset to Touchpad South, also other keys according to the plugin, and adjusting the motion pointer speed in app.
 
 Switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00.
+
+If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
