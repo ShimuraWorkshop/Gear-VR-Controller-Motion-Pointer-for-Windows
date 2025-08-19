@@ -113,6 +113,8 @@ Switch to motion pointer mode before starting the game, then in game options, se
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
+<br>
+
 ## < The Typing of The Dead: Overkill > PC lightgun aiming sample config
 
 Use the same config file as < The House of the Dead: Remake > and follow the instructions of lightgun aiming config.
