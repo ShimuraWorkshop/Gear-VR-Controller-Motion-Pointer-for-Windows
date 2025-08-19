@@ -107,11 +107,11 @@ Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointe
 
 If you have installed a lightgun or arcade plugin (like [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), you can emulate lightgun aiming by modifying GamePointerUseRelativeMovement to False in the config file (and restarting app), then assigning Pointer reset to Touchpad South, also other keys according to the plugin, and adjusting the motion pointer speed in app.
 
-The lightgun aiming config is also suitable for < The Typing of The Dead: Overkill >, just change the key assignments to match the game.
-
 Switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00.
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+
+The lightgun aiming config is also suitable for < The Typing of The Dead: Overkill >, just change the key assignments to match the game.
 
 <br>
 
