@@ -119,7 +119,7 @@ The lightgun aiming config is also suitable for < The Typing of The Dead: Overki
 
 ## < Panzer Dragoon: Remake > PC gyro aiming sample config
 
-Use the same config file of < The House of the Dead 2: Remake >, and change the key assignments to match the game.
+Use the same config file of < The House of the Dead 2: Remake >, and change the key assignments to match the game. But the game has forced mouse smoothing, you need to move the controller slowly.
 
 <br>
 
