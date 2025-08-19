@@ -23,7 +23,7 @@ Setup Guide
 - Click the Connect button, that's it
 
 Calibration for Motion Sensing and Motion Pointer
-- Place the controller upside down on a steady surface, then click the CAL button, that's it
+- Place the controller upside down on a stable surface, then click the CAL button, that's it
 
 Download latest version
 
