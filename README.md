@@ -115,6 +115,8 @@ If the game is run as admin, this app also needs to be run as admin, otherwise W
 
 The lightgun aiming config is also suitable for < The Typing of The Dead: Overkill >, just change the key assignments to match the game.
 
+Some console emulators may be suitable to use this config file, try to set mouse input provider to dinput (or similar setting) and modify ScaleRelativeMovement (1000 for 1:1) in the config file to fit the game.
+
 <br>
 
 ## < Panzer Dragoon: Remake > PC gyro aiming sample config
