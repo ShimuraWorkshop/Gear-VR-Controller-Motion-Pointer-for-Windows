@@ -107,7 +107,7 @@ Trigger: Mouse left button, Back: Enter, -: Esc
 
 Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointer temporary off
 
-If you have installed a lightgun or arcade plugin (like [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), you can emulate lightgun aiming by modifying GamePointerUseRelativeMovement to False in the config file (and restarting app), then assigning Pointer reset to Touchpad South, also other keys according to the plugin, and adjusting the motion pointer speed in app.
+If you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), you can emulate lightgun aiming by modifying GamePointerUseRelativeMovement to False in the config file (and restarting app), then assigning Pointer reset to Touchpad South, also other keys according to the plugin, and adjusting the motion pointer speed in app.
 
 Switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00.
 
