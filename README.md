@@ -146,5 +146,5 @@ Alternatively, to emulate lightgun aiming, especially for games using off-screen
 
 Trigger: Gamepad A, Back: 1, Home: 5, Touchpad Center: Gamepad B, Touchpad South: Pointer reset
 
-In MAME game's input device options, set lightgun and pedal device assignments to joystick, in advanced options, set joystick deadzone to 0.
+In MAME game's input device options, set lightgun and pedal device assignments to joystick, set joystick input provider to xinput, in advanced options, set joystick deadzone to 0.
 
