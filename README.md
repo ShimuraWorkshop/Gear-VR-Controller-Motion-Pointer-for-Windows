@@ -131,4 +131,4 @@ Use the same config file as < The House of the Dead: Remake >, follow the instru
 
 ## < MAME > emulator PC gyro aiming sample config
 
-Use the same config file as < The House of the Dead: Remake > and modify ScaleRelativeMovement to 1000 (for 1:1 movement), in MAME game's input device options, change lightgun and pedal device assignments to mouse, change mouse input provider to dinput, then change the key assignments in app to match MAME emulator (need to keep "Pointer temporary off" assigned to a button).
+Use the same config file as < The House of the Dead: Remake > and modify ScaleRelativeMovement to 1000, in MAME game's input device options, change lightgun and pedal device assignments to mouse, change mouse input provider to dinput, then change the key assignments in app to match MAME emulator (need to keep "Pointer temporary off" assigned to a button).
