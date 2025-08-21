@@ -98,7 +98,7 @@ This config file is also suitable for < Panzer Dragoon: Remake >, just change th
 
 ## < The House of the Dead: Remake > PC gyro/lightgun aiming sample config
 
-Config file
+Config file for gyro aiming
 [Link](https://www.mediafire.com/file/yxi0v4sfd9ypkyy/Gear_VR_Controller.dll.config_the.house.of.the.dead.remake.zip/file)
 
 ViGEmBus not required, update the app to v2.1.11, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
@@ -125,7 +125,7 @@ Use the same config file as < The House of the Dead 2: Remake >, and change the 
 
 ## < The Typing of the Dead: Overkill > PC lightgun aiming sample config
 
-Use the same config file as < The House of the Dead: Remake >, follow the instructions of lightgun aiming config, and change the key assignments to match the game.
+Follow the instructions of lightgun aiming config in < The House of the Dead: Remake >, and change the key assignments to match the game.
 
 <br>
 
