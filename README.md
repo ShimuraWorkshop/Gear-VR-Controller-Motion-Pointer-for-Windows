@@ -126,3 +126,16 @@ Use the same config file as < The House of the Dead 2: Remake >, and change the 
 ## < The Typing of the Dead: Overkill > PC lightgun aiming sample config
 
 Use the same config file as < The House of the Dead: Remake >, follow the instructions of lightgun aiming config, and change the key assignments to match the game.
+
+<br>
+
+## < MAME > emulator PC lightgun aiming sample config
+
+Config file for lightgun emulation in games like Time Crisis, Virtua Cop
+[Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
+
+ViGEmBus not required, update the app to v2.1.11, extract the config to "C:\Program Files\Gear VR Controller\" (default), assign keys for example:
+
+Trigger: Mouse left button, Back: 1, Home: 5, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
+
+In MAME game's input device options, set lightgun and pedal device assignments to lightgun, set lightgun input provider to win32. Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
