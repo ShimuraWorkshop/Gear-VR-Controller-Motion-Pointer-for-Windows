@@ -129,6 +129,22 @@ Use the same config file as < The House of the Dead: Remake >, follow the instru
 
 <br>
 
-## < MAME > emulator PC gyro aiming sample config
+## < MAME > emulator PC gyro/lightgun aiming sample config
 
-Use the same config file as < The House of the Dead: Remake > and modify ScaleRelativeMovement to 1000. In MAME game's input device options, set lightgun and pedal device assignments to mouse, set mouse input provider to dinput, then change the key assignments to match MAME emulator (need to keep "Pointer temporary off" assigned to a button).
+Config file
+[Link](https://www.mediafire.com/file/1m6949m00i6zf3a/Gear_VR_Controller.dll.config_mame.zip/file)
+
+Update the app to v2.1.11, extract the config to "C:\Program Files\Gear VR Controller\" (default).
+
+To use gyro aiming (ViGEmBus not required), switch to motion pointer mode before starting MAME, assign keys for example:
+
+Trigger: Mouse left button, Back: 1, Home: 5, Touchpad Center: Mouse middle button, Touchpad South: Pointer temporary off
+
+In MAME game's input device options, set lightgun and pedal device assignments to mouse, set mouse input provider to dinput.
+
+Alternatively, to emulate lightgun aiming, especially for games using off-screen reload, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), set motion pointer speed to around 2~3 and assign keys for example:
+
+Trigger: Gamepad A, Back: 1, Home: 5, Touchpad Center: Gamepad B, Touchpad South: Pointer reset
+
+In MAME game's input device options, set lightgun and pedal device assignments to joystick, in advanced options, set joystick deadzone to 0.
+
