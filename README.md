@@ -131,7 +131,7 @@ Follow the instructions of lightgun aiming config in < The House of the Dead: Re
 
 ## < MAME > emulator PC lightgun aiming sample config
 
-Config file for lightgun emulation in games like Time Crisis, Virtua Cop
+Config file for lightgun emulation in games like Time Crisis and Virtua Cop
 [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
 
 ViGEmBus not required, update the app to v2.1.11, extract the config to "C:\Program Files\Gear VR Controller\" (default), assign keys for example:
