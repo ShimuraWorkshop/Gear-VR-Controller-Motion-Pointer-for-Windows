@@ -146,8 +146,12 @@ Other emulators may use the same config file with similar settings.
 
 <br>
 
-## Hints on lower input lag for games and emulators
+## Hints on lower input lag and better visuals for games and emulators
 
 - Turn on game mode of TV or monitor if available
 
 - Turn on low latency mode or anti-lag of GPU driver
+
+- Turn on v-sync
+
+- Turn off motion blur
