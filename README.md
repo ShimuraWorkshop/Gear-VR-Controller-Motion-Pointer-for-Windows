@@ -152,3 +152,4 @@ Other emulators may use the same config file with similar settings.
 
 - Turn on low latency mode or anti-lag of GPU driver
 
+- Use the controller within good coverage of Bluetooth
