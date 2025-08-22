@@ -150,4 +150,4 @@ Other emulators may use the same config file with similar settings.
 
 1. Turn on game mode of TV or monitor if available
 
-2. Turn on Low Latency Mode (Nvidia) or Anti-Lag (AMD) of GPU driver
+2. Turn on low latency mode or anti-lag of GPU driver
