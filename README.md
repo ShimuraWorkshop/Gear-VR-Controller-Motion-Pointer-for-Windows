@@ -141,3 +141,5 @@ Trigger: Mouse left button, Back: 1, Home: 5, Touchpad Center: Mouse right butto
 If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in the config file from Unassigned to Mouse right button (and restart app).
 
 In MAME game's input device options, set lightgun and pedal device assignments to lightgun, set lightgun input provider to win32. Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
+
+Other emulators may use the same config file with similar settings.
