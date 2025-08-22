@@ -143,3 +143,9 @@ If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in 
 In MAME game's input device options, set lightgun and pedal device assignments to lightgun, keyboard input provider to dinput, lightgun input provider to win32. Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
 
 Other emulators may use the same config file with similar settings.
+
+## Hints on low input lag for games and emulators
+
+1. Turn on game mode of TV or monitor if available
+
+2. Turn on Low Latency Mode (Nvidia) or Anti-Lag (AMD) of GPU driver
