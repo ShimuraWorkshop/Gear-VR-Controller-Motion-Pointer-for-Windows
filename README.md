@@ -144,6 +144,8 @@ In MAME game's input device options, set lightgun and pedal device assignments t
 
 Other emulators may use the same config file with similar settings.
 
+<br>
+
 ## Hints on low input lag for games and emulators
 
 1. Turn on game mode of TV or monitor if available
