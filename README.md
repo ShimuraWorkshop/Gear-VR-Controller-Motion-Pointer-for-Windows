@@ -146,7 +146,7 @@ Other emulators may use the same config file with similar settings.
 
 <br>
 
-## Hints on lower input lag for games and emulators
+## Hints on low input lag for games and emulators
 
 - Turn on game mode of TV or monitor if available
 
