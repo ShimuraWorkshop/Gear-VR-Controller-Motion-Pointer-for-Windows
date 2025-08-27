@@ -41,7 +41,7 @@ Gear VR is a trademark of Samsung Electronics Co., Ltd.
 
 <br>
 
-## *Secret* gyro/motion gamepad emulation in new version
+## \*Secret\* gyro/motion gamepad emulation in new version
 
 Now you can use the controller like a gyro gamepad. Gyro aiming together with analog touch stick (needn't press) are supported. Gamepad buttons and sticks are added to key assignment list for mapping to touchpad press (8 directions, center and lower edge), other 5 buttons and 12 motions.
 
