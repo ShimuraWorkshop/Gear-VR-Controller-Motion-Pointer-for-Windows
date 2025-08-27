@@ -43,7 +43,7 @@ Gear VR is a trademark of Samsung Electronics Co., Ltd.
 
 ## *Secret* gyro/motion gamepad emulation in new version
 
-Now you can use the controller like a gyro gamepad. Gyro aiming together with analog touch stick (needn't press) are supported. Gamepad buttons and sticks are added to key assignment list for mapping to touchpad press (8 directions, center and lower edge), other 5 buttons and 12 motions. For easier control, assign pointer toggle to a button.
+Now you can use the controller like a gyro gamepad. Gyro aiming together with analog touch stick (needn't press) are supported. Gamepad buttons and sticks are added to key assignment list for mapping to touchpad press (8 directions, center and lower edge), other 5 buttons and 12 motions.
 
 To use the gamepad mode, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
 
@@ -60,6 +60,10 @@ DefaultGameKeyboardMode
 DefaultGamePointerMode
 
 DefaultEmulateGamepad
+
+For easier control, assign "Toggle between cursor and pointer mode" to a button, or assign "Pointer temporary on" to the new second action of buttons by modify the line under any of:
+
+KeyTouchButtonCenter2 / KeyBackButton2 / KeyHomeButton2 / KeyVolumeUpButton2 / KeyVolumeDownButton2 / KeyTouchButton2 / KeyTriggerButton2 / KeyTouchDirectCenter2
 
 You can also map controller roll, pitch, yaw motions to stick axes or triggers to make it a motion gamepad. Try to adjust motion pointer speed to 1~3 and assign a pointer reset button. Explore more settings if you're interested.
 
