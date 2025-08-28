@@ -35,8 +35,12 @@ SHA-256: 76eb62c4fd7f4da84400697364c6729f34198e0832e366cca77e7f8d696c6293
 
 Details
 - [\*Secret\* gyro/motion gamepad emulation](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#secret-gyromotion-gamepad-emulation-in-new-version)
-- [< The House of the Dead 2: Remake > PC gyro aiming](README.md#-the-house-of-the-dead-2-remake--pc-gyro-aiming-sample-config)
-
+- [< The House of the Dead 2: Remake > PC gyro aiming]([README.md#-the-house-of-the-dead-2-remake--pc-gyro-aiming-sample-config](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#-the-house-of-the-dead-2-remake--pc-gyro-aiming-sample-config)
+- [< The House of the Dead: Remake > PC gyro/lightgun aiming](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming-sample-config)
+- [< Panzer Dragoon: Remake > PC gyro aiming](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#-panzer-dragoon-remake--pc-gyro-aiming-sample-config)
+- [< The Typing of the Dead: Overkill > PC lightgun aiming](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#-the-typing-of-the-dead-overkill--pc-lightgun-aiming-sample-config)
+- [< MAME > emulator PC lightgun aiming](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#-mame--emulator-pc-lightgun-aiming-sample-config)
+- [Hints on low input lag](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#hints-on-low-input-lag-for-games-and-emulators)
 
 <br>
 
