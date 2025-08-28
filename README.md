@@ -33,6 +33,8 @@ v2.1.11
 
 SHA-256: 76eb62c4fd7f4da84400697364c6729f34198e0832e366cca77e7f8d696c6293
 
+<br>
+
 Details
 - [\*Secret\* gyro/motion gamepad emulation](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#secret-gyromotion-gamepad-emulation-in-new-version)
 - [< The House of the Dead 2: Remake > PC gyro aiming](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#-the-house-of-the-dead-2-remake--pc-gyro-aiming-sample-config)
