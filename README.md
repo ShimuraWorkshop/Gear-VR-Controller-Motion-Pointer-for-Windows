@@ -30,7 +30,7 @@ Download latest version
 v2.1.11
 [Link 1](https://drive.google.com/drive/folders/1FN2FOPHm6QyQqntdEFUnvLKOWFaLj8HI)
 [Link 2](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
-
+<br>
 SHA-256: 76eb62c4fd7f4da84400697364c6729f34198e0832e366cca77e7f8d696c6293
 
 <br>
@@ -47,7 +47,7 @@ Details
 <br>
 
 Gear VR is a trademark or registered trademark of Samsung Electronics Co., Ltd.
-
+<br>
 ​Windows is a trademark or registered trademark of Microsoft Corporation
 
 <br>
@@ -65,11 +65,11 @@ DefaultStabilizePointerClick
 Modify to True in the lines under:
 
 DefaultGameMode
-
+<br>
 DefaultGameKeyboardMode
-
+<br>
 DefaultGamePointerMode
-
+<br>
 DefaultEmulateGamepad
 
 For easier control, assign "Toggle between cursor and pointer mode" to a button, or assign "Pointer temporary on" to the new second action of buttons by modifying the line under any of:
@@ -81,7 +81,7 @@ You can also map controller roll, pitch, yaw motions to stick axes or triggers t
 Modify to True in the lines under:
 
 DefaultGamepadUsePitch
-
+<br>
 DefaultGamepadUseYaw
 
 Some games may work better with keyboard+mouse emulation, or if you want to combine its input with another gamepad, in that case, leave the DefaultEmulateGamepad option to False.
