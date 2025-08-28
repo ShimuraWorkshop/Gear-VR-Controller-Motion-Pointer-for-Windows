@@ -164,7 +164,5 @@ Other emulators may use the same config file with similar settings.
 ## Hints on low input lag for games and emulators
 
 - Turn on game mode of TV or monitor if available
-
 - Turn on low latency mode or anti-lag of GPU driver
-
 - Keep the controller within good coverage of Bluetooth
