@@ -42,7 +42,7 @@ Details
 - [< Panzer Dragoon: Remake > PC gyro aiming](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#-panzer-dragoon-remake--pc-gyro-aiming-sample-config)
 - [< The Typing of the Dead: Overkill > PC lightgun aiming](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#-the-typing-of-the-dead-overkill--pc-lightgun-aiming-sample-config)
 - [< MAME > emulator PC lightgun aiming](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#-mame--emulator-pc-lightgun-aiming-sample-config)
-- [Hints on low input lag](https://github.com/shimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/?tab=readme-ov-file#hints-on-low-input-lag-for-games-and-emulators)
+- [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
 
 <br>
 
