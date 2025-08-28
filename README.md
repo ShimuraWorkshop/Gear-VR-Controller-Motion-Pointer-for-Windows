@@ -168,7 +168,7 @@ For games like Virtua Cop 3, use the same config file as < MAME >, and assign ke
 
 Trigger: Mouse left button, Home: Enter
 
-Touchpad - Center: Mouse right button, West: Mouse middle button, North: Mouse X1 button, Touchpad South: Pointer reset
+Touchpad - Center: Mouse right button, West: Mouse middle button, North: Mouse X1 button, South: Pointer reset
 
 In Cxbx-Reloaded input settings, select MS Gamepad S, set Device to DInput/0/KyeboardMouse, load Default Bindings, then set L Stick Up/Down/Left/Right to Cursor Y+/Y-/X-/X+ (by Shift+Right-click after setting to Axis mode), set Buttons A, B, X, Trigger Left to Click 0, Click 1, Click 2, Click 3 respectively.
 
