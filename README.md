@@ -13,10 +13,6 @@ Features
 - Compass mode
 - Quick and easy calibration of sensors
 
-System requirements
-- Windows 10 x64 or Windows 11
-- .NET Desktop Runtime 9.0
-
 Setup Guide
 - No pairing needed, just turn on PC Bluetooth and install batteries to the controller
 - Press any button on the controller, then click the Search icon in app
@@ -32,6 +28,10 @@ v2.1.11
 [Link 2](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
 <br>
 SHA-256: 76eb62c4fd7f4da84400697364c6729f34198e0832e366cca77e7f8d696c6293
+
+System requirements
+- Windows 10 x64 or Windows 11
+- .NET Desktop Runtime 9.0
 
 <br>
 
