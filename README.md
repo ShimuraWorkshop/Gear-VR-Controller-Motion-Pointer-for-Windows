@@ -166,7 +166,7 @@ Other emulators may use the same config file with similar settings.
 
 For games like Virtua Cop 3, use the same config file as < MAME >, and assign keys for example:
 
-Trigger: Mouse left button, Back: Spacebar, Home: Enter
+Trigger: Mouse left button, Home: Enter
 
 Touchpad - Center: Mouse right button, West: Mouse middle button, North: Mouse X1 button, Touchpad South: Pointer reset
 
