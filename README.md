@@ -41,6 +41,7 @@ Details
 - [< The House of the Dead: Remake > PC gyro/lightgun aiming](#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming-sample-config)
 - [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming-sample-config)
 - [< The Typing of the Dead: Overkill > PC lightgun aiming](#-the-typing-of-the-dead-overkill--pc-lightgun-aiming-sample-config)
+- [< The House of the Dead III > PC lightgun aiming](#-the-house-of-the-dead-iii--pc-lightgun-aiming-sample-config)
 - [< MAME > emulator PC lightgun aiming](#-mame--emulator-pc-lightgun-aiming-sample-config)
 - [< Cxbx-Reloaded > emulator PC lightgun aiming](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
