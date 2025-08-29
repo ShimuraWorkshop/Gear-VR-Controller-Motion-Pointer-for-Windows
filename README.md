@@ -129,7 +129,7 @@ Switch to motion pointer mode before starting the game, then in game options, se
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
-The lightgun aiming config is also suitable for < The Typing of The Dead: Overkill >, just change the key assignments to match the game.
+The lightgun aiming config is also suitable for < The Typing of The Dead: Overkill > and < The House of the Dead III >, just change the key assignments to match the game.
 
 <br>
 
@@ -140,6 +140,12 @@ Use the same config file as < The House of the Dead 2: Remake >, and change the 
 <br>
 
 ## < The Typing of the Dead: Overkill > PC lightgun aiming sample config
+
+Follow the instructions of lightgun aiming config in < The House of the Dead: Remake >, and change the key assignments to match the game.
+
+<br>
+
+## < The House of the Dead III > PC lightgun aiming sample config
 
 Follow the instructions of lightgun aiming config in < The House of the Dead: Remake >, and change the key assignments to match the game.
 
