@@ -167,6 +167,8 @@ In MAME game's input device options, set lightgun and pedal device assignments t
 
 Other emulators may use the same config file with similar settings.
 
+If the emulator or game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+
 <br>
 
 ## < Cxbx-Reloaded > emulator PC lightgun aiming sample config
@@ -180,6 +182,8 @@ Touchpad - Center: Mouse right button, West: Mouse middle button, North: Mouse X
 In Cxbx-Reloaded input settings, select MS Gamepad S, set Device to DInput/0/KyeboardMouse, load Default Bindings, then set L Stick Up/Down/Left/Right to Cursor Y+/Y-/X-/X+ (by Shift+Right-click after setting to Axis mode), set Buttons A, B, X, Trigger Left to Click 0, Click 1, Click 2, Click 3 respectively.
 
 Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
+
+If the emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
 <br>
 
