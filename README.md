@@ -183,8 +183,6 @@ In Cxbx-Reloaded input settings, select MS Gamepad S, set Device to DInput/0/Kye
 
 Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
 
-If the emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
-
 <br>
 
 ## Hints on low input lag for games and emulators
