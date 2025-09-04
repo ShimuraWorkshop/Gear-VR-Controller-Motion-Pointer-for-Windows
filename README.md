@@ -23,11 +23,11 @@ Calibration for Motion Sensing and Motion Pointer
 
 Download latest version
 
-v2.1.11
+v2.1.12
 [Link 1](https://drive.google.com/drive/folders/1FN2FOPHm6QyQqntdEFUnvLKOWFaLj8HI)
 [Link 2](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
 <br>
-SHA-256: 76eb62c4fd7f4da84400697364c6729f34198e0832e366cca77e7f8d696c6293
+SHA-256: 7fd5ec9ea7648568f2091e6bbfb64e2a171f70257c24a600d72ef2e9dbb20d56
 
 System requirements
 - Windows 10 x64 or Windows 11
@@ -97,7 +97,7 @@ If the game is run as admin, this app also needs to be run as admin, otherwise W
 Config file
 [Link](https://www.mediafire.com/file/ca3mrdhr4q8jl0g/Gear_VR_Controller.dll.config_the.house.of.the.dead.2.remake.zip/file)
 
-ViGEmBus not required, update the app to v2.1.11, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
+ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
 
@@ -105,7 +105,7 @@ Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporar
 
 Touchpad (without press) is mapped to WASD by default, you can change it by modifying KeyTouchDirectNorth/East/South/West/Center in the config file (and restarting app, text editor needs to be run as admin) when necessary.
 
-Switch to motion pointer mode before starting the game, then in game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
+Adjust the motion pointer speed to around 4 in app and switch to motion pointer mode before starting the game, then in game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
@@ -118,7 +118,7 @@ This config file is also suitable for < Panzer Dragoon: Remake >, just change th
 Config file for gyro aiming
 [Link](https://www.mediafire.com/file/yxi0v4sfd9ypkyy/Gear_VR_Controller.dll.config_the.house.of.the.dead.remake.zip/file)
 
-ViGEmBus not required, update the app to v2.1.11, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
+ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, -: Esc
 
@@ -126,7 +126,7 @@ Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointe
 
 If you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), you can emulate lightgun aiming by using another [config file](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file). Assign Pointer reset to Touchpad South, also other keys according to the plugin, then adjust the motion pointer speed to around 8~12 in app.
 
-Switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00.
+Adjust the motion pointer speed to around 4 in app and switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00.
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
@@ -157,7 +157,7 @@ Follow the instructions of lightgun aiming config in < The House of the Dead: Re
 Config file for lightgun emulation in games like Time Crisis and Virtua Cop
 [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
 
-ViGEmBus not required, update the app to v2.1.11, extract the config to "C:\Program Files\Gear VR Controller\" (default), assign keys for example:
+ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), assign keys for example:
 
 Trigger: Mouse left button, Back: 1, Home: 5, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
 
