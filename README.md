@@ -44,6 +44,7 @@ Details
 - [< The House of the Dead III > PC lightgun aiming](#-the-house-of-the-dead-iii--pc-lightgun-aiming-sample-config)
 - [< MAME > emulator PC lightgun aiming](#-mame--emulator-pc-lightgun-aiming-sample-config)
 - [< Cxbx-Reloaded > emulator PC lightgun aiming](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
+- [Backup of user config](#backup-of-user-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
 
 <br>
@@ -183,8 +184,15 @@ Adjust the motion pointer speed to around 8~12 in app and switch to motion point
 
 <br>
 
+## Backup of user config
+
+You can backup the user config file for different settings or game profiles. It's inside a sub-sub folder in %LOCALAPPDATA%\Gear_VR_Controller
+
+<br>
+
 ## Hints on low input lag for games and emulators
 
 - Turn on game mode of TV or monitor if available
 - Turn on low latency mode or anti-lag of GPU driver
 - Keep the controller within good coverage of Bluetooth
+
