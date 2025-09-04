@@ -118,7 +118,7 @@ This config file is also suitable for < Panzer Dragoon: Remake >, just change th
 Config file for gyro aiming
 [Link](https://www.mediafire.com/file/yxi0v4sfd9ypkyy/Gear_VR_Controller.dll.config_the.house.of.the.dead.remake.zip/file)
 
-ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
+ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), then adjust the motion pointer speed to around 4 in app and assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, -: Esc
 
@@ -126,7 +126,7 @@ Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointe
 
 If you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), you can emulate lightgun aiming by using another [config file](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file). Assign Pointer reset to Touchpad South, also other keys according to the plugin, then adjust the motion pointer speed to around 8~12 in app.
 
-Adjust the motion pointer speed to around 4 in app and switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00.
+Switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00.
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
