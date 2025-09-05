@@ -240,7 +240,7 @@ Touchpad - West: Mouse middle button, North: Mouse X1 button, South: Pointer res
 
 In RPCS3 game GPU configuration, set Framelimit to Auto, check Write Color Buffers (required to fix screen brightness), check VSync. In I/O tab, set Mouse Handler to Basic, Move Handler to Mouse, Camera Input to PS Eye, Camera Handler to Fake, check Show PS Move Cursor. In Advanced tab, set VBlank Frequency to 59 Hz, uncheck VBlank NTSC Fixup (only available in game custom configuration, and it's important in order to get correct mouse button response).
 
-In Mice->Basic Mouse configuration, set Button 1 to Mouse Left, Button 2 to Mouse Right, Button 3 to Mouse Middle, Button 4 to Mouse Back, Button 5 to Mouse Fwd. In USB Devices->PS Move (Mouse) configuration, set Triangle to Mouse 3, Circle to Mouse 4, Cross to Mouse 2, T to Mouse 1, Combo to Mouse 5, Combo Start to Mouse 2, Combo Move to Mouse 1, and clear all other keys. In Gamepad configuration, setup a keyboard or gamepad handler as you prefer.
+In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively. In USB Devices->PS Move (Mouse) configuration, set Triangle to Mouse 3, Circle to Mouse 4, Cross to Mouse 2, T to Mouse 1, Combo to Mouse 5, Combo Start to Mouse 2, Combo Move to Mouse 1, and clear all other keys. In Gamepad configuration, setup a keyboard or gamepad handler as you prefer.
 
 Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before booting game.
 
