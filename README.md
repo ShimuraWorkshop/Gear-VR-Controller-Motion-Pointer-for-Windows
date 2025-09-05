@@ -131,7 +131,7 @@ Config file for lightgun aiming [Link](https://www.mediafire.com/file/nr93jqt7o9
 
 For lightgun emulation if you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)). Assign Pointer reset to Touchpad South, also other keys according to the plugin, then adjust the motion pointer speed to around 8~12 in app.
 
-With either config, switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00.
+With either config, switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00 (some settings may be unavailable in arcade plugin).
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
