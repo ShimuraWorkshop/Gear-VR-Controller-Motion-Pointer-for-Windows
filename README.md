@@ -190,7 +190,7 @@ Adjust the motion pointer speed to around 8~12 in app and switch to motion point
 
 ## < TeknoParrot > emulator PC lightgun aiming sample config
 
-### Option 1: Lightgun emulation via mouse pointer (e.g. Operation GHOST)
+### Option 1: Lightgun emulation replacing mouse pointer (e.g. Operation GHOST)
 
 Use the same config file as < MAME > [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
 
@@ -208,7 +208,7 @@ Adjust the motion pointer speed to around 8~12 in app and switch to motion point
 
 If the emulator or game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
-### Option 2: Lightgun emulation via gamepad left stick (e.g. Time Crisis 5)
+### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Time Crisis 5)
 
 Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file)
 
