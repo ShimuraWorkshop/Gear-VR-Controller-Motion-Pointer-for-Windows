@@ -186,7 +186,7 @@ Adjust the motion pointer speed to around 8~12 in app and switch to motion point
 
 ## Backup of user config
 
-You can backup the user config file for different settings or game profiles. It's inside a sub-sub folder in %LOCALAPPDATA%\Gear_VR_Controller
+You can backup the user config file for different settings or game profiles. Exit the app first and it's inside a sub-sub folder in %LOCALAPPDATA%\Gear_VR_Controller
 
 <br>
 
