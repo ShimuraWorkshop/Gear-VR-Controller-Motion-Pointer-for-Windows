@@ -89,7 +89,7 @@ DefaultGamepadUsePitch
 <br>
 DefaultGamepadUseYaw
 
-Some games may work better with keyboard+mouse emulation, or if you want to combine its input with another gamepad, in that case, leave the DefaultEmulateGamepad option to False.
+Some games may work better with keyboard+mouse emulation, or if you want to use mixed input with another gamepad, in that case, leave the DefaultEmulateGamepad option to False.
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
