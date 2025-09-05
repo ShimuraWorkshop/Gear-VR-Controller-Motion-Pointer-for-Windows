@@ -44,6 +44,8 @@ Details
 - [< The House of the Dead III > PC lightgun aiming](#-the-house-of-the-dead-iii--pc-lightgun-aiming-sample-config)
 - [< MAME > emulator PC lightgun aiming](#-mame--emulator-pc-lightgun-aiming-sample-config)
 - [< Cxbx-Reloaded > emulator PC lightgun aiming](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
+- [< TeknoParrot > emulator PC lightgun aiming sample config](#-teknoparrot--emulator-pc-lightgun-aiming-sample-config)
+- [< RPCS3 > emulator PC lightgun aiming sample config](#-rpcs3--emulator-pc-lightgun-aiming-sample-config)
 - [Backup of user config](#backup-of-user-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
 
