@@ -208,7 +208,7 @@ If the emulator or game is run as admin, this app also needs to be run as admin,
 
 ### Option 2: Lightgun emulation by gamepad left stick (e.g. Time Crisis 5)
 
-Config file [Link](https://www.mediafire.com/file/q6m3ol6ur9hc0tr/Gear_VR_Controller.dll.config_lightgun_by_gamepad.zip/file)
+Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file)
 
 Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), assign keys for example:
 
