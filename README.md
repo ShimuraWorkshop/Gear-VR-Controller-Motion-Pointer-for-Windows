@@ -248,7 +248,7 @@ In crosshair calibration, press Ctrl-F11 to switch to PS Move mode. Keep in wind
 
 For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except the center target, you should shoot each target at a little further from the outermost ring toward the screen edge to get the correct calibration. For Deadstorm Pirates, press Home+Trigger to start calibration, just shoot at the center of each target.
 
-Press Touchpad North to retry, or press Touchpad West to confirm, then Touchpad North to go back to title screen. Press Back button to select menu items and start a new game. Make sure the Controller is set to Motion Controller No.7. When necessary, press Ctrl-F11 to switch to gamepad mode to navigate the menu or change settings, then press Ctrl-F11 to switch back to PS Move mode when ready.
+Press Touchpad North to retry, or press Touchpad West to confirm, then Touchpad North to go back to title screen. Press Back button to select menu items and start a new game. Make sure the player controller is set to Motion Controller No.7. When necessary, press Ctrl-F11 to switch to gamepad mode to navigate the menu or change settings, then press Ctrl-F11 to switch back to PS Move mode when ready.
 
 After calibration, you can uncheck Show PS Move Cursor in I/O configuration. Optionally hide the Windows cursor by [nomousy](https://www.autohotkey.com/board/topic/2083-nomousy-disablehide-your-mouse-pointer-cmd/) ([download](https://www.pconlife.com/download/otherfile/438390/e6bd23aa62d488b7c63344cc59d017a9/)).
 
