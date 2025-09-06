@@ -238,7 +238,7 @@ Trigger: Mouse left button, Back: Mouse right button, Home: Mouse X2 button
 
 Touchpad - West: Mouse middle button, North: Mouse X1 button, South: Pointer reset
 
-In RPCS3 game GPU configuration, set Framelimit to Auto, check Write Color Buffers (required to fix screen brightness), check VSync. In I/O tab, set Mouse Handler to Basic, Move Handler to Mouse, Camera Input to PS Eye, Camera Handler to Fake, check Show PS Move Cursor. In Advanced tab, set VBlank Frequency to 59 Hz, uncheck VBlank NTSC Fixup (only available in game custom configuration, and it's important in order to get correct mouse button response).
+In RPCS3 game's GPU configuration, set Framelimit to Auto, check Write Color Buffers (required to fix screen brightness), check VSync. In I/O tab, set Mouse Handler to Basic, Move Handler to Mouse, Camera Input to PS Eye, Camera Handler to Fake, check Show PS Move Cursor. In Advanced tab, set VBlank Frequency to 59 Hz, uncheck VBlank NTSC Fixup (only available in game custom configuration, and it's important in order to get correct mouse button response).
 
 In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively. In USB Devices->PS Move (Mouse) configuration, set Triangle to Mouse 3, Circle to Mouse 4, Cross to Mouse 2, T to Mouse 1, Combo to Mouse 5, Combo Start to Mouse 2, Combo Move to Mouse 1, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler as you prefer.
 
