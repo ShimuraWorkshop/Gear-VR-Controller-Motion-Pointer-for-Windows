@@ -63,11 +63,11 @@ Now you can use the controller like a gyro gamepad. Gyro aiming together with an
 
 To use the gamepad mode, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
 
-Modify to False in the line under:
+Modify this option from True to False:
 
 DefaultStabilizePointerClick
 
-Modify to True in the lines under:
+Modify these options from False to True:
 
 DefaultGameMode
 <br>
@@ -77,13 +77,13 @@ DefaultGamePointerMode
 <br>
 DefaultEmulateGamepad
 
-For easier control, assign "Toggle between cursor and pointer mode" to a button, or assign "Pointer temporary on" to the new second action of buttons by modifying the line under any of:
+For easier control, assign "Toggle between cursor and pointer mode" or "Pointer temporary off" to a button, or assign "Pointer temporary on" to the new second action of buttons by modifying any of these options:
 
 KeyTouchButtonCenter2 / KeyBackButton2 / KeyHomeButton2 / KeyVolumeUpButton2 / KeyVolumeDownButton2 / KeyTouchButton2 / KeyTriggerButton2 / KeyTouchDirectCenter2
 
 You can also map controller roll, pitch, yaw motions to stick axes or triggers to make it a motion gamepad. Try to adjust motion pointer speed to 1~3 and assign a pointer reset button. Explore more settings if you're interested.
 
-Modify to True in the lines under:
+Modify these options from False to True:
 
 DefaultGamepadUsePitch
 <br>
