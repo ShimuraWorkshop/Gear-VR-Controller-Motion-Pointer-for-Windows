@@ -31,7 +31,7 @@ SHA-256: 7fd5ec9ea7648568f2091e6bbfb64e2a171f70257c24a600d72ef2e9dbb20d56
 
 System requirements
 - Windows 10 x64 or Windows 11
-- .NET Desktop Runtime 9.0
+- [.NET Desktop Runtime 9.0](https://dotnet.microsoft.com/download/dotnet/9.0)
 
 <br>
 
