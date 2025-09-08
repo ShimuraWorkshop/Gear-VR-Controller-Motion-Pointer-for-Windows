@@ -234,21 +234,21 @@ Use the same config file as < MAME > [Link](https://www.mediafire.com/file/nr93j
 
 ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), assign keys for example:
 
-Trigger: Mouse left button, Back: Mouse right button, Home: Mouse X2 button
+Trigger: Mouse left button, Back: 8, Home: 7
 <br>
-Touchpad - West: Mouse middle button, North: Mouse X1 button, South: Pointer reset
+Touchpad - Center: Mouse right button, West: Mouse middle button, East: Mouse X2 button, North: Mouse X1 button, South: Pointer reset
 
 In RPCS3 game's GPU configuration, set Framelimit to Auto, check Write Color Buffers (required to fix screen brightness), check VSync. In I/O tab, set Mouse Handler to Basic, Move Handler to Mouse, Camera Input to PS Eye, Camera Handler to Fake, check Show PS Move Cursor. In Advanced tab, set VBlank Frequency to 59 Hz, uncheck VBlank NTSC Fixup (only available in game custom configuration, and it's important in order to get correct mouse button response).
 
-In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively. In USB Devices->PS Move (Mouse) configuration, set Triangle to Mouse 3, Circle to Mouse 4, Cross to Mouse 2, T to Mouse 1, Combo to Mouse 5, Combo Start to Mouse 2, Combo Move to Mouse 1, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler as you prefer.
+In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively, set Button 6/7/8 to 6/7/8 (of keyboard) respectively. In USB Devices->PS Move (Mouse) configuration, set Start/Select/Triangle/Circle/Cross/Square/Move/T to Mouse 7/6/4/5/2/3/8/1 respectively, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler as you prefer.
 
 Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before booting game.
 
 In crosshair calibration, press Ctrl-F11 to switch to PS Move mode. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required to align the Windows cursor with the PS Move cursor).
 
-For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except the center target, you should shoot each target at a little further from the outermost ring toward the screen edge to get the correct calibration. For Deadstorm Pirates, press Home+Trigger to start calibration, just shoot at the center of each target.
+For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except the center target, you should shoot each target at a little further from the outermost ring toward the screen edge to get the correct calibration. For Deadstorm Pirates, press Back button to start calibration, just shoot at the center of each target.
 
-Press Touchpad North to retry, or press Touchpad West to confirm, then Touchpad North to go back to title screen. Press Back button to select menu items and start a new game. Make sure the player controller is set to Motion Controller No.7. When necessary, press Ctrl-F11 to switch to gamepad mode to navigate the menus or change settings, then press Ctrl-F11 to switch back to PS Move mode when ready.
+Press Touchpad East to retry, or press Touchpad North to confirm, then Touchpad East to go back to title screen. Press Touchpad Center to select menu items and start a new game. Make sure the player controller is set to Motion Controller No.7. When necessary, press Ctrl-F11 to switch to gamepad mode to navigate the menus or change settings, then press Ctrl-F11 to switch back to PS Move mode when ready.
 
 After calibration, you can uncheck Show PS Move Cursor in I/O configuration. Optionally hide the Windows cursor by [nomousy](https://www.autohotkey.com/board/topic/2083-nomousy-disablehide-your-mouse-pointer-cmd/) ([download](https://www.mediafire.com/file/oglzpabl50b8juq/nomousy.zip/file)), run "nomousy /hide" to switch the Windows cursor on/off.
 
