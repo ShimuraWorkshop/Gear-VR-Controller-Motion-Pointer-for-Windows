@@ -103,7 +103,7 @@ Config file
 ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
-
+<br>
 Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporary off, North: Unassigned
 
 Touchpad (without press) is mapped to WASD by default, you can change it by modifying KeyTouchDirectNorth/East/South/West/Center in the config file (and restarting app, text editor needs to be run as admin) when necessary.
@@ -124,7 +124,7 @@ Config file for gyro aiming
 ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), then adjust the motion pointer speed to around 4 in app and assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, -: Esc
-
+<br>
 Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointer temporary off
 
 Config file for lightgun aiming [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file) (same as < MAME >)
@@ -179,7 +179,7 @@ Other emulators may use the same config file with similar settings. If the emula
 For games like Virtua Cop 3, use the same config file as < MAME >, and assign keys for example:
 
 Trigger: Mouse left button, Home: Enter
-
+<br>
 Touchpad - Center: Mouse right button, West: Mouse middle button, North: Mouse X1 button, South: Pointer reset
 
 In Cxbx-Reloaded input settings, select MS Gamepad S, set Device to DInput/0/KeyboardMouse, load Default Bindings, then set L Stick Up/Down/Left/Right to Cursor Y+/Y-/X-/X+ (by Shift+Right-click after setting to Axis mode), set Buttons A, B, X, Trigger Left to Click 0, Click 1, Click 2, Click 3 respectively.
@@ -197,7 +197,7 @@ Use the same config file as < MAME > [Link](https://www.mediafire.com/file/nr93j
 ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), assign keys for example:
 
 Trigger: Mouse left button, Back: 1, Home: 5
-
+<br>
 Touchpad - Center: Mouse right button, West: Mouse middle button, North: Mouse X1 button, South: Pointer reset
 
 In TeknoParrotUI game settings, set General - Input API to RawInput, check General - Windowed, check General - HideCursor. In controller setup, set the mapping by pressing the buttons on Gear VR controller, set Coin 1 by pressing Home, for Player 1, set Start by pressing Back, Action by Touchpad North, Change by Touchpad West, Gun Trigger by Trigger, Reload by Touchpad Center, set Light Gun to Unknown Device.
@@ -215,7 +215,7 @@ Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Contro
 Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), assign keys for example:
 
 Trigger: Gamepad A, Home: Gamepad Start/Menu
-
+<br>
 Touchpad - North: Gamepad B, West: Gamepad LB, East: Gamepad RB, South: Pointer reset
 
 In TeknoParrotUI game settings, set General - Input API to XInput, check Crosshair - Enable, uncheck General - Windowed. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then set Coin by pressing Home, Gun Trigger by Trigger, Gun Button by Touchpad North, Left Pedal by Touchpad West, Right Pedal by Touchpad East. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
@@ -235,7 +235,7 @@ Use the same config file as < MAME > [Link](https://www.mediafire.com/file/nr93j
 ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), assign keys for example:
 
 Trigger: Mouse left button, Back: Mouse right button, Home: Mouse X2 button
-
+<br>
 Touchpad - West: Mouse middle button, North: Mouse X1 button, South: Pointer reset
 
 In RPCS3 game's GPU configuration, set Framelimit to Auto, check Write Color Buffers (required to fix screen brightness), check VSync. In I/O tab, set Mouse Handler to Basic, Move Handler to Mouse, Camera Input to PS Eye, Camera Handler to Fake, check Show PS Move Cursor. In Advanced tab, set VBlank Frequency to 59 Hz, uncheck VBlank NTSC Fixup (only available in game custom configuration, and it's important in order to get correct mouse button response).
