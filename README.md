@@ -24,10 +24,11 @@ Calibration for Motion Sensing and Motion Pointer
 Download latest version
 
 v2.1.12
-[Link 1](https://drive.google.com/drive/folders/1FN2FOPHm6QyQqntdEFUnvLKOWFaLj8HI)
-[Link 2](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
+(from [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Gear-VR-Controller.shtml))
 <br>
-SHA-256: 7fd5ec9ea7648568f2091e6bbfb64e2a171f70257c24a600d72ef2e9dbb20d56
+md5: c080da6b865b3299b0341e5384e12df2
+<br>
+sha-1: a2aa53c1004980fda0742bfc3368f0505ddb54df
 
 System requirements
 - Windows 10 x64 or Windows 11
