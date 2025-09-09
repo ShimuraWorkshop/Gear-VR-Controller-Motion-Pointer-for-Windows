@@ -229,7 +229,7 @@ If the emulator or game is run as admin, this app also needs to be run as admin,
 
 ## < RPCS3 > emulator PC lightgun aiming sample config
 
-For lightgun emulation in games like Time Crisis Razing Storm (Time Crisis 4 Arcade Ver, Razing Storm, Deadstorm Pirates)
+For lightgun emulation in games like Time Crisis: Razing Storm (Time Crisis 4 Arcade Ver, Razing Storm, Deadstorm Pirates)
 
 Use the same config file as < MAME > [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
 
