@@ -2,7 +2,6 @@
 
 ![Screenshot](./screenshot.png "Screenshot")
 
-[English](https://shimuraworksh.wixsite.com/shimura-workshop/s-projects-side-by-side)
 [Deutsch](https://shimuraworksh.wixsite.com/shimura-workshop/de/s-projects-side-by-side)
 [Español](https://shimuraworksh.wixsite.com/shimura-workshop/es/s-projects-side-by-side)
 [Français](https://shimuraworksh.wixsite.com/shimura-workshop/fr/s-projects-side-by-side)
