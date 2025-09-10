@@ -53,11 +53,11 @@ Details
 - [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming-sample-config)
 - [< The Typing of the Dead: Overkill > PC lightgun aiming](#-the-typing-of-the-dead-overkill--pc-lightgun-aiming-sample-config)
 - [< The House of the Dead III > PC lightgun aiming](#-the-house-of-the-dead-iii--pc-lightgun-aiming-sample-config)
+- [< House of the Dead: Scarlet Dawn > PC lightgun aiming](#-house-of-the-dead-scarlet-dawn--pc-lightgun-aiming-sample-config)
 - [< MAME > emulator PC lightgun aiming (for Virtua Cop, Time Crisis, etc)](#-mame--emulator-pc-lightgun-aiming-sample-config)
 - [< Cxbx-Reloaded > emulator PC lightgun aiming (for Virtua Cop 3, etc)](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
 - [< TeknoParrot > emulator PC lightgun aiming (for Time Crisis 5, Operation GHOST, etc)](#-teknoparrot--emulator-pc-lightgun-aiming-sample-config)
 - [< RPCS3 > emulator PC lightgun aiming (for Time Crisis: Razing Storm, etc)](#-rpcs3--emulator-pc-lightgun-aiming-sample-config)
-- [< House of the Dead: Scarlet Dawn > PC lightgun aiming](#-house-of-the-dead-scarlet-dawn--pc-lightgun-aiming-sample-config)
 - [Backup of user config](#backup-of-user-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
 
@@ -169,6 +169,22 @@ Follow the instructions of lightgun aiming config in < The House of the Dead: Re
 
 <br>
 
+## < House of the Dead: Scarlet Dawn > PC lightgun aiming sample config
+
+For TeknoParrot, use the same config file as TeknoParrot option 2, and assign keys for example:
+
+Trigger: Gamepad A, Home: Gamepad Start/Menu
+<br>
+Touchpad - West: Gamepad LB, North: Gamepad B, South: Pointer reset
+
+In TeknoParrotUI game settings, set General - Input API to XInput, uncheck General - Windowed, check General - HideCursor, check Crosshairs - Enable Native. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then for Player 1, set Start by pressing Home, Gun Trigger by Trigger, Sub Trigger by Touchpad North, Controller Select by Touchpad West. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
+
+Adjust the motion pointer speed to around 8~12 for the game.
+
+If the emulator or game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+
+<br>
+
 ## < MAME > emulator PC lightgun aiming sample config
 
 Config file for lightgun emulation in games like Time Crisis and Virtua Cop
@@ -265,22 +281,6 @@ Press Touchpad East to retry, or press Touchpad North to confirm, then Touchpad 
 After calibration, you can uncheck Show PS Move Cursor in I/O configuration. Optionally hide the Windows cursor by [nomousy](https://www.autohotkey.com/board/topic/2083-nomousy-disablehide-your-mouse-pointer-cmd/) ([download](https://www.mediafire.com/file/oglzpabl50b8juq/nomousy.zip/file)), run "nomousy /hide" to switch the Windows cursor on/off.
 
 If the emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
-
-<br>
-
-## < House of the Dead: Scarlet Dawn > PC lightgun aiming sample config
-
-For TeknoParrot, use the same config file as option 2, and assign keys for example:
-
-Trigger: Gamepad A, Home: Gamepad Start/Menu
-<br>
-Touchpad - West: Gamepad LB, North: Gamepad B, South: Pointer reset
-
-In TeknoParrotUI game settings, set General - Input API to XInput, uncheck General - Windowed, check General - HideCursor, check Crosshairs - Enable Native. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then for Player 1, set Start by pressing Home, Gun Trigger by Trigger, Sub Trigger by Touchpad North, Controller Select by Touchpad West. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
-
-Adjust the motion pointer speed to around 8~12 for the game.
-
-If the emulator or game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
 <br>
 
