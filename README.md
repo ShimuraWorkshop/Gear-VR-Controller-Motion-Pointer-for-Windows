@@ -2,6 +2,16 @@
 
 ![Screenshot](./screenshot.png "Screenshot")
 
+[English](https://shimuraworksh.wixsite.com/shimura-workshop/s-projects-side-by-side)
+[Deutsch](https://shimuraworksh.wixsite.com/shimura-workshop/de/s-projects-side-by-side)
+[Español](https://shimuraworksh.wixsite.com/shimura-workshop/es/s-projects-side-by-side)
+[Français](https://shimuraworksh.wixsite.com/shimura-workshop/fr/s-projects-side-by-side)
+[Italiano](https://shimuraworksh.wixsite.com/shimura-workshop/it/s-projects-side-by-side)
+[日本語](https://shimuraworksh.wixsite.com/shimura-workshop/ja/s-projects-side-by-side)
+[한국어](https://shimuraworksh.wixsite.com/shimura-workshop/ko/s-projects-side-by-side)
+[Português](https://shimuraworksh.wixsite.com/shimura-workshop/pt/s-projects-side-by-side)
+[中文](https://shimuraworksh.wixsite.com/shimura-workshop/zh/s-projects-side-by-side)
+
 Convert the Gear VR Controller into a PC air mouse, motion pointer, wireless presenter and gyro/motion gamepad. Light gun emulation is also possible.
 
 Features
