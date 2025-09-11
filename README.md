@@ -176,7 +176,7 @@ Follow the instructions of lightgun aiming config in < The House of the Dead: Re
 
 For TeknoParrot, use the same config file as TeknoParrot option 2, and assign keys for example:
 
-Trigger: Gamepad A, Home: Gamepad Back/View
+Trigger: Gamepad A, Back: Gamepad Back/View
 <br>
 Touchpad - West: Gamepad LB, North: Gamepad B, South: Pointer reset
 
