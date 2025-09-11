@@ -176,11 +176,11 @@ Follow the instructions of lightgun aiming config in < The House of the Dead: Re
 
 For TeknoParrot, use the same config file as TeknoParrot option 2, and assign keys for example:
 
-Trigger: Gamepad A, Home: Gamepad Start/Menu
+Trigger: Gamepad A, Home: Gamepad Back/View
 <br>
 Touchpad - West: Gamepad LB, North: Gamepad B, South: Pointer reset
 
-In TeknoParrotUI game settings, set General - Input API to XInput, uncheck General - Windowed, check General - HideCursor, check Crosshairs - Enable Native. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then for Player 1, set Start by pressing Home, Gun Trigger by Trigger, Sub Trigger by Touchpad North, Controller Select by Touchpad West. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
+In TeknoParrotUI game settings, set General - Input API to XInput, uncheck General - Windowed, check General - HideCursor, check Crosshairs - Enable Native. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then for Player 1, set Start by pressing Back, Gun Trigger by Trigger, Sub Trigger by Touchpad North, Controller Select by Touchpad West. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
 
 Adjust the motion pointer speed to around 8~12 for the game.
 
