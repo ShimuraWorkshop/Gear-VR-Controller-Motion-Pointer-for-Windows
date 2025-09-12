@@ -11,11 +11,12 @@
 [Português](https://shimuraworksh.wixsite.com/shimura-workshop/pt/s-projects-side-by-side)
 [中文](https://shimuraworksh.wixsite.com/shimura-workshop/zh/s-projects-side-by-side)
 
-Convert the Gear VR Controller into a PC air mouse, motion pointer, wireless presenter and gyro/motion gamepad. Light gun emulation is also possible.
+Convert the 37g lightweight VR controller into a powerful PC gadget
 
 Features
 - No VR headset or mobile phone needed
 - Wireless presenter, air mouse and motion pointer
+- Emulated light gun, gyro and motion gamepad
 - Key or action mapping to buttons and motions
 - Combo editor for keys input
 - Trackpad mouse cursor or scrolling
