@@ -169,6 +169,12 @@ Follow the instructions of lightgun aiming config in < The House of the Dead: Re
 
 <br>
 
+## < The House of the Dead II > PC lightgun aiming sample config
+
+Follow the instructions of lightgun aiming config in < The House of the Dead: Remake >, and change the key assignments to match the game. In game's config, select Mouse + Keyboard for player controller.
+
+<br>
+
 ## < House of the Dead: Scarlet Dawn > PC lightgun aiming sample config
 
 For TeknoParrot, use the same config file as < TeknoParrot > option 2, and assign keys for example:
