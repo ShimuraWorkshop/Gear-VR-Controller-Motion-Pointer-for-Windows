@@ -212,7 +212,7 @@ Touchpad - Center: Gamepad B, West: Gamepad X, North: Gamepad LT, South: Pointer
 
 In Cxbx-Reloaded input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, load Default Bindings, then give the Profile a name and Save.
 
-Adjust the motion pointer speed to around 8~12 in app and start the game.
+Adjust the motion pointer speed to around 8~12 in app before starting game.
 
 If the emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
@@ -250,7 +250,7 @@ Touchpad - North: Gamepad B, West: Gamepad LB, East: Gamepad RB, South: Pointer 
 
 In TeknoParrotUI game settings, set General - Input API to XInput, check Crosshair - Enable, uncheck General - Windowed. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then set Coin by pressing Home, Gun Trigger by Trigger, Gun Button by Touchpad North, Left Pedal by Touchpad West, Right Pedal by Touchpad East. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
 
-Adjust the motion pointer speed to around 8~12 and start the game.
+Adjust the motion pointer speed to around 8~12 for the game.
 
 If the emulator or game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
