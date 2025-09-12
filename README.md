@@ -32,12 +32,9 @@ Calibration for Motion Sensing and Motion Pointer
 
 Download latest version
 
-v2.1.12
-(from [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Gear-VR-Controller.shtml))
-<br>
-md5: c080da6b865b3299b0341e5384e12df2
-<br>
-sha-1: a2aa53c1004980fda0742bfc3368f0505ddb54df
+- v2.1.12 (from [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Gear-VR-Controller.shtml))
+- md5: c080da6b865b3299b0341e5384e12df2
+- sha-1: a2aa53c1004980fda0742bfc3368f0505ddb54df
 
 System requirements
 - Windows 10 x64 or Windows 11
