@@ -171,7 +171,7 @@ Follow the instructions of lightgun aiming config in < The House of the Dead: Re
 
 ## < House of the Dead: Scarlet Dawn > PC lightgun aiming sample config
 
-For TeknoParrot, use the same config file as TeknoParrot option 2, and assign keys for example:
+For TeknoParrot, use the same config file as < TeknoParrot > option 2, and assign keys for example:
 
 Trigger: Gamepad A, Back: Gamepad Back/View
 <br>
@@ -204,15 +204,17 @@ Other emulators may use the same config file with similar settings. If the emula
 
 ## < Cxbx-Reloaded > emulator PC lightgun aiming sample config
 
-For games like Virtua Cop 3, use the same config file as < MAME >, and assign keys for example:
+For games like Virtua Cop 3, use the same config file as < TeknoParrot > option 2, and assign keys for example:
 
-Trigger: Mouse left button, Home: Enter
+Trigger: Gamepad A, Home: Gamepad Start/Menu
 <br>
-Touchpad - Center: Mouse right button, West: Mouse middle button, North: Mouse X1 button, South: Pointer reset
+Touchpad - Center: Gamepad B, West: Gamepad X, North: Gamepad LT, South: Pointer reset
 
-In Cxbx-Reloaded input settings, select MS Gamepad S, set Device to DInput/0/KeyboardMouse, load Default Bindings, then set L Stick Up/Down/Left/Right to Cursor Y+/Y-/X-/X+ (by Shift+Right-click after setting to Axis mode), set Buttons A, B, X, Trigger Left to Click 0, Click 1, Click 2, Click 3 respectively.
+In Cxbx-Reloaded input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, load Default Bindings, then give the Profile a name and Save.
 
-Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
+Adjust the motion pointer speed to around 8~12 and start the game.
+
+If the emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
 <br>
 
