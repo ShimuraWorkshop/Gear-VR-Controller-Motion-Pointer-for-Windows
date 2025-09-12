@@ -125,8 +125,6 @@ Adjust the motion pointer speed to around 4 in app and switch to motion pointer 
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
-This config file is also suitable for < Panzer Dragoon: Remake >, just change the key assignments to match the game. But the game has forced mouse smoothing, you need to move the controller slowly.
-
 <br>
 
 ## < The House of the Dead: Remake > PC gyro/lightgun aiming sample config
@@ -147,8 +145,6 @@ For lightgun emulation if you have installed a lightgun or arcade plugin (like [
 With either config, switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00 (some settings may be unavailable in arcade plugin).
 
 If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
-
-The lightgun aiming config is also suitable for < The Typing of The Dead: Overkill > and < The House of the Dead III >, just change the key assignments to match the game.
 
 <br>
 
