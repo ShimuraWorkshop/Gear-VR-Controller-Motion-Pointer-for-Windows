@@ -216,7 +216,7 @@ Touchpad - Center: Gamepad B, West: Gamepad X, North: Gamepad LT, South: Pointer
 
 In Cxbx-Reloaded input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, load Default Bindings, then give the Profile a name and Save.
 
-Adjust the motion pointer speed to around 8~12 in app before starting game.
+Adjust the motion pointer speed to around 8~12 in app for the game.
 
 If the emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
