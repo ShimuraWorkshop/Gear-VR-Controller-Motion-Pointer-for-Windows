@@ -23,12 +23,12 @@ Features
 - Compass mode
 - Quick and easy calibration of sensors
 
-Setup Guide
+Setup guide
 - No pairing needed, just turn on PC Bluetooth and install batteries to the controller
 - Press any button on the controller, then click the Search icon in app
 - Click the Connect button, that's it
 
-Calibration for Motion Sensing and Motion Pointer
+Calibration for motion sensing and motion pointer
 - Place the controller upside down on a stable surface, then click the CAL button, that's it
 
 Download latest version
