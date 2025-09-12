@@ -43,6 +43,10 @@ System requirements
 - Windows 10 x64 or Windows 11
 - [.NET Desktop Runtime 9.0](https://dotnet.microsoft.com/download/dotnet/9.0)
 
+[Major change log](https://github.com/ShimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/wiki#major-change-log)
+
+[Troubleshooting](https://github.com/ShimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/wiki#troubleshooting)
+
 <br>
 
 Details
@@ -59,10 +63,6 @@ Details
 - [< RPCS3 > emulator PC lightgun aiming (for Time Crisis: Razing Storm, etc)](#-rpcs3--emulator-pc-lightgun-aiming-sample-config)
 - [Backup of user config](#backup-of-user-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
-
-<br>
-
-[Troubleshooting](https://github.com/ShimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/wiki#troubleshooting)
 
 <br>
 
