@@ -53,6 +53,7 @@ Details
 - [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming-sample-config)
 - [< The Typing of the Dead: Overkill > PC lightgun aiming](#-the-typing-of-the-dead-overkill--pc-lightgun-aiming-sample-config)
 - [< The House of the Dead III > PC lightgun aiming](#-the-house-of-the-dead-iii--pc-lightgun-aiming-sample-config)
+- [< The House of the Dead 2 > PC lightgun aiming](#-the-house-of-the-dead-2--pc-lightgun-aiming-sample-config)
 - [< House of the Dead: Scarlet Dawn > PC lightgun aiming](#-house-of-the-dead-scarlet-dawn--pc-lightgun-aiming-sample-config)
 - [< MAME > emulator PC lightgun aiming (for Virtua Cop, Time Crisis, etc)](#-mame--emulator-pc-lightgun-aiming-sample-config)
 - [< Cxbx-Reloaded > emulator PC lightgun aiming (for Virtua Cop 3, etc)](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
@@ -169,7 +170,7 @@ Follow the instructions of lightgun aiming config in < The House of the Dead: Re
 
 <br>
 
-## < The House of the Dead II > PC lightgun aiming sample config
+## < The House of the Dead 2 > PC lightgun aiming sample config
 
 Follow the instructions of lightgun aiming config in < The House of the Dead: Remake >, and change the key assignments to match the game. In game's config, select Mouse + Keyboard for player controller.
 
