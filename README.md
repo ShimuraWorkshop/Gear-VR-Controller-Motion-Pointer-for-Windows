@@ -124,8 +124,6 @@ Touchpad (without press) is mapped to WASD by default, you can change it by modi
 
 Adjust the motion pointer speed to around 4 in app and switch to motion pointer mode before starting the game, then in game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
 
-If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
-
 <br>
 
 ## < The House of the Dead: Remake > PC gyro/lightgun aiming sample config
@@ -144,8 +142,6 @@ Config file for lightgun aiming [Link](https://www.mediafire.com/file/nr93jqt7o9
 For lightgun emulation if you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)). Assign Pointer reset to Touchpad South, also other keys according to the plugin, then adjust the motion pointer speed to around 8~12 in app.
 
 With either config, switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00 (some settings may be unavailable in arcade plugin).
-
-If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
 <br>
 
@@ -185,8 +181,6 @@ In TeknoParrotUI game settings, set General - Input API to XInput, uncheck Gener
 
 Adjust the motion pointer speed to around 8~12 for the game.
 
-If the emulator or game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
-
 <br>
 
 ## < MAME > emulator PC lightgun aiming sample config
@@ -202,7 +196,7 @@ If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in 
 
 In MAME game's input device options, set lightgun and pedal device assignments to lightgun, keyboard input provider to dinput, lightgun input provider to win32. Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
 
-Other emulators may use the same config file with similar settings. If the emulator or game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+Other emulators may use the same config file with similar settings.
 
 <br>
 
@@ -217,8 +211,6 @@ Touchpad - Center: Gamepad B, West: Gamepad X, North: Gamepad LT, South: Pointer
 In Cxbx-Reloaded input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, load Default Bindings, then give the Profile a name and Save.
 
 Adjust the motion pointer speed to around 8~12 in app for the game.
-
-If the emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
 <br>
 
@@ -240,8 +232,6 @@ Patch the game to correct screen resolution by [OpGhost_ResChanger](https://foru
 
 Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
 
-If the emulator or game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
-
 ### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Time Crisis 5)
 
 Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file)
@@ -255,8 +245,6 @@ Touchpad - North: Gamepad B, West: Gamepad LB, East: Gamepad RB, South: Pointer 
 In TeknoParrotUI game settings, set General - Input API to XInput, check Crosshair - Enable, uncheck General - Windowed. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then set Coin by pressing Home, Gun Trigger by Trigger, Gun Button by Touchpad North, Left Pedal by Touchpad West, Right Pedal by Touchpad East. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
 
 Adjust the motion pointer speed to around 8~12 for the game.
-
-If the emulator or game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
 <br>
 
@@ -285,8 +273,6 @@ For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except t
 Press Touchpad East to retry, or press Touchpad North to confirm, then Touchpad East to go back to title screen. Press Touchpad Center to select menu items and start a new game. Make sure the player controller is set to Motion Controller No.7. When necessary, press Ctrl-F11 to switch to gamepad mode to navigate the menus or change settings, then press Ctrl-F11 to switch back to PS Move mode when ready.
 
 After calibration, you can uncheck Show PS Move Cursor in I/O configuration. Optionally hide the Windows cursor by [nomousy](https://www.autohotkey.com/board/topic/2083-nomousy-disablehide-your-mouse-pointer-cmd/) ([download](https://www.mediafire.com/file/oglzpabl50b8juq/nomousy.zip/file)), run "nomousy /hide" to switch the Windows cursor on/off.
-
-If the emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
 <br>
 
