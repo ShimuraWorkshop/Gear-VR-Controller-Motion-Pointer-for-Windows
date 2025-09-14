@@ -1,6 +1,6 @@
 # Gear VR Controller Motion Pointer for Windows
 
-![Screenshot](./screenshot.png "Screenshot")
+<img src="./screenshot.png" alt="Screenshot" style="width:75%; height:auto;">
 
 [Deutsch](https://shimuraworksh.wixsite.com/shimura-workshop/de/s-projects-side-by-side)
 [Español](https://shimuraworksh.wixsite.com/shimura-workshop/es/s-projects-side-by-side)
