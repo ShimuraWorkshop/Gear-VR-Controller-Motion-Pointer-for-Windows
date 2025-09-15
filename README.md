@@ -127,7 +127,7 @@ Adjust the motion pointer speed to around 8~12 in app and switch to motion point
 
 Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file)
 
-Install ViGEmBus, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default).
+Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default).
 
 Assign "Pointer reset" to Touchpad South, "Gamepad A" to Trigger, also other keys to suit the game. 
 
