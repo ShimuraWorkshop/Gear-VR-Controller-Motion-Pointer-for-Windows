@@ -49,6 +49,7 @@ System requirements
 
 Details
 - [\*Secret\* gyro/motion gamepad emulation](#secret-gyromotion-gamepad-emulation-in-new-version)
+- [Lightgun emulation](#lightgun-emulation)
 - [< The House of the Dead 2: Remake > PC gyro aiming](#-the-house-of-the-dead-2-remake--pc-gyro-aiming-sample-config)
 - [< The House of the Dead: Remake > PC gyro/lightgun aiming](#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming-sample-config)
 - [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming-sample-config)
@@ -110,6 +111,32 @@ If the game is run as admin, this app also needs to be run as admin, otherwise W
 
 <br>
 
+## Lightgun emulation
+
+### Option 1: Lightgun emulation replacing mouse pointer
+
+Config file [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
+
+ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default).
+
+Assign "Pointer reset" to Touchpad South, "Mouse left button" to Trigger, also other keys to suit the game.
+
+Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
+
+### Option 2: Lightgun emulation replacing gamepad stick
+
+Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file)
+
+Install ViGEmBus, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default).
+
+Assign "Pointer reset" to Touchpad South, "Gamepad A" to Trigger, also other keys to suit the game. 
+
+Adjust the motion pointer speed to around 8~12 in app for the game.
+
+With either config, if the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+
+<br>
+
 ## < The House of the Dead 2: Remake > PC gyro aiming sample config
 
 Config file
@@ -138,9 +165,7 @@ Trigger: Mouse left button, Back: Enter, -: Esc
 <br>
 Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointer temporary off
 
-Config file for lightgun aiming [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file) (same as < MAME >)
-
-For lightgun emulation if you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)). Assign Pointer reset to Touchpad South, also other keys according to the plugin, then adjust the motion pointer speed to around 8~12 in app.
+If you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and change the key assignments according to the plugin.
 
 With either config, switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00 (some settings may be unavailable in arcade plugin).
 
@@ -154,25 +179,25 @@ Use the same config file as < The House of the Dead 2: Remake >, and change the 
 
 ## < The Typing of the Dead: Overkill > PC lightgun aiming sample config
 
-Follow the instructions of lightgun aiming config in < The House of the Dead: Remake >, and change the key assignments to match the game.
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys to suit the game.
 
 <br>
 
 ## < The House of the Dead III > PC lightgun aiming sample config
 
-Follow the instructions of lightgun aiming config in < The House of the Dead: Remake >, and change the key assignments to match the game.
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys to suit the game.
 
 <br>
 
 ## < The House of the Dead 2 > PC lightgun aiming sample config
 
-Follow the instructions of lightgun aiming config in < The House of the Dead: Remake >, and change the key assignments to match the game. In game's config, select Mouse + Keyboard for player controller.
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys to suit the game. In game's config, select Mouse + Keyboard for player controller.
 
 <br>
 
 ## < House of the Dead: Scarlet Dawn > PC lightgun aiming sample config
 
-For TeknoParrot, use the same config file as < TeknoParrot > option 2, and assign keys for example:
+For TeknoParrot, follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
 Trigger: Gamepad A, Back: Gamepad Back/View
 <br>
@@ -186,10 +211,7 @@ Adjust the motion pointer speed to around 8~12 for the game.
 
 ## < MAME > emulator PC lightgun aiming sample config
 
-Config file for lightgun emulation in games like Time Crisis and Virtua Cop
-[Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
-
-ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), assign keys for example:
+For games like Time Crisis and Virtua Cop, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
 
 Trigger: Mouse left button, Back: 1, Home: 5, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
 
@@ -197,13 +219,11 @@ If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in 
 
 In MAME game's input device options, set lightgun and pedal device assignments to lightgun, keyboard input provider to dinput, lightgun input provider to win32. Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
 
-Other emulators may use the same config file with similar settings.
-
 <br>
 
 ## < Cxbx-Reloaded > emulator PC lightgun aiming sample config
 
-For games like Virtua Cop 3, use the same config file as < TeknoParrot > option 2, and assign keys for example:
+For games like Virtua Cop 3, follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
 Trigger: Gamepad A, Home: Gamepad Start/Menu
 <br>
@@ -219,9 +239,7 @@ Adjust the motion pointer speed to around 8~12 in app for the game.
 
 ### Option 1: Lightgun emulation replacing mouse pointer (e.g. Operation GHOST)
 
-Use the same config file as < MAME > [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
-
-ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), assign keys for example:
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
 
 Trigger: Mouse left button, Back: 1, Home: 5
 <br>
@@ -235,9 +253,7 @@ Adjust the motion pointer speed to around 8~12 in app and switch to motion point
 
 ### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Time Crisis 5)
 
-Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file)
-
-Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), assign keys for example:
+Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
 Trigger: Gamepad A, Home: Gamepad Start/Menu
 <br>
@@ -251,11 +267,7 @@ Adjust the motion pointer speed to around 8~12 for the game.
 
 ## < RPCS3 > emulator PC lightgun aiming sample config
 
-For lightgun emulation in games like Time Crisis: Razing Storm (Time Crisis 4 Arcade Ver, Razing Storm, Deadstorm Pirates)
-
-Use the same config file as < MAME > [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
-
-ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), assign keys for example:
+For games like Time Crisis: Razing Storm (Time Crisis 4 Arcade Ver, Razing Storm, Deadstorm Pirates), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
 
 Trigger: Mouse left button, Back: 8, Home: 7
 <br>
@@ -279,11 +291,7 @@ After calibration, you can uncheck Show PS Move Cursor in I/O configuration. Opt
 
 ## < PCSX2 > emulator PC lightgun aiming sample config
 
-For lightgun emulation in games like Time Crisis 3
-
-Use the same config file as < MAME > [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
-
-ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), assign keys for example:
+For games like Time Crisis 3, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
 
 Trigger: Mouse left button, Back: 8, Home: 7
 <br>
