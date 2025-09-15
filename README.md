@@ -119,9 +119,7 @@ Config file [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Contro
 
 ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default).
 
-Assign "Pointer reset" to Touchpad South, "Mouse left button" to Trigger, also other keys to suit the game.
-
-Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
+Assign "Pointer reset" to Touchpad South, "Mouse left button" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
 
 ### Option 2: Lightgun emulation replacing gamepad stick
 
@@ -129,9 +127,7 @@ Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Contro
 
 Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default).
 
-Assign "Pointer reset" to Touchpad South, "Gamepad A" to Trigger, also other keys to suit the game. 
-
-Adjust the motion pointer speed to around 8~12 in app for the game.
+Assign "Pointer reset" to Touchpad South, "Gamepad A" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 8~12 in app for the game.
 
 With either config, if the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
