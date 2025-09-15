@@ -115,7 +115,7 @@ If the game is run as admin, this app also needs to be run as admin, otherwise W
 
 ### Option 1: Lightgun emulation replacing mouse pointer
 
-Config file [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file)
+Config file [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file) (if supported by games or emulators)
 
 ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default).
 
@@ -125,7 +125,7 @@ Adjust the motion pointer speed to around 8~12 in app and switch to motion point
 
 ### Option 2: Lightgun emulation replacing gamepad stick
 
-Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file)
+Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file) (if supported by games or emulators)
 
 Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default).
 
