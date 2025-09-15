@@ -269,7 +269,7 @@ In RPCS3 game's GPU configuration, set Framelimit to Auto, check Write Color Buf
 
 In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively, set Button 6/7/8 to 6/7/8 (without Num+) respectively. In USB Devices->PS Move (Mouse) configuration, set Start/Select/Triangle/Circle/Cross/Square/Move/T to Mouse 7/6/4/5/2/3/8/1 respectively, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler as you prefer.
 
-In crosshair calibration, press Ctrl-F11 to switch to PS Move mode. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required to align the Windows cursor with the PS Move cursor).
+In the crosshair calibration screen, press Ctrl-F11 to switch to PS Move mode. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required to align the Windows cursor with the PS Move cursor).
 
 For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except the center target, you should shoot each target at a little further from the outermost ring toward the window edge to get the correct calibration. But don't shoot too far, otherwise you can't turn left/right in the game when you need to point the crosshair to the window edge. For Deadstorm Pirates, press Back button to start calibration, just shoot at the center of each target.
 
@@ -293,7 +293,7 @@ For games like Resident Evil: Dead Aim which require the D-pad to work, you can 
 
 If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen mode.
 
-In calibration screen, press Back button to start calibration. When finished, press Touchpad East to confirm (or follow game's intructions).
+In the calibration screen, press Back button to start calibration. When finished, press Touchpad East to confirm (or follow game's intructions).
 
 <br>
 
