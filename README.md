@@ -93,11 +93,11 @@ DefaultGamePointerMode
 <br>
 DefaultEmulateGamepad
 
-For easier control, assign "Toggle between cursor and pointer mode" or "Pointer temporary off" to a button, or assign "Pointer temporary on" to the new second action of buttons by modifying any of these options:
+Adjust the motion pointer speed to around 1~4 in app and switch to motion pointer mode before starting game. For easier control, assign "Toggle between cursor and pointer mode" or "Pointer temporary off" to a button, or assign "Pointer temporary on" to the new second action of buttons by modifying any of these options:
 
 KeyTouchButtonCenter2 / KeyBackButton2 / KeyHomeButton2 / KeyVolumeUpButton2 / KeyVolumeDownButton2 / KeyTouchButton2 / KeyTriggerButton2 / KeyTouchDirectCenter2
 
-You can also map controller roll, pitch, yaw motions to stick axes or triggers to make it a motion gamepad. Try to adjust motion pointer speed to 1~3 and assign "Pointer reset" to a button. Explore more settings if you're interested.
+You can also map controller roll, pitch, yaw motions to stick axes or triggers to make it a motion gamepad. Adjust the motion pointer speed to around 1~3 and assign "Pointer reset" to a button. Explore more settings if you're interested.
 
 Modify these options from False to True:
 
@@ -129,7 +129,7 @@ Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), u
 
 Assign "Pointer reset" to Touchpad South, "Gamepad A" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 8~12 in app for the game.
 
-With either config, if the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+With either config, if the game or emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
 
 <br>
 
@@ -213,7 +213,7 @@ Trigger: Mouse left button, Back: 1, Home: 5, Touchpad Center: Mouse right butto
 
 If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in the config file from Unassigned to Mouse right button (and restart app, text editor needs to be run as admin).
 
-In MAME game's input device options, set lightgun and pedal device assignments to lightgun, keyboard input provider to dinput, lightgun input provider to win32. Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
+In MAME game's input device options, set lightgun and pedal device assignments to lightgun, keyboard input provider to dinput, lightgun input provider to win32.
 
 <br>
 
@@ -226,8 +226,6 @@ Trigger: Gamepad A, Home: Gamepad Start/Menu
 Touchpad - Center: Gamepad B, West: Gamepad X, North: Gamepad LT, South: Pointer reset
 
 In Cxbx-Reloaded input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, load Default Bindings, then give the Profile a name and Save.
-
-Adjust the motion pointer speed to around 8~12 in app for the game.
 
 <br>
 
@@ -244,8 +242,6 @@ Touchpad - Center: Mouse right button, West: Mouse middle button, North: Mouse X
 In TeknoParrotUI game settings, set General - Input API to RawInput, check General - Windowed, check General - HideCursor. In controller setup, set the mapping by pressing the buttons on Gear VR controller, set Coin 1 by pressing Home, for Player 1, set Start by pressing Back, Action by Touchpad North, Change by Touchpad West, Gun Trigger by Trigger, Reload by Touchpad Center, set Light Gun to Unknown Device.
 
 Patch the game to correct screen resolution by [OpGhost_ResChanger](https://forum.arcadecontrols.com/index.php/topic,149714.msg1673148.html#msg1673148).
-
-Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
 
 ### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Time Crisis 5)
 
@@ -273,8 +269,6 @@ In RPCS3 game's GPU configuration, set Framelimit to Auto, check Write Color Buf
 
 In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively, set Button 6/7/8 to 6/7/8 (without Num+) respectively. In USB Devices->PS Move (Mouse) configuration, set Start/Select/Triangle/Circle/Cross/Square/Move/T to Mouse 7/6/4/5/2/3/8/1 respectively, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler as you prefer.
 
-Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before booting game.
-
 In crosshair calibration, press Ctrl-F11 to switch to PS Move mode. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required to align the Windows cursor with the PS Move cursor).
 
 For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except the center target, you should shoot each target at a little further from the outermost ring toward the window edge to get the correct calibration. But don't shoot too far, otherwise you can't turn left/right in the game when you need to point the crosshair to the window edge. For Deadstorm Pirates, press Back button to start calibration, just shoot at the center of each target.
@@ -296,8 +290,6 @@ Touchpad - Center: Mouse right button, West: Mouse middle button, East: Mouse X2
 In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings, check Show Overscan (required for correct calibration of some old games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, set Trigger to Pointer-0 Left Button, Shoot Offscreen to Pointer-0 Right Button, Calibration Shot to Keyboard 8 (without Numpad), set Buttons A/B/C/Start/Select to Pointer-0 Middle Button, Pointer-0 Button5, Pointer-0 Button4, Keyboard 7, Keyboard 6 respectively, set D-Pad Up/Down/Left/Right to Keyboard Numpad8/5/4/6. In Settings tab, set a crosshair png image in Cursor Path, check Manual Screen Configuration, set X Scale to 90%, Y Scale to 97%, Center X to 400px, leave others to default.
 
 For games like Resident Evil: Dead Aim which require the D-pad to work, you can map non-press Touchpad to D-pad keys by modifying KeyTouchDirectNorth/South/West/East from Unassigned to Numeric keypad 8/5/4/6 in the config file (and restarting app, text editor needs to be run as admin). Also change other assignments to suit the game.
-
-Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before booting game.
 
 If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen mode.
 
