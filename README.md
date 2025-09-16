@@ -93,7 +93,7 @@ DefaultGamePointerMode
 <br>
 DefaultEmulateGamepad
 
-Adjust the motion pointer speed to around 1~4 in app and switch to motion pointer mode before starting game. Also adjust the cursor speed in Windows settings when necessary. For easier control, assign "Toggle between cursor and pointer mode" or "Pointer temporary off" to a button, or assign "Pointer temporary on" to the new second action of buttons by modifying any of these options:
+Adjust the motion pointer speed to around 1~4 in app and switch to motion pointer mode before starting game. Also adjust the cursor speed in Windows mouse settings when necessary. For easier control, assign "Toggle between cursor and pointer mode" or "Pointer temporary off" to a button, or assign "Pointer temporary on" to the new second action of buttons by modifying any of these options:
 
 KeyTouchButtonCenter2 / KeyBackButton2 / KeyHomeButton2 / KeyVolumeUpButton2 / KeyVolumeDownButton2 / KeyTouchButton2 / KeyTriggerButton2 / KeyTouchDirectCenter2
 
@@ -146,7 +146,7 @@ Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporar
 
 Touchpad (without press) is mapped to WASD by default, you can change it by modifying KeyTouchDirectNorth/East/South/West/Center in the config file (and restarting app, text editor needs to be run as admin) when necessary.
 
-Adjust the motion pointer speed to around 4 in app and switch to motion pointer mode before starting the game. Also adjust the cursor speed in Windows settings when necessary. In game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
+Adjust the motion pointer speed to around 4 in app and switch to motion pointer mode before starting the game. Also adjust the cursor speed in Windows mouse settings when necessary. In game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
 
 <br>
 
@@ -155,7 +155,7 @@ Adjust the motion pointer speed to around 4 in app and switch to motion pointer 
 Config file for gyro aiming
 [Link](https://www.mediafire.com/file/yxi0v4sfd9ypkyy/Gear_VR_Controller.dll.config_the.house.of.the.dead.remake.zip/file)
 
-ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), adjust the motion pointer speed to around 4 in app, and also adjust the cursor speed in Windows settings when necessary. Then assign keys for example:
+ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), adjust the motion pointer speed to around 4 in app, and also adjust the cursor speed in Windows mouse settings when necessary. Then assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, -: Esc
 <br>
