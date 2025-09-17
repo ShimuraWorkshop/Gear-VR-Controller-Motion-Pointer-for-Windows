@@ -307,6 +307,7 @@ In the calibration screen, press Back button to start calibration. When finished
 For Wii games like Ghost Squad, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
 
 Trigger: Mouse right button, Back: Q, Home: E, +: 1, -: 2
+<br>
 Touchpad - Center: Mouse left button, West: Left arrow, East: Right arrow, North: Mouse middle button, South: Pointer reset
 
 In Dolphin's Configuration -> Interface, set Mouse Cursor Visibility to Always. In Graphics settings, check V-Sync. In Controller settings, under Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to DInput/0/Keyboard Mouse, then click Default. In Motion Simulation tab, under Pointer section, set Vertical Offset to 15 cm, set Total Yaw to 19 degree (different for some games, try around 15 to 19 degree), set Total Pitch to 19 degree (different for some games, try around 11 to 19 degree), then Close the settings. Don't click Calibrate, it doesn't work.
