@@ -62,6 +62,7 @@ Details
 - [< TeknoParrot > emulator PC lightgun aiming (for Time Crisis 5, Operation GHOST, etc)](#-teknoparrot--emulator-pc-lightgun-aiming-sample-config)
 - [< RPCS3 > emulator PC lightgun aiming (for Time Crisis: Razing Storm, etc)](#-rpcs3--emulator-pc-lightgun-aiming-sample-config)
 - [< PCSX2 > emulator PC lightgun aiming (for Time Crisis 3, etc)](#-pcsx2--emulator-pc-lightgun-aiming-sample-config)
+- [< DuckStation > emulator PC lightgun aiming (for Time Crisis: Project Titan, etc)](#-duckstation--emulator-pc-lightgun-aiming-sample-config)
 - [< Dolphin > emulator PC lightgun aiming (for Ghost Squad, etc)](#-dolphin--emulator-pc-lightgun-aiming-sample-config)
 - [Backup of user config](#backup-of-user-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
@@ -292,13 +293,29 @@ Trigger: Mouse left button, Back: 8, Home: 7
 <br>
 Touchpad - Center: Mouse right button, West: Mouse middle button, East: Mouse X2 button, North: Mouse X1 button, South: Pointer reset
 
-In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings, check Show Overscan (required for some old games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, set Trigger to Pointer-0 Left Button, Shoot Offscreen to Pointer-0 Right Button, Calibration Shot to Keyboard 8 (without Numpad), set Buttons A/B/C/Start/Select to Pointer-0 Middle Button, Pointer-0 Button5, Pointer-0 Button4, Keyboard 7, Keyboard 6 respectively, set D-Pad Up/Down/Left/Right to Keyboard Numpad8/5/4/6. In Settings tab, set a crosshair png image in Cursor Path, check Manual Screen Configuration, set X Scale to 90%, Y Scale to 97% (different for some games, try around 92% to 97%), Center X to 400px, leave others to default.
+In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings, check Show Overscan (required for some old games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, set Trigger to Pointer-0 Left Button, Shoot Offscreen to Pointer-0 Right Button, Calibration Shot to Keyboard 8 (without Numpad), set Buttons A/B/C/Start/Select to Pointer-0 Middle Button, Pointer-0 Button5, Pointer-0 Button4, Keyboard 7, Keyboard 6 respectively, set D-Pad Up/Down/Left/Right to Keyboard Numpad8/5/4/6. In Settings tab, set a crosshair png image in Cursor Path, check Manual Screen Configuration, set X Scale to 90%, Y Scale to 97% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 92% to 97%), Center X to 400px, leave others to default.
 
 For games like Resident Evil: Dead Aim which require the D-pad to work, you can map non-press Touchpad to D-pad keys by modifying KeyTouchDirectNorth/South/West/East from Unassigned to Numeric keypad 8/5/4/6 in the config file (and restarting app, text editor needs to be run as admin). Also change other assignments to suit the game.
 
-If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen mode.
+If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen.
 
-In the calibration screen, press Back button to start calibration. If the crosshair moving scale is incorrect, try to adjust Y Scale in the GunCon 2 Settings tab. When finished, press Touchpad East to confirm (or follow game's intructions).
+In the calibration screen, press Back button to start calibration, and follow the game's intructions to confirm.
+
+<br>
+
+## < DuckStation > emulator PC lightgun aiming sample config
+
+For PS1 games like Time Crisis: Project Titan, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+
+Trigger: Mouse left button, Back: L (used when pressing at the same time both Buttons A and B of the gun)
+<br>
+Touchpad - Center: Mouse right button, West: L, East: K, North: Unassigned, South: Pointer reset
+
+In DuckStation's Emulation settings, check Vertical Sync. In Controller settings -> Global Settings, check Enable Mouse Mapping, uncheck Use Raw Input. In Controller Port 1 page, select GunCon, in Bindings tab, set Aiming to Pointer-0 (by moving the mouse), set Fire to Pointer-0/LeftButton, Fire Offscreen to Pointer-0/RightButton, A to Keyboard/K, B to Keyboard/L. In Settings tab, set X Scale to 99% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 98% to 99%).
+
+For games like Crypt Killer, select Justifier in Controller Port 1 and set the same key mappings. In Settings tab, set Line Start Offset to -5, Tick Offset to 0, and calibrate the crosshair in game.
+
+Press F11 to switch to fullscreen.
 
 <br>
 
