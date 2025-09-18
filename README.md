@@ -307,9 +307,9 @@ In the calibration screen, press Back button to start calibration, and follow th
 
 For PS1 games like Time Crisis: Project Titan, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
 
-Trigger: Mouse left button, Back: L (used when pressing at the same time both Buttons A and B of the gun)
+Trigger: Mouse left button, Back: K (used when pressing at the same time both Buttons A and B of the gun)
 <br>
-Touchpad - Center: Mouse right button, West: L, East: K, North: Unassigned, South: Pointer reset
+Touchpad - Center: Mouse right button, West: K, East: L, North: Unassigned, South: Pointer reset
 
 In DuckStation's Emulation settings, check Vertical Sync. In Controller settings -> Global Settings, check Enable Mouse Mapping, uncheck Use Raw Input. In Controller Port 1 page, select GunCon, in Bindings tab, set Aiming to Pointer-0 (by moving the mouse), set Fire to Pointer-0/LeftButton, Fire Offscreen to Pointer-0/RightButton, A to Keyboard/K, B to Keyboard/L. In Settings tab, set X Scale to 99% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 98% to 99%).
 
