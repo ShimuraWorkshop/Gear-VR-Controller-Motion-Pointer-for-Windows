@@ -299,7 +299,7 @@ For games like Resident Evil: Dead Aim which require the D-pad to work, you can 
 
 If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen.
 
-In the calibration screen, press Back button to start calibration, and follow the game's intructions to confirm.
+In the calibration screen, press Back button to start calibration, and follow the game's instructions to confirm.
 
 <br>
 
@@ -339,7 +339,7 @@ After starting the game, if the crosshair moving scale is incorrect, try to adju
 
 ## Backup of user config
 
-You can backup the user config file for different settings or game profiles. Exit the app first and it's inside a sub-sub folder in %LOCALAPPDATA%\Gear_VR_Controller
+You can back up the user config file for different settings or game profiles. Exit the app first and it's inside a sub-sub folder in %LOCALAPPDATA%\Gear_VR_Controller
 
 <br>
 
