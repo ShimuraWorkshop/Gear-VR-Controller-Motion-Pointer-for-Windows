@@ -64,6 +64,8 @@ Details
 - [< PCSX2 > emulator PC lightgun aiming (for Time Crisis 3, etc)](#-pcsx2--emulator-pc-lightgun-aiming-sample-config)
 - [< DuckStation > emulator PC lightgun aiming (for Time Crisis: Project Titan, etc)](#-duckstation--emulator-pc-lightgun-aiming-sample-config)
 - [< Dolphin > emulator PC lightgun aiming (for Ghost Squad, etc)](#-dolphin--emulator-pc-lightgun-aiming-sample-config)
+- [< Snes9x > emulator PC lightgun aiming (for Yoshi's Safari, etc)](#-snes9x--emulator-pc-lightgun-aiming-sample-config)
+- [< FCEUX > emulator PC lightgun aiming (for Duck Hunt, etc)](#-fceux--emulator-pc-lightgun-aiming-sample-config)
 - [Backup of user config](#backup-of-user-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
 
@@ -334,6 +336,34 @@ For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stic
 Some games use shake to reload, it's mapped to mouse middle button (Touchpad North) by default.
 
 After starting the game, if the crosshair moving scale is incorrect, try to adjust Total Yaw or Total Pitch in Controller settings. When ready, set Mouse Cursor Visibility to Never in Interface configuration. Press Alt-Enter to switch to fullscreen.
+
+<br>
+
+## < Snes9x > emulator PC lightgun aiming sample config
+
+For SNES games like Yoshi's Safari, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+
+Trigger: Mouse left button, Home: /? (default for Pause)
+<br>
+Touchpad - Center: Mouse right button, North: `~ (default for Turbo), South: Pointer reset
+
+In Snes9x's Video menu -> Display Configuration, check VSync. In Input menu, select Use Super Scope.
+
+After starting the game, press Alt-Enter to switch to fullscreen.
+
+<br>
+
+## < FCEUX > emulator PC lightgun aiming sample config
+
+For NES games like Duck Hunt (in Super Mario Bros + Duck Hunt), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+
+Trigger: Mouse left button, Back: S (default for Select), Home: Enter (default for Start)
+<br>
+Touchpad - Center: Mouse right button, South: Pointer reset
+
+In FCEUX's GUI config, uncheck Enable right-click context menu. In Video config, under Full Screen Settings, check Hide mouse cursor, set Sync method to Wait for VBlank. In Input config, set Port 1 to Gamepad and use your preferred configuration by keyboard or a physical gamepad, set Port 2 to Zapper. If you use keyboard default mapping for gamepad, Enter of Start button will conflict with Alt-Enter of toggling fullscreen. Fix it by going to Map Hotkeys config, setting Toggle Fullscreen to F11.
+
+After starting the game, switch to fullscreen. If the resolution is incorrect, you need to set in the fceux64.exe Compatibility properties, click Change high DPI settings, check Override high DPI scaling behavior, and set Scaling performed by to Application, and restart FCEUX.
 
 <br>
 
