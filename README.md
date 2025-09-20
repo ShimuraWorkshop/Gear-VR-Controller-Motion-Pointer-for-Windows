@@ -380,7 +380,7 @@ In Flycast's Video settings, check VSync. In Controls settings, for Default Mous
 
 After starting the game, press Alt-Enter to switch to fullscreen. Use keyboard cursors to navigate menus. Calibrate the gun crosshair in game's Options menu.
 
-For Naomi arcade games, in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Keyboard and Default Mouse by selecting Arcade Controls in the mapping screens. Calibrate the gun in the game's Service and Test menu.
+For Naomi and Atomiswave arcade games, in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Keyboard and Default Mouse by selecting Arcade Controls in the mapping screens. Calibrate the gun in the game's Service and Test menu.
 
 <br>
 
