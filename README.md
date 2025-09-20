@@ -66,6 +66,7 @@ Details
 - [< Dolphin > emulator PC lightgun aiming (for Ghost Squad, etc)](#-dolphin--emulator-pc-lightgun-aiming-sample-config)
 - [< Snes9x > emulator PC lightgun aiming (for Yoshi's Safari, etc)](#-snes9x--emulator-pc-lightgun-aiming-sample-config)
 - [< FCEUX > emulator PC lightgun aiming (for Duck Hunt, etc)](#-fceux--emulator-pc-lightgun-aiming-sample-config)
+- [< Flycast > emulator PC lightgun aiming (for Confidential Mission, etc)](#-flycast--emulator-pc-lightgun-aiming-sample-config)
 - [Backup of user config](#backup-of-user-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
 
@@ -364,6 +365,22 @@ Touchpad - Center: Mouse right button, South: Pointer reset
 In FCEUX's GUI config, uncheck Enable right-click context menu. In Video config, under Full Screen Settings, check Hide mouse cursor, set Sync method to Wait for VBlank. In Input config, set Port 1 to Gamepad and use your preferred configuration by keyboard or a physical gamepad, set Port 2 to Zapper. If you use keyboard default mapping for gamepad, Enter of Start button will conflict with Alt-Enter of toggling fullscreen. Fix it by going to Map Hotkeys config, setting Toggle Fullscreen to F11.
 
 After starting the game, switch to fullscreen. If the resolution is incorrect, you need to set in the fceux64.exe Compatibility properties, click Change high DPI settings, check Override high DPI scaling behavior, set Scaling performed by to Application, and restart FCEUX.
+
+<br>
+
+## < Flycast > emulator PC lightgun aiming sample config
+
+For Dreamcast games like Confidential Mission, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+
+Trigger: Mouse left button, Back: Mouse right button (default for B), Home: Mouse middle button (default for Start)
+<br>
+Touchpad - Center: Mouse X1 button, South: Pointer reset
+
+In Flycast's Video settings, check VSync. In Controls settings, for Default Mouse, select Port A, click Map, select Dreamcast Controls, Reset the mapping, then map Reload to Button 4, click Done. For Keyboard, select Port A, click Map, Reset the mapping, click Done. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
+
+After starting the game, press Alt-Enter to switch to fullscreen. Use keyboard cursors to navigate menus. Calibrate the gun crosshair in game's Options menu.
+
+For Naomi arcade games, in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Keyboard and Default Mouse by selecting Arcade Controls in the mapping screens. Calibrate the gun in the game's Service and Test menu.
 
 <br>
 
