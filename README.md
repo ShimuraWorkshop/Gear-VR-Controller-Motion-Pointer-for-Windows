@@ -356,7 +356,7 @@ After starting the game, press Alt-Enter to switch to fullscreen.
 
 ## < FCEUX > emulator PC lightgun aiming sample config
 
-For NES games like Duck Hunt (in Super Mario Bros + Duck Hunt), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
+For NES games like Duck Hunt, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: S (default for Select), Home: Enter (default for Start)
 <br>
