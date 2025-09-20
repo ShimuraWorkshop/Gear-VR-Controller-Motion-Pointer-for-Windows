@@ -118,7 +118,7 @@ If the game is run as admin, this app also needs to be run as admin, otherwise W
 
 ## Lightgun emulation
 
-### Option 1: Lightgun emulation replacing mouse pointer
+### Option 1: Lightgun emulation replacing mouse
 
 Config file [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file) (if supported by the game or emulator)
 
@@ -166,7 +166,7 @@ Trigger: Mouse left button, Back: Enter, -: Esc
 <br>
 Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointer temporary off
 
-If you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and change the key assignments according to the plugin.
+If you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and change the key assignments according to the plugin.
 
 With either config, switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00 (some settings may be unavailable in arcade plugin).
 
@@ -180,19 +180,19 @@ Use the same config file as < The House of the Dead 2: Remake >, and change the 
 
 ## < The Typing of the Dead: Overkill > PC lightgun aiming sample config
 
-Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys to suit the game.
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game.
 
 <br>
 
 ## < The House of the Dead III > PC lightgun aiming sample config
 
-Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys to suit the game.
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game.
 
 <br>
 
 ## < The House of the Dead 2 > PC lightgun aiming sample config
 
-Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys to suit the game. In game's config, select Mouse + Keyboard for player controller.
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game. In game's config, select Mouse + Keyboard for player controller.
 
 <br>
 
@@ -212,7 +212,7 @@ Adjust the motion pointer speed to around 8~12 for the game.
 
 ## < MAME > emulator PC lightgun aiming sample config
 
-For games like Time Crisis and Virtua Cop, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+For games like Time Crisis and Virtua Cop, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: 1, Home: 5, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
 
@@ -238,7 +238,7 @@ In Cxbx-Reloaded input settings, select MS Gamepad S, click Configure, set Devic
 
 ### Option 1: Lightgun emulation replacing mouse pointer (e.g. Operation GHOST)
 
-Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: 1, Home: 5
 <br>
@@ -268,7 +268,7 @@ For games like Silent Hill: The Arcade without in-game crosshair, copy crosshair
 
 ## < RPCS3 > emulator PC lightgun aiming sample config
 
-For PS3 games like Time Crisis: Razing Storm (Time Crisis 4 Arcade Ver, Razing Storm, Deadstorm Pirates), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+For PS3 games like Time Crisis: Razing Storm (Time Crisis 4 Arcade Ver, Razing Storm, Deadstorm Pirates), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: 8, Home: 7
 <br>
@@ -290,7 +290,7 @@ After calibration, you can uncheck Show PS Move Cursor in I/O configuration. Opt
 
 ## < PCSX2 > emulator PC lightgun aiming sample config
 
-For PS2 games like Time Crisis 3, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+For PS2 games like Time Crisis 3, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: 8, Home: 7
 <br>
@@ -308,7 +308,7 @@ In the calibration screen, press Back button to start calibration, and follow th
 
 ## < DuckStation > emulator PC lightgun aiming sample config
 
-For PS1 games like Time Crisis: Project Titan, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+For PS1 games like Time Crisis: Project Titan, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: K (used when pressing at the same time both Buttons A and B of the gun)
 <br>
@@ -324,7 +324,7 @@ Press F11 to switch to fullscreen.
 
 ## < Dolphin > emulator PC lightgun aiming sample config
 
-For Wii games like Ghost Squad, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+For Wii games like Ghost Squad, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse right button, Back: Q, Home: E, +: 1, -: 2
 <br>
@@ -342,7 +342,7 @@ After starting the game, if the crosshair moving scale is incorrect, try to adju
 
 ## < Snes9x > emulator PC lightgun aiming sample config
 
-For SNES games like Yoshi's Safari, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+For SNES games like Yoshi's Safari, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Home: /? (default for Pause)
 <br>
@@ -356,7 +356,7 @@ After starting the game, press Alt-Enter to switch to fullscreen.
 
 ## < FCEUX > emulator PC lightgun aiming sample config
 
-For NES games like Duck Hunt (in Super Mario Bros + Duck Hunt), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+For NES games like Duck Hunt (in Super Mario Bros + Duck Hunt), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: S (default for Select), Home: Enter (default for Start)
 <br>
@@ -370,7 +370,7 @@ After starting the game, switch to fullscreen. If the resolution is incorrect, y
 
 ## < Flycast > emulator PC lightgun aiming sample config
 
-For Dreamcast games like Confidential Mission, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
+For Dreamcast games like Confidential Mission, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Home: Mouse middle button (default for Start)
 <br>
