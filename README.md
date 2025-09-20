@@ -372,9 +372,9 @@ After starting the game, switch to fullscreen. If the resolution is incorrect, y
 
 For Dreamcast games like Confidential Mission, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse-pointer), and assign keys for example:
 
-Trigger: Mouse left button, Back: Mouse right button (default for B), Home: Mouse middle button (default for Start)
+Trigger: Mouse left button, Home: Mouse middle button (default for Start)
 <br>
-Touchpad - Center: Mouse X1 button, South: Pointer reset
+Touchpad - Center: Mouse X1 button, North: Mouse right button (default for B), South: Pointer reset
 
 In Flycast's Video settings, check VSync. In Controls settings, for Default Mouse, select Port A, click Map, select Dreamcast Controls, Reset the mapping, then map Reload to Button 4, click Done. For Keyboard, select Port A, click Map, Reset the mapping, click Done. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
 
