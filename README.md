@@ -236,7 +236,7 @@ In Cxbx-Reloaded input settings, select MS Gamepad S, click Configure, set Devic
 
 ## < TeknoParrot > emulator PC lightgun aiming sample config
 
-### Option 1: Lightgun emulation replacing mouse pointer (e.g. Operation GHOST)
+### Option 1: Lightgun emulation replacing mouse (e.g. Operation GHOST)
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
@@ -380,7 +380,7 @@ In Flycast's Video settings, check VSync. In Controls settings, for Default Mous
 
 After starting the game, press F11 to switch to fullscreen. Use keyboard cursors to navigate menus. Calibrate the gun crosshair in game's Options menu.
 
-For Naomi and Atomiswave arcade games, in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Keyboard and Default Mouse by selecting Arcade Controls in the mapping screens. Calibrate the gun in the game's Service and Test menu.
+For Naomi and Atomiswave arcade games, in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Keyboard and Default Mouse by selecting Arcade Controls in the mapping screens. Calibrate the gun crosshair in the game's Service and Test menu.
 
 <br>
 
