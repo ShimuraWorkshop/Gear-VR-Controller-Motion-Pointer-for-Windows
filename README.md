@@ -58,7 +58,7 @@ Details
 - [< The House of the Dead 2 > PC lightgun aiming](#-the-house-of-the-dead-2--pc-lightgun-aiming-sample-config)
 - [< House of the Dead: Scarlet Dawn > PC lightgun aiming](#-house-of-the-dead-scarlet-dawn--pc-lightgun-aiming-sample-config)
 - [< MAME > emulator PC lightgun aiming (for Virtua Cop, Time Crisis, etc)](#-mame--emulator-pc-lightgun-aiming-sample-config)
-- [< Cxbx-Reloaded > emulator PC lightgun aiming (for Virtua Cop 3) (updated)](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
+- [< Cxbx-Reloaded > emulator PC lightgun aiming (for Virtua Cop 3)](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
 - [< TeknoParrot > emulator PC lightgun aiming (for Time Crisis 5, Operation GHOST, etc)](#-teknoparrot--emulator-pc-lightgun-aiming-sample-config)
 - [< RPCS3 > emulator PC lightgun aiming (for Time Crisis: Razing Storm, etc)](#-rpcs3--emulator-pc-lightgun-aiming-sample-config)
 - [< PCSX2 > emulator PC lightgun aiming (for Time Crisis 3, etc)](#-pcsx2--emulator-pc-lightgun-aiming-sample-config)
@@ -226,9 +226,7 @@ Press Alt-Enter to switch to fullscreen.
 
 ## < Cxbx-Reloaded > emulator PC lightgun aiming sample config
 
-For Virtua Cop 3, config file [Link](https://www.mediafire.com/file/o8wmczz9s2183il/Gear_VR_Controller.dll.config_virtua.cop.3.zip/file) (updated)
-
-Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), adjust the motion pointer speed to around 5~8 in app, and assign keys for example:
+For Virtua Cop 3, follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
 Trigger: Gamepad A, Back: Gamepad B (for Reload during ES Mode), Home: Gamepad Start/Menu
 <br>
