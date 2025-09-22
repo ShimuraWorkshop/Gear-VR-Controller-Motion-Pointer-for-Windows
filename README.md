@@ -218,7 +218,9 @@ Trigger: Mouse left button, Back: 1, Home: 5, Touchpad Center: Mouse right butto
 
 If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in the config file from Unassigned to Mouse right button (and restart app, text editor needs to be run as admin).
 
-In MAME game's input device options, set lightgun and pedal device assignments to lightgun, keyboard input provider to dinput, lightgun input provider to win32. Press Alt-Enter to switch to fullscreen.
+In MAME game's Input Device Options, set Lightgun Device Assignment to lightgun, Pedal Device Assignment to lightgun, Keyboard Input Provider to dinput, Lightgun Input Provider to win32.
+
+Press Alt-Enter to switch to fullscreen.
 
 <br>
 
