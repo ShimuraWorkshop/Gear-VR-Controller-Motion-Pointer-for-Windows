@@ -232,7 +232,7 @@ Trigger: Gamepad A, Home: Gamepad Start/Menu
 <br>
 Touchpad - Center: Gamepad B, West: Gamepad X, North: Gamepad LT, South: Pointer reset
 
-In Cxbx-Reloaded input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, load Default Bindings, then give the Profile a name and Save.
+In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, click Default Bindings, then give the Profile a name and Save. In Video settings, set Display Resolution to your screen resolution and refresh rate, uncheck Use Exclusive Fullscreen Mode, check Maintain Aspect Ratio, and check Force VSync.
 
 Delete the file boot.id in the root folder of game if existing, open the game by vc3.xbe, and start emulation. Press Alt-Enter to switch to fullscreen.
 
