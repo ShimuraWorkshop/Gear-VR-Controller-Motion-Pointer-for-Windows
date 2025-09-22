@@ -234,6 +234,8 @@ Touchpad - Center: Gamepad B, West: Gamepad X, North: Gamepad LT, South: Pointer
 
 In Cxbx-Reloaded input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, load Default Bindings, then give the Profile a name and Save.
 
+Delete the file boot.id in the root folder of game if existing, open the game by vc3.xbe, and start emulation. Press Alt-Enter to switch to fullscreen.
+
 <br>
 
 ## < TeknoParrot > emulator PC lightgun aiming sample config
