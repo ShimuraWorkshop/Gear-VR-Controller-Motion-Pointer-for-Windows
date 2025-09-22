@@ -230,9 +230,9 @@ For Virtua Cop 3, config file [Link](https://www.mediafire.com/file/o8wmczz9s218
 
 Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default), adjust the motion pointer speed to around 5~8 in app, and assign keys for example:
 
-Trigger: Gamepad A, Back: Gamepad B (for Reload during ES mode), Home: Gamepad Start/Menu
+Trigger: Gamepad A, Back: Gamepad B (for Reload during ES Mode), Home: Gamepad Start/Menu
 <br>
-Touchpad - Center: Gamepad B (for Reload), West: Gamepad X (for Weapon Change), North: Gamepad LT (for ES mode), South: Pointer reset
+Touchpad - Center: Gamepad B (for Reload), West: Gamepad X (for Weapon Change), North: Gamepad LT (for ES Mode), South: Pointer reset
 
 In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, click Default Bindings, then give the Profile a name and Save. In Video settings, set Display Resolution to your screen resolution and refresh rate, uncheck Use Exclusive Fullscreen Mode, check Maintain Aspect Ratio, and check Force VSync.
 
