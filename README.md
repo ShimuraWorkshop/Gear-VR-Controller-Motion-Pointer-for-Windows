@@ -308,7 +308,7 @@ For games like Resident Evil: Dead Aim which require the D-pad to work, you can 
 
 If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen.
 
-In the calibration screen, press Back button to start calibration, and follow the game's instructions to confirm. For some games like Resident Evil Survivor 2, you need to keep the aim at each target for a while after shot, otherwise the calibration will be incorrect.
+In the calibration screen, press Back button to start calibration, and follow the game's instructions to confirm.
 
 <br>
 
