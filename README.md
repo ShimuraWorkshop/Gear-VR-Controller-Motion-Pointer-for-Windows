@@ -57,7 +57,7 @@ Details
 - [< The House of the Dead III > PC lightgun aiming](#-the-house-of-the-dead-iii--pc-lightgun-aiming-sample-config)
 - [< The House of the Dead 2 > PC lightgun aiming](#-the-house-of-the-dead-2--pc-lightgun-aiming-sample-config)
 - [< House of the Dead: Scarlet Dawn > PC lightgun aiming](#-house-of-the-dead-scarlet-dawn--pc-lightgun-aiming-sample-config)
-- [< MAME > emulator PC lightgun aiming (for Virtua Cop, Time Crisis, etc)](#-mame--emulator-pc-lightgun-aiming-sample-config)
+- [< MAME > emulator PC lightgun aiming (for Virtua Cop, Time Crisis, Alien 3: The Gun, etc)](#-mame--emulator-pc-lightgun-aiming-sample-config)
 - [< Cxbx-Reloaded > emulator PC lightgun aiming (for Virtua Cop 3)](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
 - [< TeknoParrot > emulator PC lightgun aiming (for Time Crisis 5, Operation GHOST, etc)](#-teknoparrot--emulator-pc-lightgun-aiming-sample-config)
 - [< RPCS3 > emulator PC lightgun aiming (for Time Crisis: Razing Storm, etc)](#-rpcs3--emulator-pc-lightgun-aiming-sample-config)
@@ -212,13 +212,25 @@ Adjust the motion pointer speed to around 8~12 for the game.
 
 ## < MAME > emulator PC lightgun aiming sample config
 
-For games like Time Crisis and Virtua Cop, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
+Option 1: Lightgun emulation replacing mouse (e.g. Time Crisis, Virtua Cop)
+
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: 1, Home: 5, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
 
 If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in the config file from Unassigned to Mouse right button (and restart app, text editor needs to be run as admin).
 
 In MAME game's Input Device Options, set Lightgun Device Assignment to lightgun, Pedal Device Assignment to lightgun, Keyboard Input Provider to dinput, Lightgun Input Provider to win32.
+
+Press Alt-Enter to switch to fullscreen.
+
+Option 2: Lightgun emulation replacing gamepad left stick (e.g. Alien 3: The Gun)
+
+Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
+
+Trigger: Gamepad A, Back: 1, Home: 5, Touchpad Center: Gamepad B, Touchpad South: Pointer reset
+
+Press Touchpad South to reset stick. In MAME game's Input Device Options, set Keyboard Input Provider to dinput, Joystick Input Provider to xinput. In Advanced Options, set Joystick to On, Joystick deadzone to 0, Joystick saturation to 1.
 
 Press Alt-Enter to switch to fullscreen.
 
