@@ -212,7 +212,7 @@ Adjust the motion pointer speed to around 8~12 for the game.
 
 ## < MAME > emulator PC lightgun aiming sample config
 
-Option 1: Lightgun emulation replacing mouse (e.g. Time Crisis, Virtua Cop)
+### Option 1: Lightgun emulation replacing mouse (e.g. Time Crisis, Virtua Cop)
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
@@ -224,7 +224,7 @@ In MAME game's Input Device Options, set Lightgun Device Assignment to lightgun,
 
 Press Alt-Enter to switch to fullscreen.
 
-Option 2: Lightgun emulation replacing gamepad left stick (e.g. Alien 3: The Gun)
+### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Alien 3: The Gun)
 
 Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
