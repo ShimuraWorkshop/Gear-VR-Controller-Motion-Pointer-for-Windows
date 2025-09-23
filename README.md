@@ -216,7 +216,9 @@ Adjust the motion pointer speed to around 8~12 for the game.
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
-Trigger: Mouse left button, Back: 1, Home: 5, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
+Trigger: Mouse left button, Back: 1, Home: 5
+<br>
+Touchpad - Center: Mouse right button, North: Mouse middle button, South: Pointer reset
 
 If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in the config file from Unassigned to Mouse right button (and restart app, text editor needs to be run as admin).
 
@@ -228,7 +230,9 @@ Press Alt-Enter to switch to fullscreen.
 
 Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
-Trigger: Gamepad A, Back: 1, Home: 5, Touchpad Center: Gamepad B, Touchpad South: Pointer reset
+Trigger: Gamepad A, Back: 1, Home: 5
+<br>
+Touchpad - Center: Gamepad B, North: Gamepad X, South: Pointer reset
 
 Press Touchpad South to reset stick. In MAME game's Input Device Options, set Keyboard Input Provider to dinput, Joystick Input Provider to xinput. In Advanced Options, set Joystick to On, Joystick deadzone to 0, Joystick saturation to 1.
 
