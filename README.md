@@ -252,7 +252,7 @@ In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure, set Dev
 
 Delete the file boot.id in the root folder of game if existing, open the game by vc3.xbe, and start emulation. Press Alt-Enter to switch to fullscreen.
 
-Due to limitation of Cxbx-Reloaded, aim will have some distortions at corners of the screen.
+Due to limitations of Cxbx-Reloaded, aim will have some distortions at corners of the screen.
 
 <br>
 
