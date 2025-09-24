@@ -238,6 +238,8 @@ Press Touchpad South to reset stick. In MAME game's Input Device Options, set Ke
 
 Press Alt-Enter to switch to fullscreen.
 
+For some games like Terminator 2: Judgment Day which need to calibrate the gun for player 2, if not playing, press keyboard key A (default for player 2's gun trigger) to pass.
+
 <br>
 
 ## < Cxbx-Reloaded > emulator PC lightgun aiming sample config
