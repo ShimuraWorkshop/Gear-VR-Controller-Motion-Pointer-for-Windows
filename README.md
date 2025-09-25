@@ -269,6 +269,8 @@ Due to limitations of Cxbx-Reloaded, aim will have some distortions at corners o
 
 ## < TeknoParrot > emulator PC lightgun aiming sample config
 
+(Use option 2 for these games: Aliens Armageddon, Aliens: Extermination, House of the Dead: Scarlet Dawn, Music GunGun 2, Point Blank X, Silent Hill: The Arcade, Terminiator Salvation, Time Crisis 5, Transformers: Human Alliance, Transformers: Shadows Rising)
+
 ### Option 1: Lightgun emulation replacing mouse (e.g. Operation GHOST)
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
