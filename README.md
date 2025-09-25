@@ -54,6 +54,7 @@ Details
 - [< The House of the Dead: Remake > PC gyro/lightgun aiming](#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming-sample-config)
 - [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming-sample-config)
 - [< The Typing of the Dead: Overkill > PC lightgun aiming](#-the-typing-of-the-dead-overkill--pc-lightgun-aiming-sample-config)
+- [< Blue Estate The Game > PC lightgun aiming](#-blue-estate-the-game--pc-lightgun-aiming-sample-config)
 - [< The House of the Dead III > PC lightgun aiming](#-the-house-of-the-dead-iii--pc-lightgun-aiming-sample-config)
 - [< The House of the Dead 2 > PC lightgun aiming](#-the-house-of-the-dead-2--pc-lightgun-aiming-sample-config)
 - [< House of the Dead: Scarlet Dawn > PC lightgun aiming](#-house-of-the-dead-scarlet-dawn--pc-lightgun-aiming-sample-config)
@@ -175,6 +176,12 @@ With either config, switch to motion pointer mode before starting the game, then
 ## < Panzer Dragoon: Remake > PC gyro aiming sample config
 
 Use the same config file as < The House of the Dead 2: Remake >, and change the key assignments to match the game. But the game has forced mouse smoothing, you need to move the controller slowly.
+
+<br>
+
+## < Blue Estate The Game > PC lightgun aiming sample config
+
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game. In game's Controls settings, switch to Mouse, set Mouse in Raw Mode to Yes, Gestures with the Mouse to Yes.
 
 <br>
 
