@@ -181,7 +181,7 @@ Use the same config file as < The House of the Dead 2: Remake >, and change the 
 
 ## < Blue Estate The Game > PC lightgun aiming sample config
 
-Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game. In game's Controls settings, switch to Mouse, set Mouse in Raw Mode to Yes, Gestures with the Mouse to Yes.
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game. In game's Controls settings, switch controller to Mouse, set Mouse in Raw Mode to Yes, Gestures with the Mouse to Yes.
 
 <br>
 
