@@ -209,7 +209,7 @@ For TeknoParrot, follow the instructions of [lightgun emulation option 2](#optio
 
 Trigger: Gamepad A, Back: Gamepad Back/View
 <br>
-Touchpad - West: Gamepad LB, North: Gamepad B, South: Pointer reset
+Touchpad - West: Gamepad LB, North: Gamepad X, South: Pointer reset
 
 In TeknoParrotUI game settings, set General - Input API to XInput, uncheck General - Windowed, check General - HideCursor, check Crosshairs - Enable Native. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then for Player 1, set Start by pressing Back, Gun Trigger by Trigger, Sub Trigger by Touchpad North, Controller Select by Touchpad West. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
 
@@ -289,9 +289,9 @@ For games like The House of the Dead 4 without in-game crosshair, copy crosshair
 
 Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
-Trigger: Gamepad A, Home: Gamepad Start/Menu
+Trigger: Gamepad A, Back: Gamepad Back/View, Home: Gamepad Start/Menu
 <br>
-Touchpad - North: Gamepad B, West: Gamepad LB, East: Gamepad RB, South: Pointer reset
+Touchpad - Center: Gamepad B, North: Gamepad X, West: Gamepad LB, East: Gamepad RB, South: Pointer reset
 
 In TeknoParrotUI game settings, set General - Input API to XInput, check Crosshair - Enable, uncheck General - Windowed. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then set Coin by pressing Home, Gun Trigger by Trigger, Gun Button by Touchpad North, Left Pedal by Touchpad West, Right Pedal by Touchpad East. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
 
