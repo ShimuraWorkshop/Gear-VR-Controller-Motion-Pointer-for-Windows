@@ -265,7 +265,7 @@ Delete the file boot.id in the root folder of game if existing, open the game by
 
 Due to limitations of Cxbx-Reloaded, aim will have some distortions at corners of the screen.
 
-For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input settings, use Default Bindings, map a button to Gamepad RS Button to hide Laser point in game, also map buttons to Gamepad D-pad Up/Down/Left/Right for menu navigation when necessary.
+For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input settings, use Default Bindings. Assign Gamepad RS Button to a button to hide Laser point in game, also assign Gamepad D-pad Up/Down/Left/Right to buttons for menu navigation when necessary.
 
 <br>
 
