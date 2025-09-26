@@ -59,7 +59,7 @@ Details
 - [< The House of the Dead 2 > PC lightgun aiming](#-the-house-of-the-dead-2--pc-lightgun-aiming-sample-config)
 - [< House of the Dead: Scarlet Dawn > PC lightgun aiming](#-house-of-the-dead-scarlet-dawn--pc-lightgun-aiming-sample-config)
 - [< MAME > emulator PC lightgun aiming (for Virtua Cop, Time Crisis, Alien 3: The Gun, etc)](#-mame--emulator-pc-lightgun-aiming-sample-config)
-- [< Cxbx-Reloaded > emulator PC lightgun aiming (for Virtua Cop 3)](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
+- [< Cxbx-Reloaded > emulator PC lightgun aiming (for Virtua Cop 3, Silent Scope 2)](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
 - [< TeknoParrot > emulator PC lightgun aiming (for Time Crisis 5, Operation GHOST, etc)](#-teknoparrot--emulator-pc-lightgun-aiming-sample-config)
 - [< RPCS3 > emulator PC lightgun aiming (for Time Crisis: Razing Storm, etc)](#-rpcs3--emulator-pc-lightgun-aiming-sample-config)
 - [< PCSX2 > emulator PC lightgun aiming (for Time Crisis 3, etc)](#-pcsx2--emulator-pc-lightgun-aiming-sample-config)
@@ -264,6 +264,8 @@ In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure, set Dev
 Delete the file boot.id in the root folder of game if existing, open the game by vc3.xbe, and start emulation. Press Alt-Enter to switch to fullscreen.
 
 Due to limitations of Cxbx-Reloaded, aim will have some distortions at corners of the screen.
+
+For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input settings, use Default Bindings, and map a button to Gamepad RS Button to hide Laser point in game.
 
 <br>
 
