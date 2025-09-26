@@ -269,7 +269,7 @@ For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input set
 
 ## < TeknoParrot > emulator PC lightgun aiming sample config
 
-(Use option 2 for these games: Aliens Armageddon, Aliens: Extermination, Far Cry Paradise Lost, House of the Dead: Scarlet Dawn, Jurassic Park, Mission Impossible, Music GunGun 2, Point Blank X, Silent Hill: The Arcade, Terminiator Salvation, Time Crisis 5, Tomb Raider (1920x1080 required), Transformers: Human Alliance, Transformers: Shadows Rising)
+(Most games work better with option 2)
 
 ### Option 1: Lightgun emulation replacing mouse (e.g. Operation GHOST)
 
