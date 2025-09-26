@@ -263,7 +263,7 @@ In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure, set Dev
 
 Delete the file boot.id in the root folder of game if existing, open the game by vc3.xbe, and start emulation. Press Alt-Enter to switch to fullscreen. Due to limitations of Cxbx-Reloaded, aim will have some distortions at corners of the screen.
 
-For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input settings, use Default Bindings. Assign Gamepad RS Button to a button to hide Laser point in game, also assign Gamepad D-pad Up/Down/Left/Right to buttons for menu navigation when necessary.
+For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input settings, use Default Bindings. Assign Gamepad RS Button to a button/motion to hide Laser point in game, also assign Gamepad D-pad Up/Down/Left/Right to buttons/motions for menu navigation when necessary.
 
 <br>
 
