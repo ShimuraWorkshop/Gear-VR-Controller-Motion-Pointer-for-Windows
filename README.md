@@ -283,8 +283,6 @@ In TeknoParrotUI game settings, set General - Input API to RawInput, check Gener
 
 Patch the game to correct screen resolution by [OpGhost_ResChanger](https://forum.arcadecontrols.com/index.php/topic,149714.msg1673148.html#msg1673148) (for other games, skip this part and uncheck General - Windowed in game settings).
 
-For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if the player 2 crosshair is shown even when not playing, rename P2.png to something else to hide it.
-
 ### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Time Crisis 5)
 
 Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
@@ -297,7 +295,7 @@ In TeknoParrotUI game settings, set General - Input API to XInput, check Crossha
 
 Adjust the motion pointer speed to around 8~12 for the game.
 
-For games like Silent Hill: The Arcade without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings.
+For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if the player 2 crosshair is shown even when not playing, rename P2.png to something else to hide it.
 
 <br>
 
