@@ -383,7 +383,7 @@ Touchpad - Center: Mouse right button, North: `~ (default for Turbo), South: Poi
 
 In Snes9x's Video menu -> Display Configuration, check VSync. In Input menu, select Use Super Scope.
 
-After starting the game, press Alt-Enter to switch to fullscreen.
+After starting the game, press Alt-Enter to switch to fullscreen. Adjust the gun crosshair in game when necessary.
 
 <br>
 
