@@ -67,7 +67,7 @@ Details
 - [< Dolphin > emulator PC lightgun aiming (for Ghost Squad, etc)](#-dolphin--emulator-pc-lightgun-aiming-sample-config)
 - [< Snes9x > emulator PC lightgun aiming (for Yoshi's Safari, etc)](#-snes9x--emulator-pc-lightgun-aiming-sample-config)
 - [< FCEUX > emulator PC lightgun aiming (for Duck Hunt, etc)](#-fceux--emulator-pc-lightgun-aiming-sample-config)
-- [< Flycast > emulator PC lightgun aiming (for Confidential Mission, etc)](#-flycast--emulator-pc-lightgun-aiming-sample-config)
+- [< Flycast > emulator PC lightgun aiming (for Confidential Mission, Ninja Assault, etc)](#-flycast--emulator-pc-lightgun-aiming-sample-config)
 - [Backup of user config](#backup-of-user-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
 
@@ -412,7 +412,7 @@ In Flycast's Video settings, check VSync. In Controls settings, for Default Mous
 
 After starting the game, press F11 to switch to fullscreen. Use keyboard cursors to navigate menus. Calibrate the gun crosshair in game's Options menu.
 
-For Naomi and Atomiswave arcade games, in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Keyboard and Default Mouse by selecting Arcade Controls in the mapping screens (in service menu, Button 3 corresponds to ENTER SW, Up/Down for navigation). Calibrate the gun crosshair in the game's Service and Test menu.
+For Naomi and Atomiswave arcade games (e.g. Ninja Assault), in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Keyboard and Default Mouse by selecting Arcade Controls in the mapping screens (in service menu of some games, Button 3 corresponds to ENTER SW, Up/Down for navigation). Calibrate the gun crosshair in the game's Service and Test menu.
 
 <br>
 
