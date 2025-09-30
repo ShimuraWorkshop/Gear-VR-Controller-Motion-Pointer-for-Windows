@@ -307,11 +307,11 @@ Trigger: Mouse left button, Back: 8, Home: 7
 <br>
 Touchpad - Center: Mouse right button, West: Mouse middle button, East: Mouse X2 button, North: Mouse X1 button, South: Pointer reset
 
-In RPCS3 game's GPU configuration, set Framelimit to Auto, check Write Color Buffers (required to fix screen brightness), check VSync. In I/O tab, set Mouse Handler to Basic, Move Handler to Mouse, Camera Input to PS Eye, Camera Handler to Fake, check Show PS Move Cursor. In Advanced tab, set VBlank Frequency to 59 Hz, uncheck VBlank NTSC Fixup (only available in game custom configuration, and it's important in order to get correct mouse button response).
+In RPCS3 game's GPU configuration, set Framelimit to Auto, check Write Color Buffers (required in order to fix screen brightness), check VSync. In I/O tab, set Mouse Handler to Basic, Move Handler to Mouse, Camera Input to PS Eye, Camera Handler to Fake, check Show PS Move Cursor. In Advanced tab, set VBlank Frequency to 59 Hz, uncheck VBlank NTSC Fixup (only available in game custom configuration, and it's important in order to get correct mouse button response).
 
 In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively, set Button 6/7/8 to 6/7/8 (without Num+) respectively. In USB Devices->PS Move (Mouse) configuration, set Start/Select/Triangle/Circle/Cross/Square/Move/T to Mouse 7/6/4/5/2/3/8/1 respectively, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler for PS3 Controller in order to navigate menus in game, as RPCS3 doesn't support PS Move navigation. When using a keyboard handler, use Ctrl-F11 in game to switch between PS3 Controller mode and PS Move mode.
 
-In the crosshair calibration screen, make sure PS Move mode is active. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required to align the Windows cursor with the PS Move cursor).
+In the crosshair calibration screen, make sure PS Move mode is active. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required in order to align the Windows cursor with the PS Move cursor).
 
 For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except the center target, you should shoot each target at a little further from the outermost ring toward the window edge to get the correct calibration. But don't shoot too far, otherwise you can't turn left/right in the game when you need to point the crosshair to the window edge. For Deadstorm Pirates, press Back button to start calibration, just shoot at the center of each target.
 
@@ -423,7 +423,7 @@ For Model 3 arcade games like The Lost World: Jurassic Park, follow the instruct
 
 Trigger: Mouse left button, Back: 1, Home 3, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
 
-In Supermodel's Video settings, check FullScreen (required to hide cursor), check VSync, set Crosshairs to 1.
+In Supermodel's Video settings, check FullScreen (required in order to hide cursor), check VSync, set Crosshairs to 1.
 
 Calibrate the gun crosshair in game's Service and Test menu.
 
