@@ -230,9 +230,9 @@ Touchpad - Center: Mouse right button, North: Mouse middle button, South: Pointe
 
 In MAME game's Input Device Options, set Lightgun Device Assignment to lightgun, Pedal Device Assignment to lightgun, Keyboard Input Provider to dinput, Lightgun Input Provider to win32.
 
-Keep in maximized window mode or press Alt-Enter to switch to fullscreen. But in fullscreen mode, if your screen is 16:9 and the game is 4:3, you need to modify ScalePointerX in the config file from 1000 to 1333 in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin), it isn't required for option 2.
+Keep in maximized window mode or press Alt-Enter to switch to fullscreen. But in fullscreen mode, if your screen is 16:9 and the game is 4:3, you need to modify ScalePointerX from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin), it isn't required for option 2.
 
-If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in the config file from Unassigned to Mouse right button.
+If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter from Unassigned to Mouse right button in the config file.
 
 ### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Alien 3: The Gun)
 
