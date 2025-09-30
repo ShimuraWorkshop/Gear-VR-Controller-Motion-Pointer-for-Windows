@@ -228,11 +228,11 @@ Trigger: Mouse left button, Back: 1, Home: 5
 <br>
 Touchpad - Center: Mouse right button, North: Mouse middle button, South: Pointer reset
 
-If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in the config file from Unassigned to Mouse right button (and restart app, text editor needs to be run as admin).
-
 In MAME game's Input Device Options, set Lightgun Device Assignment to lightgun, Pedal Device Assignment to lightgun, Keyboard Input Provider to dinput, Lightgun Input Provider to win32.
 
-Press Alt-Enter to switch to fullscreen.
+Keep in maximized window mode or press Alt-Enter to switch to fullscreen. But in fullscreen mode, if your screen is 16:9 and the game is 4:3, you need to modify ScalePointerX in the config file from 1000 to 1333 in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin), it isn't required for option 2.
+
+If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter in the config file from Unassigned to Mouse right button.
 
 ### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Alien 3: The Gun)
 
@@ -248,7 +248,7 @@ Press Alt-Enter to switch to fullscreen.
 
 For some games like Terminator 2: Judgment Day which need to calibrate the gun for player 2, if not playing, press keyboard key A (default for player 2's gun trigger) to pass.
 
-With either config, press Tab, select Crosshair Options, set Visibility to Always or Never when necessary.
+With either config, press Tab, select Crosshair Options, set Visibility to Always or Never when necessary (maybe unavailable in some games).
 
 <br>
 
