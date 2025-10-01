@@ -421,11 +421,11 @@ For Naomi and Atomiswave arcade games (e.g. Ninja Assault), in General settings,
 
 For Model 3 arcade games like The Lost World: Jurassic Park, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
-Trigger: Mouse left button, Back: 1, Home 3, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
+Trigger: Mouse left button, Back: 1, Home: 3, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
 
 In Supermodel's Video settings, check FullScreen (required in order to hide cursor), check VSync, set Crosshairs to 1.
 
-Calibrate the gun crosshair in game's Service and Test menu.
+Calibrate the gun crosshair in game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
 
 <br>
 
