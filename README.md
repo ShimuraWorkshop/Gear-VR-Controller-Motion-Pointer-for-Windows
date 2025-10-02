@@ -248,7 +248,7 @@ Press Alt-Enter to switch to fullscreen.
 
 For some games like Terminator 2: Judgment Day which need to calibrate the gun for player 2, if not playing, press keyboard key A (default for player 2's gun trigger) to pass.
 
-With either config, press Tab, select Crosshair Options, set Visibility to Always or Never when necessary (maybe unavailable in some games).
+With either config, press Tab, select Crosshair Options, set Visibility to Always or Never when necessary (maybe unavailable in some games). Calibrate the gun crosshair in the game's Service and Test menu.
 
 <br>
 
@@ -425,7 +425,7 @@ Trigger: Mouse left button, Back: 1, Home: 3, Touchpad Center: Mouse right butto
 
 In Supermodel's Video settings, check FullScreen (required in order to hide cursor), check VSync, set Crosshairs to 1.
 
-Calibrate the gun crosshair in game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
+Calibrate the gun crosshair in the game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
 
 <br>
 
