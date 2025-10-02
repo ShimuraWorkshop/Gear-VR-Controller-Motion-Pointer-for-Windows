@@ -295,8 +295,6 @@ Adjust the motion pointer speed to around 8~12 for the game.
 
 For Operation GHOST, check General - Windowed in game settings, and patch the game to correct screen resolution by [OpGhost_ResChanger](https://forum.arcadecontrols.com/index.php/topic,149714.msg1673148.html#msg1673148).
 
-For Silent Hill: The Arcade, patch the game to correct screen resolution by [KSHG_ResChanger](https://github.com/argonlefou/KSHG_ResChanger).
-
 For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if the player 2 crosshair is shown even when not playing, rename P2.png to something else to hide it.
 
 <br>
