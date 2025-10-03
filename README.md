@@ -291,7 +291,7 @@ Touchpad - Center: Gamepad B, North: Gamepad X, West: Gamepad LB, East: Gamepad 
 
 In TeknoParrotUI game settings, set General - Input API to XInput, check Crosshair - Enable, uncheck General - Windowed. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then set Coin by pressing Home, Gun Trigger by Trigger, Gun Button by Touchpad North, Left Pedal by Touchpad West, Right Pedal by Touchpad East. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
 
-Adjust the motion pointer speed to around 8~12 for the game. Calibrate the gun crosshair in the game's Service and Test menu when necessary.
+Adjust the motion pointer speed to around 8~12 for the game.
 
 For Operation GHOST, check General - Windowed in game settings, and patch the game to correct screen resolution by [OpGhost_ResChanger](https://forum.arcadecontrols.com/index.php/topic,149714.msg1673148.html#msg1673148). Set max frame rate to 60 fps for the game (gs.exe) in GPU driver when necessary. If your version of game has the crosshair removed, try to restore the backup folder ".\root\img\UI\UI_hud_common.crosshair" if available.
 
