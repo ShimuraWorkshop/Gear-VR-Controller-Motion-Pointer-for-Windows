@@ -293,7 +293,7 @@ In TeknoParrotUI game settings, set General - Input API to XInput, check Crossha
 
 Adjust the motion pointer speed to around 8~12 for the game.
 
-For Operation GHOST, check General - Windowed in game settings, and patch the game to correct screen resolution by [OpGhost_ResChanger](https://forum.arcadecontrols.com/index.php/topic,149714.msg1673148.html#msg1673148). If your version of game has the crosshair removed, try to restore it from the game backup folder ".\root\img\UI\UI_hud_common.crosshair"
+For Operation GHOST, check General - Windowed in game settings, and patch the game to correct screen resolution by [OpGhost_ResChanger](https://forum.arcadecontrols.com/index.php/topic,149714.msg1673148.html#msg1673148). Set max frame rate to 60 fps for the game (gs.exe) in GPU driver when necessary. If your version of game has the crosshair removed, try to restore the backup folder ".\root\img\UI\UI_hud_common.crosshair" if available.
 
 For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if the player 2 crosshair is shown even when not playing, rename P2.png to something else to hide it.
 
