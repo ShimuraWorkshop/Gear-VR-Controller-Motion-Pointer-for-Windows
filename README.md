@@ -400,7 +400,7 @@ Touchpad - Center: Mouse right button, South: Pointer reset
 
 In FCEUX's GUI config, uncheck Enable right-click context menu. In Video config, under Full Screen Settings, check Hide mouse cursor, set Sync method to Wait for VBlank. In Input config, set Port 1 to Gamepad and use your preferred configuration by keyboard or a physical gamepad, set Port 2 to Zapper. If you use keyboard default mapping for gamepad, Enter of Start button will conflict with Alt-Enter of toggling fullscreen. Fix it by going to Map Hotkeys config, setting Toggle Fullscreen to F11.
 
-After starting the game, switch to fullscreen. If the resolution is incorrect, you need to set in the fceux64.exe Compatibility properties, click Change high DPI settings, check Override high DPI scaling behavior, set Scaling performed by to Application, and restart FCEUX.
+After starting the game, switch to fullscreen. If the resolution is incorrect, you need to set in the fceux64.exe Compatibility properties, click Change high DPI settings, check Override high DPI scaling behavior, set Scaling performed by: to Application, and restart FCEUX.
 
 <br>
 
@@ -446,7 +446,9 @@ The game uses a curved crosshair movement which makes aiming distorted. To get t
 
 After starting game, press F4 to enter Service and Test menu, F4 again to exit (required in order to turn on audio).
 
-Press Alt-Enter to switch to fullscreen. Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, download [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html), run "nircmd win -style process demul.exe 0xC00000" to hide title bar and "nircmd win setsize process demul.exe 240 0 1440 1080" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to switch to maximized window.
+Press Alt-Enter to switch to fullscreen. If the resolution is incorrect, you need to set in the demul.exe Compatibility properties, click Change high DPI settings, check Override high DPI scaling behavior, set Scaling performed by: to Application, and restart Demul.
+
+Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, download [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html), run "nircmd win -style process demul.exe 0xC00000" to hide title bar and "nircmd win setsize process demul.exe 240 0 1440 1080" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to switch to maximized window.
 
 Calibrate the crosshair in the game's Service and Test menu -> B.F.F. TEST MENU -> NOZZLE SENSOR SETTING. Press Touchpad South to reset stick, to get a better calibration, during "Aim at CENTER of the screen", press Trigger when CC X:7f Y:7f is shown. Alternatively, calibration can be done easily by mouse without running DemulShooter.
 
