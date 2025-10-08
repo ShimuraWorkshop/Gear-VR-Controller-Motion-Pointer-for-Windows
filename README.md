@@ -446,7 +446,7 @@ The game uses a curved crosshair movement which makes aiming distorted. To get t
 
 After starting game, press F4 to enter Service and Test menu, F4 again to exit (required in order to turn on audio).
 
-Press Alt-Enter to switch to fullscreen. Optionally, if your screen isn't 4:3 and you want to play the game at 4:3, download [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html), run "nircmd win -style process demul.exe 0xC00000" to hide title bar and "nircmd win setsize process demul.exe 240 0 1440 1080" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to switch to maximized window.
+Press Alt-Enter to switch to fullscreen. Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, download [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html), run "nircmd win -style process demul.exe 0xC00000" to hide title bar and "nircmd win setsize process demul.exe 240 0 1440 1080" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to switch to maximized window.
 
 Calibrate the crosshair in the game's Service and Test menu -> B.F.F. TEST MENU -> NOZZLE SENSOR SETTING. Press Touchpad South to reset stick, to get a better calibration, during "Aim at CENTER of the screen", press Trigger when CC X:7f Y:7f is shown. Alternatively, calibration can be done easily by mouse without running DemulShooter.
 
