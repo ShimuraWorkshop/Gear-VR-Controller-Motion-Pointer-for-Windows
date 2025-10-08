@@ -69,6 +69,7 @@ Details
 - [< FCEUX > emulator PC lightgun aiming (for Duck Hunt, etc)](#-fceux--emulator-pc-lightgun-aiming-sample-config)
 - [< Flycast > emulator PC lightgun aiming (for Confidential Mission, Ninja Assault, etc)](#-flycast--emulator-pc-lightgun-aiming-sample-config)
 - [< Supermodel > emulator PC lightgun aiming (for The Lost World: Jurassic Park, etc)](#-supermodel--emulator-pc-lightgun-aiming-sample-config)
+- [< Demul > emulator PC lightgun aiming (for Brave Firefighters, etc)](#-demul--emulator-pc-lightgun-aiming-sample-config)
 - [Backup of user config](#backup-of-user-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
 
@@ -428,6 +429,26 @@ Trigger: Mouse left button, Back: 1, Home: 3, Touchpad Center: Mouse right butto
 In Supermodel's Video settings, check FullScreen (required in order to hide cursor), check VSync, set Crosshairs to 1.
 
 Calibrate the gun crosshair in the game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
+
+<br>
+
+## < Demul > emulator PC lightgun aiming sample config
+
+For Hikaru arcade games like Brave Firefighters, follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
+
+Trigger: Gamepad A, Back: 1, Home: 5
+<br>
+Touchpad - Center: Gamepad B, North: Gamepad X, South: Pointer reset
+
+In Demul's Video config, check Vsync. In Maple Device Manager config, set PORT C to Lightgun.
+
+The game uses a CRT curved crosshair movement which makes aiming distorted, to get the correct light gun aiming, download [DemulShooter](https://github.com/argonlefou/DemulShooter/releases), run DemulShooter_GUI, in Page Selection, select P1 Configuration, set P1 Device to [Gamepad] [Unknown Manufacturer] - Controller (XBOX 360 For Windows), Save Config. In Windows command prompt with admin privilege, run "demulshooter -target=demul07a -rom=braveff".
+
+After starting game, press F4 to enter Service and Test menu, F4 again to exit (required in order to turn on audio).
+
+Press Alt-Enter to switch to fullscreen. Optionally, if your screen isn't 4:3 and you want to play the game at 4:3, download [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html), run "nircmd win -style process demul.exe 0xC00000" to hide title bar and "nircmd win setsize process demul.exe 240 0 1440 1080" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to switch to maximized window.
+
+Calibrate the crosshair in the game's Service and Test menu -> B.F.F. TEST MENU.
 
 <br>
 
