@@ -231,7 +231,7 @@ Touchpad - Center: Mouse right button, North: Mouse middle button, South: Pointe
 
 In MAME game's Input Device Options, set Lightgun Device Assignment to lightgun, Pedal Device Assignment to lightgun, Keyboard Input Provider to dinput, Lightgun Input Provider to win32.
 
-Keep in maximized window mode or press Alt-Enter to switch to fullscreen. But in fullscreen mode, if your screen is 16:9 and the game is 4:3, you need to modify ScalePointerX from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin), it isn't required for option 2.
+Keep in maximized window mode or press Alt-Enter to switch to fullscreen. But in fullscreen mode, if your screen's resolution is 16:9 and the game is 4:3, you need to modify ScalePointerX from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
 
 If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter from Unassigned to Mouse right button in the config file.
 
@@ -245,7 +245,7 @@ Touchpad - Center: Gamepad B, North: Gamepad X, South: Pointer reset
 
 Press Touchpad South to reset stick. In MAME game's Input Device Options, set Keyboard Input Provider to dinput, Joystick Input Provider to xinput. In Advanced Options, set Joystick to On, Joystick deadzone to 0, Joystick saturation to 1.
 
-Press Alt-Enter to switch to fullscreen.
+Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
 
 For some games like Terminator 2: Judgment Day which need to calibrate the gun for player 2, if not playing, press keyboard key A (default for player 2's gun trigger) to pass.
 
@@ -261,11 +261,11 @@ Trigger: Gamepad A, Back: Gamepad B (for Reload during ES Mode), Home: Gamepad S
 <br>
 Touchpad - Center: Gamepad B (for Reload), West: Gamepad X (for Weapon Change), North: Gamepad LT (for ES Mode), South: Pointer reset
 
-In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, click Default Bindings, then give the Profile a name and Save. In Video settings, set Display Resolution to your screen resolution and refresh rate, uncheck Use Exclusive Fullscreen Mode, check Maintain Aspect Ratio, and check Force VSync.
+In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, click Default Bindings, then give the Profile a name and Save. In Video settings, set Display Resolution to your screen resolution and refresh rate, uncheck Use Exclusive Fullscreen Mode, check Maintain Aspect Ratio, and check Force VSync. Delete the file boot.id in the root folder of game if existing.
 
-Delete the file boot.id in the root folder of game if existing, open the game by vc3.xbe, and start emulation. Press Alt-Enter to switch to fullscreen. Due to limitations of Cxbx-Reloaded, aim will have some distortions at corners of the screen.
+Open the game by vc3.xbe, start emulation. Press Alt-Enter to switch to fullscreen. As the game is 4:3, if your screen's resolution is 16:9, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin). Due to the curved crosshair movement used by the game, aim will have some distortions especially at corners of the screen.
 
-For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input settings, use Default Bindings. Assign Gamepad RS Button to a button/motion to hide Laser point in game, also assign Gamepad D-pad Up/Down/Left/Right to buttons/motions for menu navigation when necessary.
+For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input settings, use Default Bindings. Assign Gamepad RS Button to a button/motion to hide Laser dot in game, also assign Gamepad D-pad Up/Down/Left/Right to buttons/motions for menu navigation when necessary.
 
 <br>
 
@@ -309,6 +309,8 @@ BACKUP_PATH ./NVRAM/
 For Haunted Museum II, to fix the movie read error, install [wmv9VCMsetup](https://www.videohelp.com/software/WMV9-VCM), also in Windows command prompt with admin privilege, run "regsvr32 %SystemRoot%\SysWOW64\ir50_32.dll". In game settings, uncheck Custom Crosshairs - Enable.
 
 For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if the player 2 crosshair is shown even when not playing, rename P2.png to something else to hide it.
+
+For games with aspect ratio of 4:3, if your screen's resolution is 16:9, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
 
 <br>
 
