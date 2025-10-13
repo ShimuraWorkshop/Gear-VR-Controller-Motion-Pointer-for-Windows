@@ -434,7 +434,7 @@ For Model 3 arcade games like The Lost World: Jurassic Park, follow the instruct
 
 Trigger: Mouse left button, Back: 1, Home: 3, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
 
-In Supermodel's Video settings, check FullScreen (required in order to hide cursor), check VSync, set Crosshairs to 1.
+In Supermodel's Core settings, set InputSystem to dinput. In Video settings, check FullScreen (required in order to hide cursor), check VSync, set Crosshairs to 1.
 
 Calibrate the gun crosshair in the game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
 
