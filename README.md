@@ -414,9 +414,9 @@ For games like Crypt Killer, select Justifier in Controller Port 1 and set the s
 
 ## < Dolphin > emulator PC lightgun aiming sample config
 
-For Wii games.
+For Wii games like Ghost Squad.
 
-### Option 1: Lightgun emulation replacing mouse (e.g. Ghost Squad)
+### Option 1: Lightgun emulation replacing mouse
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
@@ -432,7 +432,7 @@ Some games use shake to reload, it's mapped to mouse middle button (Touchpad Nor
 
 After starting the game, if the crosshair moving scale is incorrect, try to adjust Total Yaw or Total Pitch in Controller settings. When ready, set Mouse Cursor Visibility to Never in Interface configuration. Press Alt-Enter to switch to fullscreen.
 
-### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Ghost Squad)
+### Option 2: Lightgun emulation replacing gamepad left stick
 
 Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
