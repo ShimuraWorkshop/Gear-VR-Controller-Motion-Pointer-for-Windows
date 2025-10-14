@@ -518,13 +518,43 @@ For Naomi and Atomiswave arcade games (e.g. Ninja Assault), in General settings,
 
 ## < Supermodel > emulator PC lightgun aiming sample config
 
-For Model 3 arcade games like The Lost World: Jurassic Park, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
+For Model 3 arcade games like The Lost World: Jurassic Park.
+
+### Option 1: Lightgun emulation replacing mouse
+
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: 1, Home: 3, Touchpad Center: Mouse right button, Touchpad South: Pointer reset
 
-In Supermodel's Core settings, set InputSystem to dinput. In Video settings, check FullScreen (required in order to hide cursor), check VSync, set Crosshairs to 1.
+In Supermodel's Core settings, set InputSystem to dinput. In Video settings, check FullScreen (required in order to hide cursor), check VSync, check NoWhiteFlash, set Crosshairs to 1.
 
 Calibrate the gun crosshair in the game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
+
+### Option 2: Lightgun emulation replacing gamepad left stick
+
+Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
+
+Trigger: Gamepad A, Back: Gamepad LS Button (default for Start), Home: Gamepad RS Button (default for Coin)
+<br>
+Touchpad Center: Gamepad B, Touchpad South: Pointer reset
+
+In Supermodel's Core settings, set InputSystem to dinput. In Video settings, check FullScreen (required in order to hide cursor), check VSync, check NoWhiteFlash, set Crosshairs to 1 (1 means only player 1, 2 means only player 2, 3 means both players).
+
+By default, only player 1 gun is mapped to gamepad, if you want to use player 2, you need to edit the file .\Config\Supermodel.ini in Supermodel folder, modify these options to:
+
+InputAnalogGunX2 = JOY2_XAXIS
+<br>
+InputAnalogGunY2 = JOY2_YAXIS
+<br>
+InputAnalogTriggerLeft2 = JOY2_BUTTON1
+<br>
+InputAnalogTriggerRight2 = JOY2_BUTTON2
+
+After starting the game, don't move the mouse, otherwise input will be switched to mouse automatically by default. Optionally, you can remove the mouse mapping in Supermodel.ini. 
+
+Calibrate the gun crosshair in the game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
+
+If your screen's resolution is 16:9 and the game is 4:3, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
 
 <br>
 
