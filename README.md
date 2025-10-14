@@ -404,7 +404,7 @@ Trigger: Gamepad A, Back: Gamepad LB (used when pressing at the same time both B
 <br>
 Touchpad - Center: Gamepad B, West: Gamepad LB, East: Gamepad RB, North: Unassigned, South: Pointer reset
 
-In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -> Rendering tab, set Crop to None (better for some games). In Controller settings -> Controller Port 1, select GunCon. In Bindings tab, click Clear Mapping. Set Fire to SDL-0/A, Fire Offscreen to SDL-0/B. Set Side Buttons A/B to SDL-0/LeftShoulder, SDL-0/RightShoulder respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0/-LeftY, SDL-0/+LeftY, SDL-0/-LeftX, SDL-0/+LeftX respectively. In Settings tab, click Restore Default Settings. If setting for 2 players, set different crosshair png images in Crosshair Image Path.
+In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -> Rendering tab, set Crop to None (better for some games). In Controller settings -> Controller Port 1, select GunCon. In Bindings tab, click Clear Mapping. Set Fire to SDL-0/A, Fire Offscreen to SDL-0/B. Set Side Buttons A/B to SDL-0/LeftShoulder, SDL-0/RightShoulder respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0/-LeftY, SDL-0/+LeftY, SDL-0/-LeftX, SDL-0/+LeftX respectively. In Settings tab, set X Scale to 100% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 98% to 100%). If setting for 2 players, set different crosshair png images in Crosshair Image Path.
 
 Press F11 to switch to fullscreen.
 
