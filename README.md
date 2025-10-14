@@ -482,17 +482,37 @@ After starting the game, switch to fullscreen. If the resolution is incorrect, y
 
 ## < Flycast > emulator PC lightgun aiming sample config
 
-For Dreamcast games like Confidential Mission, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
+For Dreamcast games like Confidential Mission.
+
+### Option 1: Lightgun emulation replacing mouse
+
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Home: Mouse middle button (default for Start), +: Up arrow, -: Down arrow
 <br>
 Touchpad - Center: Mouse X1 button, West: Left arrow, East: Right arrow, North: Mouse right button (default for B), South: Pointer reset
 
-In Flycast's Video settings, check VSync. In Controls settings, for Default Mouse, select Port A, click Map, select Dreamcast Controls, Reset the mapping, then map Reload to Button 4, click Done. For Keyboard, select Port A, click Map, Reset the mapping, click Done. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
+In Flycast's Video settings, check VSync. In Controls settings, for Default Mouse, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Then map Reload to Button 4, click Done. For Keyboard, select Port A, click Map, Reset the mapping, click Done. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
 
-After starting the game, press F11 to switch to fullscreen. Calibrate the gun crosshair in game's Options menu.
+Press F11 to switch to fullscreen. Calibrate the gun crosshair in game's Options menu.
 
 For Naomi and Atomiswave arcade games (e.g. Ninja Assault), in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Keyboard and Default Mouse by selecting Arcade Controls in the mapping screens (in service menu of some games, Button 3 corresponds to ENTER SW, Up/Down for navigation). Calibrate the gun crosshair in the game's Service and Test menu.
+
+### Option 2: Lightgun emulation replacing gamepad left stick
+
+Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
+
+Trigger: Gamepad A, Home: Gamepad Start/Menu, +: Gamepad D-pad Up, -: Gamepad D-pad Down
+<br>
+Touchpad - Center: Gamepad X, West: Gamepad D-pad Left, East: Gamepad D-pad Right, North: Gamepad B, South: Pointer reset
+
+In Flycast's Video settings, check VSync. In Controls settings, for Xbox 360 Controller, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Then set the mapping by pressing the buttons on Gear VR controller. Press Touchpad South to reset stick. Set Reload by pressing Touchpad Center. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
+
+Press F11 to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
+
+Calibrate the gun crosshair in game's Options menu.
+
+For Naomi and Atomiswave arcade games (e.g. Ninja Assault), in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Xbox 360 Controller by selecting Arcade Controls in the mapping screen (in service menu of some games, Button 3 corresponds to ENTER SW, Up/Down for navigation). Calibrate the gun crosshair in the game's Service and Test menu.
 
 <br>
 
