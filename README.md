@@ -62,8 +62,8 @@ Details
 - [< Cxbx-Reloaded > emulator PC lightgun aiming (for Virtua Cop 3, Silent Scope 2)](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
 - [< TeknoParrot > emulator PC lightgun aiming (for Time Crisis 5, Operation GHOST, etc)](#-teknoparrot--emulator-pc-lightgun-aiming-sample-config)
 - [< RPCS3 > emulator PC lightgun aiming (for Time Crisis: Razing Storm, etc)](#-rpcs3--emulator-pc-lightgun-aiming-sample-config)
-- [< PCSX2 > emulator PC lightgun aiming (for Time Crisis 3, etc)](#-pcsx2--emulator-pc-lightgun-aiming-sample-config)
-- [< DuckStation > emulator PC lightgun aiming (for Time Crisis: Project Titan, etc)](#-duckstation--emulator-pc-lightgun-aiming-sample-config)
+- [< PCSX2 > emulator PC lightgun aiming (for Time Crisis 3, Vampire Night, etc)](#-pcsx2--emulator-pc-lightgun-aiming-sample-config)
+- [< DuckStation > emulator PC lightgun aiming (for Time Crisis: Project Titan, Point Blank 3, etc)](#-duckstation--emulator-pc-lightgun-aiming-sample-config)
 - [< Dolphin > emulator PC lightgun aiming (for Ghost Squad, etc)](#-dolphin--emulator-pc-lightgun-aiming-sample-config)
 - [< Snes9x > emulator PC lightgun aiming (for Yoshi's Safari, etc)](#-snes9x--emulator-pc-lightgun-aiming-sample-config)
 - [< FCEUX > emulator PC lightgun aiming (for Duck Hunt, etc)](#-fceux--emulator-pc-lightgun-aiming-sample-config)
@@ -378,17 +378,37 @@ In the calibration screen, press Back button to start calibration, and follow th
 
 ## < DuckStation > emulator PC lightgun aiming sample config
 
-For PS1 games like Time Crisis: Project Titan, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
+For PS1 games.
+
+(Option 2 works better)
+
+### Option 1: Lightgun emulation replacing mouse (e.g. Time Crisis: Project Titan)
+
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: K (used when pressing at the same time both Buttons A and B of the gun)
 <br>
 Touchpad - Center: Mouse right button, West: K, East: L, North: Unassigned, South: Pointer reset
 
-In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -> Rendering tab, set Crop to None (better for some games). In Controller settings -> Global Settings, check Enable Mouse Mapping, uncheck Use Raw Input. In Controller Port 1 page, select GunCon, in Bindings tab, set Fire to Pointer-0/LeftButton, Fire Offscreen to Pointer-0/RightButton, A to Keyboard/K, B to Keyboard/L. In Settings tab, set X Scale to 100% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 98% to 100%).
+In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -> Rendering tab, set Crop to None (better for some games). In Controller settings -> Global Settings, check Enable Mouse Mapping, uncheck Use Raw Input. In Controller Port 1 page, select GunCon. In Bindings tab, click Clear Mapping. Set Fire to Pointer-0/LeftButton, Fire Offscreen to Pointer-0/RightButton. Set Side Buttons A/B to Keyboard/K, Keyboard/L respectively. In Settings tab, set X Scale to 100% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 98% to 100%).
+
+Press F11 to switch to fullscreen.
 
 For games like Crypt Killer, select Justifier in Controller Port 1 and set the same key mapping. In Settings tab, set X Scale to 99%, Line Start Offset to -5, Tick Offset to 0, and calibrate the crosshair in game.
 
+### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Point Blank 3)
+
+Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
+
+Trigger: Gamepad A, Back: Gamepad LB (used when pressing at the same time both Buttons A and B of the gun)
+<br>
+Touchpad - Center: Gamepad B, West: Gamepad LB, East: Gamepad RB, North: Unassigned, South: Pointer reset
+
+In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -> Rendering tab, set Crop to None (better for some games). In Controller settings -> Controller Port 1, select GunCon. In Bindings tab, click Clear Mapping. Set Fire to SDL-0/A, Fire Offscreen to SDL-0/B. Set Side Buttons A/B to SDL-0/LeftShoulder, SDL-0/RightShoulder respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0/-LeftY, SDL-0/+LeftY, SDL-0/-LeftX, SDL-0/+LeftX respectively. In Settings tab, click Restore Default Settings. If setting for 2 players, set different crosshair png images in Crosshair Image Path.
+
 Press F11 to switch to fullscreen.
+
+For games like Crypt Killer, select Justifier in Controller Port 1 and set the same key mapping. In Settings tab, click Restore Default Settings, set Crosshair Image Path when necessary. Calibrate the crosshair in game.
 
 <br>
 
