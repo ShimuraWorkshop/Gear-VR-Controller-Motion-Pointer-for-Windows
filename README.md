@@ -338,15 +338,37 @@ After calibration, you can uncheck Show PS Move Cursor in I/O configuration. Opt
 
 ## < PCSX2 > emulator PC lightgun aiming sample config
 
-For PS2 games like Time Crisis 3, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
+For PS2 games.
+
+(Option 2 works better)
+
+### Option 1: Lightgun emulation replacing mouse (e.g. Time Crisis 3)
+
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: 8, Home: 7
 <br>
 Touchpad - Center: Mouse right button, West: Mouse middle button, East: Mouse X2 button, North: Mouse X1 button, South: Pointer reset
 
-In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings -> Display tab, check Show Overscan (better for some games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, set Trigger to Pointer-0 Left Button, Shoot Offscreen to Pointer-0 Right Button, Calibration Shot to Keyboard 8 (without Numpad), set Buttons A/B/C/Start/Select to Pointer-0 Middle Button, Pointer-0 Button5, Pointer-0 Button4, Keyboard 7, Keyboard 6 respectively, set D-Pad Up/Down/Left/Right to Keyboard Numpad8/5/4/6. In Settings tab, set a crosshair png image in Cursor Path, check Manual Screen Configuration, set X Scale to 90%, Y Scale to 97% (different for some games, if the crosshair moving scale during calibration is incorrect, try X Scale around 84% to 90%, Y Scale around 92% to 119%), Center X to 400px, leave others to default.
+In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings -> Display tab, check Show Overscan (better for some games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, set Trigger to Pointer-0 Left Button, Shoot Offscreen to Pointer-0 Right Button, Calibration Shot to Keyboard 8 (without Numpad). Set Buttons A/B/C/Start/Select to Pointer-0 Middle Button, Pointer-0 Button5, Pointer-0 Button4, Keyboard 7, Keyboard 6 respectively. Set D-Pad Up/Down/Left/Right to Keyboard Numpad8/5/4/6. In Settings tab, set a crosshair png image in Cursor Path, check Manual Screen Configuration, set X Scale to 90%, Y Scale to 97% (different for some games, if the crosshair moving scale during calibration is incorrect, try X Scale around 84% to 90%, Y Scale around 92% to 119%), Center X to 420px, leave others to default.
 
 For games like Resident Evil: Dead Aim which require the D-pad to work, you can map non-press Touchpad to D-pad keys by modifying KeyTouchDirectNorth/South/West/East from Unassigned to Numeric keypad 8/5/4/6 in the config file (and restarting app, text editor needs to be run as admin). Also change other assignments to suit the game.
+
+If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen.
+
+In the calibration screen, press Back button to start calibration, and follow the game's instructions to confirm.
+
+### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Vampire Night)
+
+Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
+
+Trigger: Gamepad A, Back: Gamepad Y, Home: Gamepad Start/Menu
+<br>
+Touchpad - Center: Gamepad B, West: Gamepad LB, East: Gamepad RB, North: Gamepad X, South: Pointer reset
+
+In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings -> Display tab, check Show Overscan (better for some games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, click Automatic Mapping, select SDL-0 (XInput Controller). Then set Trigger to SDL-0 Face South, Shoot Offscreen to SDL-0 Face East, Calibration Shot to SDL-0 Face North. Set Buttons A/B/C to SDL-0 Left Shoulder, SDL-0 Right Shoulder, SDL-0 Face West respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0 -Left Y/+Left Y/-Left X/+Left X. In Settings tab, click Restore Default Settings, then set a crosshair png image in Cursor Path.
+
+For games like Resident Evil: Dead Aim which require the D-pad to work, you can map non-press Touchpad to D-pad buttons by modifying KeyTouchDirectNorth/South/West/East from Unassigned to Gamepad D-pad Up/Down/Left/Right in the config file (and restarting app, text editor needs to be run as admin). Also change other assignments to suit the game.
 
 If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen.
 
@@ -372,9 +394,9 @@ Press F11 to switch to fullscreen.
 
 ## < Dolphin > emulator PC lightgun aiming sample config
 
-For Wii games like Ghost Squad.
+For Wii games.
 
-### Option 1: Lightgun emulation replacing mouse
+### Option 1: Lightgun emulation replacing mouse (e.g. Ghost Squad)
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
@@ -390,7 +412,7 @@ Some games use shake to reload, it's mapped to mouse middle button (Touchpad Nor
 
 After starting the game, if the crosshair moving scale is incorrect, try to adjust Total Yaw or Total Pitch in Controller settings. When ready, set Mouse Cursor Visibility to Never in Interface configuration. Press Alt-Enter to switch to fullscreen.
 
-### Option 2: Lightgun emulation replacing gamepad left stick
+### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Ghost Squad)
 
 Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
