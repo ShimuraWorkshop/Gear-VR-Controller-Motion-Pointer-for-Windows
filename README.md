@@ -372,19 +372,41 @@ Press F11 to switch to fullscreen.
 
 ## < Dolphin > emulator PC lightgun aiming sample config
 
-For Wii games like Ghost Squad, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
+For Wii games like Ghost Squad.
+
+### Option 1: Lightgun emulation replacing mouse
+
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse right button, Back: Q, Home: E, +: 1, -: 2
 <br>
 Touchpad - Center: Mouse left button, West: Left arrow, East: Right arrow, North: Mouse middle button, South: Pointer reset
 
-In Dolphin's Configuration -> Interface, set Mouse Cursor Visibility to Always. In Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to DInput/0/Keyboard Mouse, then click Default. In Motion Simulation tab, under the Point section, set Vertical Offset to 15 cm, set Total Yaw to 19 degree (different for some games, try around 15 to 19 degree), set Total Pitch to 19 degree (different for some games, try around 11 to 19 degree), then Close the settings. Don't click Calibrate, it doesn't work.
+In Dolphin's Configuration -> Interface, set Mouse Cursor Visibility to Always. In Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to DInput/0/Keyboard Mouse, then click Default. In Motion Simulation tab, under the Point section, set Vertical Offset to 15 cm, set Total Yaw to 19 degree (different for some games, try around 15 to 19 degree), set Total Pitch to 19 degree (different for some games, try around 11 to 19 degree). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
 
 For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map non-press Touchpad to Nunchuk stick keys by modifying KeyTouchDirectNorth/South/West/East from Unassigned to W/S/A/D in the config file (and restarting app, text editor needs to be run as admin). Also change other assignments to suit the game.
 
 Some games use shake to reload, it's mapped to mouse middle button (Touchpad North) by default.
 
 After starting the game, if the crosshair moving scale is incorrect, try to adjust Total Yaw or Total Pitch in Controller settings. When ready, set Mouse Cursor Visibility to Never in Interface configuration. Press Alt-Enter to switch to fullscreen.
+
+### Option 2: Lightgun emulation replacing gamepad left stick
+
+Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
+
+Trigger: Gamepad B, Back: Gamepad Back/View, Home: Gamepad Start/Menu, +: Gamepad RB, -: Gamepad LB
+<br>
+Touchpad - Center: Gamepad A, West: Gamepad D-pad Left, East: Gamepad D-pad Right, North: Gamepad X, South: Pointer reset
+
+In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, set Total Yaw to 19 degree (different for some games, try around 15 to 19 degree), set Total Pitch to 19 degree (different for some games, try around 11 to 19 degree). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
+
+Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
+
+For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map non-press Touchpad to Nunchuk stick directions by modifying KeyTouchDirectNorth/South/West/East from Unassigned to Gamepad RS Up/Down/Left/Right in the config file (and restarting app, text editor needs to be run as admin). Then in Controller settings, set Extension to Nunchuk and in Configure Extension, set Up/Down/Left/Right to Right Y+, Right Y-, Right X-, Right X+ respectively, Save the Profile. Also change other assignments to suit the game.
+
+Some games use shake to reload, it's mapped to Gamepad X (Touchpad North).
+
+After starting the game, if the crosshair moving scale is incorrect, try to adjust Total Yaw or Total Pitch in Controller settings.
 
 <br>
 
