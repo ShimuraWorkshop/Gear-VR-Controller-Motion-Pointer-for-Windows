@@ -213,7 +213,7 @@ Trigger: Gamepad A, Back: Gamepad Back/View
 <br>
 Touchpad - West: Gamepad LB, North: Gamepad X, South: Pointer reset
 
-In TeknoParrotUI game settings, set General - Input API to XInput, uncheck General - Windowed, check General - HideCursor, check Crosshairs - Enable Native. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then for Player 1, set Start by pressing Back, Gun Trigger by Trigger, Sub Trigger by Touchpad North, Controller Select by Touchpad West. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
+In TeknoParrotUI game settings, set General - Input API to XInput, uncheck General - Windowed, check General - HideCursor, check Crosshairs - Enable Native. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app. Then for Player 1, set Start by pressing Back, Gun Trigger by Trigger, Sub Trigger by Touchpad North, Controller Select by Touchpad West. Set dead zone back to 15 (default) and press Touchpad South to reset stick. Then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
 
 Adjust the motion pointer speed to around 8~12 for the game.
 
@@ -261,7 +261,7 @@ Trigger: Gamepad A, Back: Gamepad B (for Reload during ES Mode), Home: Gamepad S
 <br>
 Touchpad - Center: Gamepad B (for Reload), West: Gamepad X (for Weapon Change), North: Gamepad LT (for ES Mode), South: Pointer reset
 
-In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure, set Device to XInput/0/Gamepad, click Default Bindings, then give the Profile a name and Save. In Video settings, set Display Resolution to your screen resolution and refresh rate, uncheck Use Exclusive Fullscreen Mode, check Maintain Aspect Ratio, and check Force VSync. Delete the file boot.id in the root folder of game if existing.
+In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure. Set Device to XInput/0/Gamepad, click Default Bindings. Give the Profile a name and Save. In Video settings, set Display Resolution to your screen resolution and refresh rate, uncheck Use Exclusive Fullscreen Mode, check Maintain Aspect Ratio, and check Force VSync. Rename the file boot.id to something else in the root folder of game if existing.
 
 Open the game by vc3.xbe, start emulation. Press Alt-Enter to switch to fullscreen. As the game is 4:3, if your screen's resolution is 16:9, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin). Due to the curved crosshair movement used by the game, aim will have some distortions especially at corners of the screen.
 
@@ -404,7 +404,7 @@ Trigger: Gamepad A, Back: Gamepad LB (used when pressing at the same time both B
 <br>
 Touchpad - Center: Gamepad B, West: Gamepad LB, East: Gamepad RB, North: Unassigned, South: Pointer reset
 
-In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -> Rendering tab, set Crop to None (better for some games). In Controller settings -> Controller Port 1, select GunCon. In Bindings tab, click Clear Mapping. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Fire to SDL-0/A, Fire Offscreen to SDL-0/B. Set Side Buttons A/B to SDL-0/LeftShoulder, SDL-0/RightShoulder respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0/-LeftY, SDL-0/+LeftY, SDL-0/-LeftX, SDL-0/+LeftX respectively. In Settings tab, set X Scale to 100% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 98% to 100%). If setting for 2 players, set different crosshair png images in Crosshair Image Path.
+In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -> Rendering tab, set Crop to None (better for some games). In Controller settings -> Controller Port 1, select GunCon. In Bindings tab, click Clear Mapping. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Fire to SDL-0/A, Fire Offscreen to SDL-0/B. Set Side Buttons A/B to SDL-0/LeftShoulder, SDL-0/RightShoulder respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0/-LeftY, SDL-0/+LeftY, SDL-0/-LeftX, SDL-0/+LeftX respectively. In Settings tab, set X Scale to 98% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 98% to 100%). If setting for 2 players, set different crosshair png images in Crosshair Image Path.
 
 Press F11 to switch to fullscreen.
 
@@ -440,7 +440,7 @@ Trigger: Gamepad B, Back: Gamepad Back/View, Home: Gamepad Start/Menu, +: Gamepa
 <br>
 Touchpad - Center: Gamepad A, West: Gamepad D-pad Left, East: Gamepad D-pad Right, North: Gamepad X, South: Pointer reset
 
-In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, set Total Yaw to 19 degree (different for some games, try around 15 to 19 degree), set Total Pitch to 19 degree (different for some games, try around 11 to 19 degree). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
+In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, set Total Yaw to 19 degree (different for some games, try around 15 to 19 degree), set Total Pitch to 19 degree (different for some games, try around 11 to 19 degree). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
 
 Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
 
@@ -506,7 +506,7 @@ Trigger: Gamepad A, Home: Gamepad Start/Menu, +: Gamepad D-pad Up, -: Gamepad D-
 <br>
 Touchpad - Center: Gamepad X, West: Gamepad D-pad Left, East: Gamepad D-pad Right, North: Gamepad B, South: Pointer reset
 
-In Flycast's Video settings, check VSync. In Controls settings, for Xbox 360 Controller, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Then set the mapping by pressing the buttons on Gear VR controller. Press Touchpad South to reset stick. Set Reload by pressing Touchpad Center. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
+In Flycast's Video settings, check VSync. In Controls settings, for Xbox 360 Controller, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Reload by pressing Touchpad Center. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
 
 Press F11 to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
 
@@ -540,7 +540,7 @@ Touchpad Center: Gamepad B, Touchpad South: Pointer reset
 
 In Supermodel's Core settings, set InputSystem to dinput. In Video settings, check FullScreen (required in order to hide cursor), check VSync, check NoWhiteFlash, set Crosshairs to 1 (1 means only player 1, 2 means only player 2, 3 means both players).
 
-By default, only player 1 gun is mapped to gamepad, if you want to use player 2, you need to edit the file .\Config\Supermodel.ini in Supermodel folder, modify these options to:
+By default, only player 1 gun is mapped to gamepad, if you want to map second gamepad to player 2, you need to edit the file .\Config\Supermodel.ini in Supermodel folder, modify these settings to:
 
 InputAnalogGunX2 = JOY2_XAXIS
 <br>
