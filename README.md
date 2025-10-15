@@ -550,6 +550,16 @@ InputAnalogTriggerLeft2 = JOY2_BUTTON1
 <br>
 InputAnalogTriggerRight2 = JOY2_BUTTON2
 
+Supermodel has a little dead zone for gamepad by default, you can set the dead zone to 0 by appending the following lines to Supermodel.ini:
+
+InputJoy1XDeadZone = 0
+<br>
+InputJoy1YDeadZone = 0
+<br>
+InputJoy2XDeadZone = 0
+<br>
+InputJoy2YDeadZone = 0
+
 After starting the game, don't move the mouse, otherwise input will be switched to mouse automatically by default. Optionally, you can remove the mouse mapping in Supermodel.ini. 
 
 Calibrate the gun crosshair in the game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
