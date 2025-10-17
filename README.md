@@ -85,7 +85,7 @@ Windows is a trademark or registered trademark of Microsoft Corporation
 
 ## \*Secret\* gyro/motion gamepad emulation
 
-You can use the controller like a gyro gamepad, with gyro aiming together with analog touch stick (needn't press). Gamepad buttons and sticks are available in key assignment list for mapping to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 gesture motions.
+You can use the controller like a gyro gamepad, with gyro aiming together with analog touch stick (needn't press). Gamepad buttons and sticks are available in key assignment list for mapping to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures.
 
 To use the gamepad mode, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
 
@@ -161,7 +161,7 @@ If the game or emulator is run as admin, this app also needs to be run as admin,
 
 By default, only a single Gear VR controller can be paired with Windows. To make it possible to pair 2 or more Gear VR controllers at the same time, you need to modify the hard-coded Bluetooth IRK of the existing controller in Windows registry.
 
-Maximum 4 gamepad-based controllers plus 1 mouse-based controller can work at the same time, depending on the support by games or emulators. For example, in TeknoParrot, 4 gamepad-based controllers can be set. In PCSX2, DuckStation, Dolphin and Flycast, mouse-based and gamepad-based controllers can be set for different players. In MAME, multiple gamepad-based controllers are set for different players by default. For games supported by DemulShooter input, 4 gamepad-based controllers can be set as light guns input.
+A maximum of 4 gamepad-based controllers plus 1 mouse-based controller can work at the same time, depending on the support by games or emulators. For example, in TeknoParrot, 4 gamepad-based controllers can be set. In PCSX2, DuckStation, Dolphin and Flycast, mouse-based and gamepad-based controllers can be set for different players. In MAME, multiple gamepad-based controllers are set for different players by default. For games supported by DemulShooter input, 4 gamepad-based controllers can be set as light guns input.
 
 Beware that modifying the registry incorrectly may make your Windows corrupt, do it at your own risk.
 
@@ -171,7 +171,7 @@ Procedures:
 3. Disconnect the controller and exit the app.
 4. Download and unzip [PSTools](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec).
 5. In Windows command prompt with admin privilege, go to the folder of unzipped files, run "psexec64 -s -i regedit".
-6. In regedit, go to the folder "\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters\Keys"
+6. In regedit, go to the folder "\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters\Keys".
 7. Inside "Keys" folder, go to the sub-sub folder with the folder name same as the MAC address of the existing Gear VR controller.
 8. Modify the "IRK" data, the original value should be "01 23 45 ...". Change the first byte from "01" to "02", and make sure to delete "01", not just insert new byte. If you're using more than 2 Gear VR controllers, change to "03" or "04", etc, as long as there's no duplicate IRK and not keeping the original "01".
 10. Click OK to save, exit regedit, and restart the computer.
