@@ -449,7 +449,7 @@ In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -
 
 Press F11 to switch to fullscreen.
 
-For games like Crypt Killer, select Justifier in Controller Port 1 and set the same key mapping. In Settings tab, click Restore Default Settings, set Crosshair Image Path when necessary. Calibrate the crosshair in game.
+For games like Crypt Killer, select Justifier in Controller Port 1 and set the same key mapping. In Settings tab, set X Scale to 100%, Line Start Offset to -14, Tick Offset to 50, and set Crosshair Image Path when necessary. Calibrate the crosshair in game.
 
 <br>
 
