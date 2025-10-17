@@ -51,7 +51,7 @@ Details
 - [\*Secret\* gyro/motion gamepad emulation](#secret-gyromotion-gamepad-emulation)
 - [Lightgun emulation](#lightgun-emulation)
 - [Gyro aiming for rail shooting games](#gyro-aiming-for-rail-shooting-games)
-- [Pairing 2 or more Gear VR controllers *\*New\**](#pairing-2-or-more-gear-vr-controllers)
+- [Pairing 2 or more Gear VR controllers *\*\*New\*\**](#pairing-2-or-more-gear-vr-controllers)
 - [< The House of the Dead 2: Remake > PC gyro aiming](#-the-house-of-the-dead-2-remake--pc-gyro-aiming)
 - [< The House of the Dead: Remake > PC gyro/lightgun aiming](#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming)
 - [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming)
