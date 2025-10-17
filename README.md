@@ -409,6 +409,44 @@ Touchpad - Center: Gamepad B, West: Gamepad LB, East: Gamepad RB, North: Gamepad
 
 In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings -> Display tab, check Show Overscan (better for some games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, click Automatic Mapping, select SDL-0 (XInput Controller). Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Trigger to SDL-0 Face South, Shoot Offscreen to SDL-0 Face East, Calibration Shot to SDL-0 Face North. Set Buttons A/B/C to SDL-0 Left Shoulder, SDL-0 Right Shoulder, SDL-0 Face West respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0 -Left Y/+Left Y/-Left X/+Left X. In Settings tab, set a crosshair png image in Cursor Path, uncheck Manual Screen Configuration.
 
+Alternatively, edit the ini file "%USERPROFILE%\Documents\PCSX2\inis\PCSX2.ini" directly for the mapping:
+
+[USB1]
+<br>
+Type = guncon2
+<br>
+guncon2_Up = SDL-0/DPadUp
+<br>
+guncon2_Down = SDL-0/DPadDown
+<br>
+guncon2_Left = SDL-0/DPadLeft
+<br>
+guncon2_Right = SDL-0/DPadRight
+<br>
+guncon2_Trigger = SDL-0/FaceSouth
+<br>
+guncon2_ShootOffscreen = SDL-0/FaceEast
+<br>
+guncon2_A = SDL-0/LeftShoulder
+<br>
+guncon2_B = SDL-0/RightShoulder
+<br>
+guncon2_C = SDL-0/FaceWest
+<br>
+guncon2_Select = SDL-0/Back
+<br>
+guncon2_Start = SDL-0/Start
+<br>
+guncon2_Recalibrate = SDL-0/FaceNorth
+<br>
+guncon2_RelativeUp = SDL-0/-LeftY
+<br>
+guncon2_RelativeDown = SDL-0/+LeftY
+<br>
+guncon2_RelativeLeft = SDL-0/-LeftX
+<br>
+guncon2_RelativeRight = SDL-0/+LeftX
+
 For games like Resident Evil: Dead Aim which require the D-pad to work, you can map the D-pad buttons by assigning Gamepad D-pad Up/Down/Left/Right to Non-Press Touchpad North/South/West/East. Also change other assignments to suit the game.
 
 If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen.
@@ -447,9 +485,51 @@ Touchpad - Center: Gamepad B, West: Gamepad LB, East: Gamepad RB, North: Unassig
 
 In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -> Rendering tab, set Crop to None (better for some games). In Controller settings -> Controller Port 1, select GunCon. In Bindings tab, click Clear Mapping. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Fire to SDL-0/A, Fire Offscreen to SDL-0/B. Set Side Buttons A/B to SDL-0/LeftShoulder, SDL-0/RightShoulder respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0/-LeftY, SDL-0/+LeftY, SDL-0/-LeftX, SDL-0/+LeftX respectively. In Settings tab, set X Scale to 98% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 98% to 100%). If setting for 2 players, set different crosshair png images in Crosshair Image Path.
 
+Alternatively, edit the ini file "%USERPROFILE%\Documents\DuckStation\settings.ini" directly for the mapping:
+
+[Pad1]
+<br>
+Type = GunCon
+<br>
+Trigger = SDL-0/A
+<br>
+ShootOffscreen = SDL-0/B
+<br>
+A = SDL-0/LeftShoulder
+<br>
+B = SDL-0/RightShoulder
+<br>
+RelativeUp = SDL-0/-LeftY
+<br>
+RelativeDown = SDL-0/+LeftY
+<br>
+RelativeLeft = SDL-0/-LeftX
+<br>
+RelativeRight = SDL-0/+LeftX
+
 Press F11 to switch to fullscreen.
 
-For games like Crypt Killer, select Justifier in Controller Port 1 and set the same key mapping. In Settings tab, set X Scale to 100%, Line Start Offset to -14, Tick Offset to 50, and set Crosshair Image Path when necessary. Calibrate the crosshair in game.
+For games like Crypt Killer, select Justifier in Controller Port 1 and set the same key mapping. In Settings tab, set X Scale to 100%, Line Start Offset to -14, Tick Offset to 50, and set Crosshair Image Path when necessary. Calibrate the crosshair in game. If editing the ini file for mapping:
+
+[Pad1]
+<br>
+Type = Justifier
+<br>
+Trigger = SDL-0/A
+<br>
+ShootOffscreen = SDL-0/B
+<br>
+RelativeUp = SDL-0/-LeftY
+<br>
+RelativeDown = SDL-0/+LeftY
+<br>
+RelativeLeft = SDL-0/-LeftX
+<br>
+RelativeRight = SDL-0/+LeftX
+<br>
+Start = SDL-0/LeftShoulder
+<br>
+Back = SDL-0/RightShoulder
 
 <br>
 
