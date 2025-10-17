@@ -563,9 +563,63 @@ Touchpad - Center: Gamepad A, West: Gamepad D-pad Left, East: Gamepad D-pad Righ
 
 In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, set Total Yaw to 19 degree (different for some games, try around 15 to 19 degree), set Total Pitch to 19 degree (different for some games, try around 11 to 19 degree). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
 
+Alternatively, edit the ini file "%APPDATA%\Dolphin Emulator\Config\WiimoteNew.ini" directly for the mapping:
+
+[Wiimote1]
+<br>
+Device = XInput/0/Gamepad
+<br>
+Source = 1
+<br>
+Buttons/A = \`Button A\`
+<br>
+Buttons/B = \`Button B\`
+<br>
+Buttons/1 = \`Shoulder R\`
+<br>
+Buttons/2 = \`Shoulder L\`
+<br>
+Buttons/- = Back
+<br>
+Buttons/+ = Start
+<br>
+D-Pad/Up = \`Pad N\`
+<br>
+D-Pad/Down = \`Pad S\`
+<br>
+D-Pad/Left = \`Pad W\`
+<br>
+D-Pad/Right = \`Pad E\`
+<br>
+IR/Up = \`Left Y+\`
+<br>
+IR/Down = \`Left Y-\`
+<br>
+IR/Left = \`Left X-\`
+<br>
+IR/Right = \`Left X+\`
+<br>
+Shake/X = \`Button X\`
+<br>
+Shake/Y = \`Button X\`
+<br>
+Shake/Z = \`Button X\`
+
 Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
 
-For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map the Nunchuk stick directions by assigning Gamepad RS Up/Down/Left/Right to Non-Press Touchpad North/South/West/East. Then in Controller settings, set Extension to Nunchuk and in Configure Extension, set Up/Down/Left/Right to Right Y+, Right Y-, Right X-, Right X+ respectively, Save the Profile. Also change other assignments to suit the game.
+For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map the Nunchuk stick directions by assigning Gamepad RS Up/Down/Left/Right to Non-Press Touchpad North/South/West/East. Then in Controller settings, set Extension to Nunchuk and in Configure Extension, set Up/Down/Left/Right to Right Y+, Right Y-, Right X-, Right X+ respectively, Save the Profile. Also change other assignments to suit the game. If editing the ini file for mapping:
+
+[Wiimote1]
+<br>
+Extension = Nunchuk
+<br>
+Nunchuk/Stick/Up = \`Right Y+\`
+<br>
+Nunchuk/Stick/Down = \`Right Y-\`
+<br>
+Nunchuk/Stick/Left = \`Right X-\`
+<br>
+Nunchuk/Stick/Right = \`Right X+\`
 
 Some games use shake to reload, it's mapped to Gamepad X (Touchpad North).
 
