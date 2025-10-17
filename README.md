@@ -161,7 +161,7 @@ If the game or emulator is run as admin, this app also needs to be run as admin,
 
 By default, only a single Gear VR controller can be paired with Windows. To make it possible to pair 2 or more Gear VR controllers at the same time, you need to modify the hard-coded Bluetooth IRK of the existing controller in Windows registry.
 
-A maximum of 4 gamepad-based controllers plus 1 mouse-based controller can work at the same time, depending on the support by games or emulators. For example, in TeknoParrot, 4 gamepad-based controllers can be set. In PCSX2, DuckStation, Dolphin and Flycast, mouse-based and gamepad-based controllers can be set for different players. In MAME, multiple gamepad-based controllers are set for different players by default. For games supported by DemulShooter input, 4 gamepad-based controllers can be set as light guns input.
+A maximum of 4 gamepad-based controllers plus 1 mouse-based controller can work at the same time, depending on the support by games or emulators. For example, in TeknoParrot, 4 gamepad-based controllers can be set. In PCSX2, DuckStation, Dolphin and Flycast, both mouse-based and gamepad-based controllers can be set for players. In MAME, multiple gamepad-based controllers are set for different players by default. For games supported by DemulShooter input, 4 gamepad-based controllers can be set as light guns input.
 
 Beware that modifying the registry incorrectly may make your Windows corrupt, do it at your own risk.
 
