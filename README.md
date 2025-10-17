@@ -1,6 +1,6 @@
 # Gear VR Controller Motion Pointer for Windows
 
-<img src="./screenshot.png" alt="Screenshot" style="width:765px; height:auto;">
+<img src="./screenshot2.png" alt="Screenshot" style="width:765px; height:auto;">
 
 [Deutsch](https://shimuraworksh.wixsite.com/shimura-workshop/de/s-projects-side-by-side)
 [Español](https://shimuraworksh.wixsite.com/shimura-workshop/es/s-projects-side-by-side)
@@ -24,7 +24,7 @@ Features
 - Quick and easy calibration of sensors
 
 Setup guide
-- No pairing needed, just turn on PC Bluetooth and install batteries to the controller
+- No manual pairing needed, just turn on PC Bluetooth and install batteries to the controller
 - Press any button on the controller, then click the Search icon in app
 - Click the Connect button, that's it
 
@@ -33,9 +33,9 @@ Calibration for motion sensing and motion pointer
 
 Download latest version
 
-- v2.1.12 (from [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Gear-VR-Controller.shtml))
-- md5: c080da6b865b3299b0341e5384e12df2
-- sha-1: a2aa53c1004980fda0742bfc3368f0505ddb54df
+- v2.2.0 [Link](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
+- md5: f1b921deeaf0bbdf0e60673b7e6b4663
+- sha-1: 694fe2b6fb66f26c5d4d69e3a386988f2c46f163
 
 System requirements
 - Windows 10 x64 or Windows 11
@@ -48,28 +48,30 @@ System requirements
 <br>
 
 Details
-- [\*Secret\* gyro/motion gamepad emulation](#secret-gyromotion-gamepad-emulation-in-new-version)
+- [\*Secret\* gyro/motion gamepad emulation](#secret-gyromotion-gamepad-emulation)
 - [Lightgun emulation](#lightgun-emulation)
-- [< The House of the Dead 2: Remake > PC gyro aiming](#-the-house-of-the-dead-2-remake--pc-gyro-aiming-sample-config)
-- [< The House of the Dead: Remake > PC gyro/lightgun aiming](#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming-sample-config)
-- [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming-sample-config)
-- [< Blue Estate The Game > PC lightgun aiming](#-blue-estate-the-game--pc-lightgun-aiming-sample-config)
-- [< The Typing of the Dead: Overkill > PC lightgun aiming](#-the-typing-of-the-dead-overkill--pc-lightgun-aiming-sample-config)
-- [< The House of the Dead III > PC lightgun aiming](#-the-house-of-the-dead-iii--pc-lightgun-aiming-sample-config)
-- [< The House of the Dead 2 > PC lightgun aiming](#-the-house-of-the-dead-2--pc-lightgun-aiming-sample-config)
-- [< House of the Dead: Scarlet Dawn > PC lightgun aiming](#-house-of-the-dead-scarlet-dawn--pc-lightgun-aiming-sample-config)
-- [< MAME > emulator PC lightgun aiming (for Virtua Cop, Time Crisis, Alien 3: The Gun, etc)](#-mame--emulator-pc-lightgun-aiming-sample-config)
-- [< Cxbx-Reloaded > emulator PC lightgun aiming (for Virtua Cop 3, Silent Scope 2)](#-cxbx-reloaded--emulator-pc-lightgun-aiming-sample-config)
-- [< TeknoParrot > emulator PC lightgun aiming (for Time Crisis 5, Operation GHOST, etc)](#-teknoparrot--emulator-pc-lightgun-aiming-sample-config)
-- [< RPCS3 > emulator PC lightgun aiming (for Time Crisis: Razing Storm, etc)](#-rpcs3--emulator-pc-lightgun-aiming-sample-config)
-- [< PCSX2 > emulator PC lightgun aiming (for Time Crisis 3, Vampire Night, etc)](#-pcsx2--emulator-pc-lightgun-aiming-sample-config)
-- [< DuckStation > emulator PC lightgun aiming (for Time Crisis: Project Titan, Point Blank 3, etc)](#-duckstation--emulator-pc-lightgun-aiming-sample-config)
-- [< Dolphin > emulator PC lightgun aiming (for Ghost Squad, etc)](#-dolphin--emulator-pc-lightgun-aiming-sample-config)
-- [< Snes9x > emulator PC lightgun aiming (for Yoshi's Safari, etc)](#-snes9x--emulator-pc-lightgun-aiming-sample-config)
-- [< FCEUX > emulator PC lightgun aiming (for Duck Hunt, etc)](#-fceux--emulator-pc-lightgun-aiming-sample-config)
-- [< Flycast > emulator PC lightgun aiming (for Confidential Mission, Ninja Assault, etc)](#-flycast--emulator-pc-lightgun-aiming-sample-config)
-- [< Supermodel > emulator PC lightgun aiming (for The Lost World: Jurassic Park, etc)](#-supermodel--emulator-pc-lightgun-aiming-sample-config)
-- [< Demul > emulator PC lightgun aiming (for Brave Firefighters, etc)](#-demul--emulator-pc-lightgun-aiming-sample-config)
+- [Gyro aiming for rail shooting games](#gyro-aiming-for-rail-shooting-games)
+- [Pairing 2 or more Gear VR controllers *\*New\**](#pairing-2-or-more-gear-vr-controllers)
+- [< The House of the Dead 2: Remake > PC gyro aiming](#-the-house-of-the-dead-2-remake--pc-gyro-aiming)
+- [< The House of the Dead: Remake > PC gyro/lightgun aiming](#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming)
+- [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming)
+- [< Blue Estate The Game > PC lightgun aiming](#-blue-estate-the-game--pc-lightgun-aiming)
+- [< The Typing of the Dead: Overkill > PC lightgun aiming](#-the-typing-of-the-dead-overkill--pc-lightgun-aiming)
+- [< The House of the Dead III > PC lightgun aiming](#-the-house-of-the-dead-iii--pc-lightgun-aiming)
+- [< The House of the Dead 2 > PC lightgun aiming](#-the-house-of-the-dead-2--pc-lightgun-aiming)
+- [< House of the Dead: Scarlet Dawn > PC lightgun aiming](#-house-of-the-dead-scarlet-dawn--pc-lightgun-aiming)
+- [< MAME > emulator PC lightgun aiming (for Virtua Cop, Time Crisis, Alien 3: The Gun, etc)](#-mame--emulator-pc-lightgun-aiming)
+- [< Cxbx-Reloaded > emulator PC lightgun aiming (for Virtua Cop 3, Silent Scope 2)](#-cxbx-reloaded--emulator-pc-lightgun-aiming)
+- [< TeknoParrot > emulator PC lightgun aiming (for Time Crisis 5, Operation GHOST, etc)](#-teknoparrot--emulator-pc-lightgun-aiming)
+- [< RPCS3 > emulator PC lightgun aiming (for Time Crisis: Razing Storm, etc)](#-rpcs3--emulator-pc-lightgun-aiming)
+- [< PCSX2 > emulator PC lightgun aiming (for Time Crisis 3, Vampire Night, etc)](#-pcsx2--emulator-pc-lightgun-aiming)
+- [< DuckStation > emulator PC lightgun aiming (for Time Crisis: Project Titan, Point Blank 3, etc)](#-duckstation--emulator-pc-lightgun-aiming)
+- [< Dolphin > emulator PC lightgun aiming (for Ghost Squad, etc)](#-dolphin--emulator-pc-lightgun-aiming)
+- [< Snes9x > emulator PC lightgun aiming (for Yoshi's Safari, etc)](#-snes9x--emulator-pc-lightgun-aiming)
+- [< FCEUX > emulator PC lightgun aiming (for Duck Hunt, etc)](#-fceux--emulator-pc-lightgun-aiming)
+- [< Flycast > emulator PC lightgun aiming (for Confidential Mission, Ninja Assault, etc)](#-flycast--emulator-pc-lightgun-aiming)
+- [< Supermodel > emulator PC lightgun aiming (for The Lost World: Jurassic Park, etc)](#-supermodel--emulator-pc-lightgun-aiming)
+- [< Demul > emulator PC lightgun aiming (for Brave Firefighters, etc)](#-demul--emulator-pc-lightgun-aiming)
 - [Backup of user config](#backup-of-user-config)
 - [Hints on low input lag](#hints-on-low-input-lag-for-games-and-emulators)
 
@@ -77,13 +79,13 @@ Details
 
 Gear VR is a trademark or registered trademark of Samsung Electronics Co., Ltd.
 <br>
-​Windows is a trademark or registered trademark of Microsoft Corporation
+Windows is a trademark or registered trademark of Microsoft Corporation
 
 <br>
 
-## \*Secret\* gyro/motion gamepad emulation in new version
+## \*Secret\* gyro/motion gamepad emulation
 
-Now you can use the controller like a gyro gamepad. Gyro aiming together with analog touch stick (needn't press) are supported. Gamepad buttons and sticks are added to key assignment list for mapping to touchpad press (8 directions, center and lower edge), other 5 buttons and 12 motions.
+You can use the controller like a gyro gamepad, with gyro aiming together with analog touch stick (needn't press). Gamepad buttons and sticks are available in key assignment list for mapping to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 gesture motions.
 
 To use the gamepad mode, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
 
@@ -101,7 +103,7 @@ DefaultGamePointerMode
 <br>
 DefaultEmulateGamepad
 
-Adjust the motion pointer speed to around 1~4 in app and switch to motion pointer mode before starting game. Also adjust the cursor speed in Windows mouse settings when necessary. For easier control, assign "Toggle between cursor and pointer mode" or "Pointer temporary off" to a button, or assign "Pointer temporary on" to the new second action of buttons by modifying any of these options:
+Adjust the motion pointer speed to around 1~4 in app and switch to motion pointer mode before starting game. Also adjust the cursor speed in Windows mouse settings when necessary. For easier control, assign "Toggle between cursor and pointer mode" or "Pointer temporary off" to a button. For gyro activation with another action, you can assign "Pointer temporary on" to the second action of buttons by modifying any of these options:
 
 KeyTouchButtonCenter2 / KeyBackButton2 / KeyHomeButton2 / KeyVolumeUpButton2 / KeyVolumeDownButton2 / KeyTouchButton2 / KeyTriggerButton2 / KeyTouchDirectCenter2
 
@@ -125,7 +127,7 @@ If the game is run as admin, this app also needs to be run as admin, otherwise W
 
 Config file [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file) (if supported by the game or emulator)
 
-ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default).
+ViGEmBus not required, update the app to v2.2.0, unzip the config to "C:\Program Files\Gear VR Controller" (default).
 
 Assign "Pointer reset" to Touchpad South, "Mouse left button" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
 
@@ -133,7 +135,7 @@ Assign "Pointer reset" to Touchpad South, "Mouse left button" to Trigger, also o
 
 Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file) (if supported by the game or emulator)
 
-Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller" (default).
+Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.2.0, unzip the config to "C:\Program Files\Gear VR Controller" (default).
 
 Assign "Pointer reset" to Touchpad South, "Gamepad A" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 8~12 in app for the game.
 
@@ -141,29 +143,60 @@ With either config, if the game or emulator is run as admin, this app also needs
 
 <br>
 
-## < The House of the Dead 2: Remake > PC gyro aiming sample config
+## Gyro aiming for rail shooting games
 
-Config file
-[Link](https://www.mediafire.com/file/ca3mrdhr4q8jl0g/Gear_VR_Controller.dll.config_the.house.of.the.dead.2.remake.zip/file)
+Config file [Link](https://www.mediafire.com/file/t7shxu9czk3wdj1/Gear_VR_Controller.dll.config_gyro.zip/file) (if supported by the game or emulator)
 
-ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), then assign keys for example:
+ViGEmBus not required, update the app to v2.2.0, unzip the config to "C:\Program Files\Gear VR Controller" (default).
+
+Assign "Pointer temporary off" to Touchpad South, "Mouse left button" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 4 in app and switch to motion pointer mode before starting the game. Also adjust the cursor speed in Windows mouse settings when necessary.
+
+Mouse acceleration will be disabled by default, the original state will be restored after exiting the app.
+
+If the game or emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+
+<br>
+
+## Pairing 2 or more Gear VR controllers
+
+By default, only a single Gear VR controller can be paired with Windows. To make it possible to pair 2 or more Gear VR controllers at the same time, you need to modify the hard-coded Bluetooth IRK of the existing controller in Windows registry.
+
+Maximum 4 gamepad-based controllers plus 1 mouse-based controller can work at the same time, depending on the support by games or emulators. For example, in TeknoParrot, 4 gamepad-based controllers can be set. In PCSX2, DuckStation, Dolphin and Flycast, mouse-based and gamepad-based controllers can be set for different players. In MAME, multiple gamepad-based controllers are set for different players by default. For games supported by DemulShooter input, 4 gamepad-based controllers can be set as light guns input.
+
+Beware that modifying the registry incorrectly may make your Windows corrupt, do it at your own risk.
+
+Procedures:
+1. Update the app to v2.2.0.
+2. Make a note of the MAC address of existing Gear VR controller from the lower left corner of the app.
+3. Disconnect the controller and exit the app.
+4. Download and unzip [PSTools](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec).
+5. In Windows command prompt with admin privilege, go to the folder of unzipped files, run "psexec64 -s -i regedit".
+6. In regedit, go to the folder "\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters\Keys"
+7. Inside "Keys" folder, go to the sub-sub folder with the folder name same as the MAC address of the existing Gear VR controller.
+8. Modify the "IRK" data, the original value should be "01 23 45 ...". Change the first byte from "01" to "02", and make sure to delete "01", not just insert new byte. If you're using more than 2 Gear VR controllers, change to "03" or "04", etc, as long as there's no duplicate IRK and not keeping the original "01".
+10. Click OK to save, exit regedit, and restart the computer.
+11. Make a copy of the Gear VR Controller app folder with all contents ("C:\Program Files\Gear VR Controller" by default), with a new folder name e.g. "Gear VR Controller P2".
+12. Make sure only the new controller is powered on by removing batteries from other controllers. Don't pair the controller manually in Windows bluetooth settings.
+13. Start the new copy of app and setup the new controller as usual. A new set of user config will be created in "%LOCALAPPDATA%\Gear_VR_Controller".
+14. Start other copies of app as usual. Multiple instances of the app in different folders can be run at the same time. The order of XInput device ID will be according to the order of starting instance of the app.
+
+<br>
+
+## < The House of the Dead 2: Remake > PC gyro aiming
+
+Follow the instructions of [gyro aiming](#gyro-aiming-for-rail-shooting-games), and assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
 <br>
-Touchpad - Center: Mouse right button, West: Q, East: E, South: Pointer temporary off, North: Unassigned
+Touchpad - Center: Mouse right button, West: Q, East: E, North: Unassigned, South: Pointer temporary off
 
-Touchpad (without press) is mapped to WASD by default, you can change it by modifying KeyTouchDirectNorth/East/South/West/Center in the config file (and restarting app, text editor needs to be run as admin) when necessary.
-
-Adjust the motion pointer speed to around 4 in app and switch to motion pointer mode before starting the game. Also adjust the cursor speed in Windows mouse settings when necessary. In game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
+In game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, mouse sensitivity to 1.0, crosshair speed to 1.0.
 
 <br>
 
-## < The House of the Dead: Remake > PC gyro/lightgun aiming sample config
+## < The House of the Dead: Remake > PC gyro/lightgun aiming
 
-Config file for gyro aiming
-[Link](https://www.mediafire.com/file/yxi0v4sfd9ypkyy/Gear_VR_Controller.dll.config_the.house.of.the.dead.remake.zip/file)
-
-ViGEmBus not required, update the app to v2.1.12, extract the config to "C:\Program Files\Gear VR Controller\" (default), adjust the motion pointer speed to around 4 in app, and also adjust the cursor speed in Windows mouse settings when necessary. Then assign keys for example:
+For gyro aiming, follow the [instructions](#gyro-aiming-for-rail-shooting-games), and assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, -: Esc
 <br>
@@ -171,41 +204,49 @@ Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointe
 
 If you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and change the key assignments according to the plugin.
 
-With either config, switch to motion pointer mode before starting the game, then in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00 (some settings may be unavailable in arcade plugin).
+With either config, in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00 (some settings may be unavailable in arcade plugin).
 
 <br>
 
-## < Panzer Dragoon: Remake > PC gyro aiming sample config
+## < Panzer Dragoon: Remake > PC gyro aiming
 
-Use the same config file as < The House of the Dead 2: Remake >, and change the key assignments to match the game. But the game has forced mouse smoothing, you need to move the controller slowly.
+Follow the instructions of [gyro aiming](#gyro-aiming-for-rail-shooting-games), and assign keys for example:
+
+Trigger: Mouse left button, Back: Enter, Home: Esc, +: R, -: F
+<br>
+Touchpad - Center: Mouse right button, West: Q, East: E, North: Unassigned, South: Pointer temporary off
+<br>
+Non-Press Touchpad - West: A, East: D, North: W, South: S
+
+In game options, set Crosshair Sensitivity to 1.00. Due to forced mouse smoothing used by the game, you need to move the controller slowly.
 
 <br>
 
-## < Blue Estate The Game > PC lightgun aiming sample config
+## < Blue Estate The Game > PC lightgun aiming
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game. In game's Controls settings, switch controller to Mouse, set Mouse in Raw Mode to Yes, Gestures with the Mouse to Yes.
 
 <br>
 
-## < The Typing of the Dead: Overkill > PC lightgun aiming sample config
+## < The Typing of the Dead: Overkill > PC lightgun aiming
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game.
 
 <br>
 
-## < The House of the Dead III > PC lightgun aiming sample config
+## < The House of the Dead III > PC lightgun aiming
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game.
 
 <br>
 
-## < The House of the Dead 2 > PC lightgun aiming sample config
+## < The House of the Dead 2 > PC lightgun aiming
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game. In game's config, select Mouse + Keyboard for player controller.
 
 <br>
 
-## < House of the Dead: Scarlet Dawn > PC lightgun aiming sample config
+## < House of the Dead: Scarlet Dawn > PC lightgun aiming
 
 For TeknoParrot, follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
@@ -219,7 +260,7 @@ Adjust the motion pointer speed to around 8~12 for the game.
 
 <br>
 
-## < MAME > emulator PC lightgun aiming sample config
+## < MAME > emulator PC lightgun aiming
 
 ### Option 1: Lightgun emulation replacing mouse (e.g. Time Crisis, Virtua Cop)
 
@@ -231,9 +272,9 @@ Touchpad - Center: Mouse right button, North: Mouse middle button, South: Pointe
 
 In MAME game's Input Device Options, set Lightgun Device Assignment to lightgun, Pedal Device Assignment to lightgun, Keyboard Input Provider to dinput, Lightgun Input Provider to win32.
 
-Keep in maximized window mode or press Alt-Enter to switch to fullscreen. But in fullscreen mode, if your screen's resolution is 16:9 and the game is 4:3, you need to modify ScalePointerX from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
+Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
 
-If you want to use non-press Touchpad for pedal, modify KeyTouchDirectCenter from Unassigned to Mouse right button in the config file.
+If you want to use non-press touchpad for pedal, assign Mouse right button to Non-Press Touchpad Center.
 
 ### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Alien 3: The Gun)
 
@@ -245,7 +286,7 @@ Touchpad - Center: Gamepad B, North: Gamepad X, South: Pointer reset
 
 Press Touchpad South to reset stick. In MAME game's Input Device Options, set Keyboard Input Provider to dinput, Joystick Input Provider to xinput. In Advanced Options, set Joystick to On, Joystick deadzone to 0, Joystick saturation to 1.
 
-Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
+Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
 
 For some games like Terminator 2: Judgment Day which need to calibrate the gun for player 2, if not playing, press keyboard key A (default for player 2's gun trigger) to pass.
 
@@ -253,7 +294,7 @@ With either config, press Tab, select Crosshair Options, set Visibility to Alway
 
 <br>
 
-## < Cxbx-Reloaded > emulator PC lightgun aiming sample config
+## < Cxbx-Reloaded > emulator PC lightgun aiming
 
 For Virtua Cop 3, follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
@@ -263,13 +304,13 @@ Touchpad - Center: Gamepad B (for Reload), West: Gamepad X (for Weapon Change), 
 
 In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure. Set Device to XInput/0/Gamepad, click Default Bindings. Give the Profile a name and Save. In Video settings, set Display Resolution to your screen resolution and refresh rate, uncheck Use Exclusive Fullscreen Mode, check Maintain Aspect Ratio, and check Force VSync. Rename the file boot.id to something else in the root folder of game if existing.
 
-Open the game by vc3.xbe, start emulation. Press Alt-Enter to switch to fullscreen. As the game is 4:3, if your screen's resolution is 16:9, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin). Due to the curved crosshair movement used by the game, aim will have some distortions especially at corners of the screen.
+Open the game by vc3.xbe, start emulation. Press Alt-Enter to switch to fullscreen. As the game is 4:3, if your screen's resolution is 16:9, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio. Due to the curved crosshair movement used by the game, aim will have some distortions especially at corners of the screen.
 
 For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input settings, use Default Bindings. Assign Gamepad RS Button to a button/motion to hide Laser dot in game, also assign Gamepad D-pad Up/Down/Left/Right to buttons/motions for menu navigation when necessary.
 
 <br>
 
-## < TeknoParrot > emulator PC lightgun aiming sample config
+## < TeknoParrot > emulator PC lightgun aiming
 
 (Most games work better with option 2)
 
@@ -310,11 +351,11 @@ For Haunted Museum II, to fix the movie read error, install [wmv9VCMsetup](https
 
 For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if the player 2 crosshair is shown even when not playing, rename P2.png to something else to hide it.
 
-For games with aspect ratio of 4:3, if your screen's resolution is 16:9, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
+For games with aspect ratio of 4:3, if your screen's resolution is 16:9, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
 
 <br>
 
-## < RPCS3 > emulator PC lightgun aiming sample config
+## < RPCS3 > emulator PC lightgun aiming
 
 For PS3 games like Time Crisis: Razing Storm (Time Crisis 4 Arcade Ver, Razing Storm, Deadstorm Pirates), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
@@ -324,7 +365,7 @@ Touchpad - Center: Mouse right button, West: Mouse middle button, East: Mouse X2
 
 In RPCS3 game's GPU configuration, set Framelimit to Auto, check Write Color Buffers (required in order to fix screen brightness), check VSync. In I/O tab, set Mouse Handler to Basic, Move Handler to Mouse, Camera Input to PS Eye, Camera Handler to Fake, check Show PS Move Cursor. In Advanced tab, set VBlank Frequency to 59 Hz, uncheck VBlank NTSC Fixup (only available in game custom configuration, and it's important in order to get correct mouse button response).
 
-In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively, set Button 6/7/8 to 6/7/8 (without Num+) respectively. In USB Devices->PS Move (Mouse) configuration, set Start/Select/Triangle/Circle/Cross/Square/Move/T to Mouse 7/6/4/5/2/3/8/1 respectively, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler for PS3 Controller in order to navigate menus in game, as RPCS3 doesn't support PS Move navigation. When using a keyboard handler, use Ctrl-F11 in game to switch between PS3 Controller mode and PS Move mode.
+In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively, set Button 6/7/8 to 6/7/8 (without Num+) respectively. In USB Devices->PS Move (Mouse) configuration, set Start/Select/Triangle/Circle/Cross/Square/Move/T to Mouse 7/6/4/5/2/3/8/1 respectively, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler for PS3 Controller to navigate menus in game, as RPCS3 doesn't support PS Move navigation. When using a keyboard handler, use Ctrl-F11 in game to switch between PS3 Controller mode and PS Move mode.
 
 In the crosshair calibration screen, make sure PS Move mode is active. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required in order to align the Windows cursor with the PS Move cursor).
 
@@ -336,7 +377,7 @@ After calibration, you can uncheck Show PS Move Cursor in I/O configuration. Opt
 
 <br>
 
-## < PCSX2 > emulator PC lightgun aiming sample config
+## < PCSX2 > emulator PC lightgun aiming
 
 For PS2 games.
 
@@ -352,7 +393,7 @@ Touchpad - Center: Mouse right button, West: Mouse middle button, East: Mouse X2
 
 In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings -> Display tab, check Show Overscan (better for some games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, set Trigger to Pointer-0 Left Button, Shoot Offscreen to Pointer-0 Right Button, Calibration Shot to Keyboard 8 (without Numpad). Set Buttons A/B/C/Start/Select to Pointer-0 Middle Button, Pointer-0 Button5, Pointer-0 Button4, Keyboard 7, Keyboard 6 respectively. Set D-Pad Up/Down/Left/Right to Keyboard Numpad8/5/4/6. In Settings tab, set a crosshair png image in Cursor Path, check Manual Screen Configuration, set X Scale to 90%, Y Scale to 97% (different for some games, if the crosshair moving scale during calibration is incorrect, try X Scale around 84% to 90%, Y Scale around 92% to 119%), Center X to 420px, leave others to default.
 
-For games like Resident Evil: Dead Aim which require the D-pad to work, you can map non-press Touchpad to D-pad keys by modifying KeyTouchDirectNorth/South/West/East from Unassigned to Numeric keypad 8/5/4/6 in the config file (and restarting app, text editor needs to be run as admin). Also change other assignments to suit the game.
+For games like Resident Evil: Dead Aim which require the D-pad to work, you can map the D-pad keys by assigning Numeric keypad 8/5/4/6 to Non-Press Touchpad North/South/West/East. Also change other assignments to suit the game.
 
 If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen.
 
@@ -368,7 +409,7 @@ Touchpad - Center: Gamepad B, West: Gamepad LB, East: Gamepad RB, North: Gamepad
 
 In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings -> Display tab, check Show Overscan (better for some games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, click Automatic Mapping, select SDL-0 (XInput Controller). Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Trigger to SDL-0 Face South, Shoot Offscreen to SDL-0 Face East, Calibration Shot to SDL-0 Face North. Set Buttons A/B/C to SDL-0 Left Shoulder, SDL-0 Right Shoulder, SDL-0 Face West respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0 -Left Y/+Left Y/-Left X/+Left X. In Settings tab, click Restore Default Settings, then set a crosshair png image in Cursor Path.
 
-For games like Resident Evil: Dead Aim which require the D-pad to work, you can map non-press Touchpad to D-pad buttons by modifying KeyTouchDirectNorth/South/West/East from Unassigned to Gamepad D-pad Up/Down/Left/Right in the config file (and restarting app, text editor needs to be run as admin). Also change other assignments to suit the game.
+For games like Resident Evil: Dead Aim which require the D-pad to work, you can map the D-pad buttons by assigning Gamepad D-pad Up/Down/Left/Right to Non-Press Touchpad North/South/West/East. Also change other assignments to suit the game.
 
 If the custom crosshair image doesn't show up, it may be a bug of PCSX2. Try to modify Cursor Scale in the GunCon 2 Settings tab to fix. Press Alt-Enter to switch to fullscreen.
 
@@ -376,7 +417,7 @@ In the calibration screen, press Back button to start calibration, and follow th
 
 <br>
 
-## < DuckStation > emulator PC lightgun aiming sample config
+## < DuckStation > emulator PC lightgun aiming
 
 For PS1 games.
 
@@ -412,7 +453,7 @@ For games like Crypt Killer, select Justifier in Controller Port 1 and set the s
 
 <br>
 
-## < Dolphin > emulator PC lightgun aiming sample config
+## < Dolphin > emulator PC lightgun aiming
 
 For Wii games like Ghost Squad.
 
@@ -426,7 +467,7 @@ Touchpad - Center: Mouse left button, West: Left arrow, East: Right arrow, North
 
 In Dolphin's Configuration -> Interface, set Mouse Cursor Visibility to Always. In Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to DInput/0/Keyboard Mouse, then click Default. In Motion Simulation tab, under the Point section, set Vertical Offset to 15 cm, set Total Yaw to 19 degree (different for some games, try around 15 to 19 degree), set Total Pitch to 19 degree (different for some games, try around 11 to 19 degree). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
 
-For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map non-press Touchpad to Nunchuk stick keys by modifying KeyTouchDirectNorth/South/West/East from Unassigned to W/S/A/D in the config file (and restarting app, text editor needs to be run as admin). Also change other assignments to suit the game.
+For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map the Nunchuk stick keys by assigning W/S/A/D to Non-Press Touchpad North/South/West/East. Also change other assignments to suit the game.
 
 Some games use shake to reload, it's mapped to mouse middle button (Touchpad North) by default.
 
@@ -442,9 +483,9 @@ Touchpad - Center: Gamepad A, West: Gamepad D-pad Left, East: Gamepad D-pad Righ
 
 In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, set Total Yaw to 19 degree (different for some games, try around 15 to 19 degree), set Total Pitch to 19 degree (different for some games, try around 11 to 19 degree). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
 
-Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
+Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
 
-For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map non-press Touchpad to Nunchuk stick directions by modifying KeyTouchDirectNorth/South/West/East from Unassigned to Gamepad RS Up/Down/Left/Right in the config file (and restarting app, text editor needs to be run as admin). Then in Controller settings, set Extension to Nunchuk and in Configure Extension, set Up/Down/Left/Right to Right Y+, Right Y-, Right X-, Right X+ respectively, Save the Profile. Also change other assignments to suit the game.
+For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map the Nunchuk stick directions by assigning Gamepad RS Up/Down/Left/Right to Non-Press Touchpad North/South/West/East. Then in Controller settings, set Extension to Nunchuk and in Configure Extension, set Up/Down/Left/Right to Right Y+, Right Y-, Right X-, Right X+ respectively, Save the Profile. Also change other assignments to suit the game.
 
 Some games use shake to reload, it's mapped to Gamepad X (Touchpad North).
 
@@ -452,7 +493,7 @@ After starting the game, if the crosshair moving scale is incorrect, try to adju
 
 <br>
 
-## < Snes9x > emulator PC lightgun aiming sample config
+## < Snes9x > emulator PC lightgun aiming
 
 For SNES games like Yoshi's Safari, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
@@ -466,7 +507,7 @@ After starting the game, press Alt-Enter to switch to fullscreen. Adjust the gun
 
 <br>
 
-## < FCEUX > emulator PC lightgun aiming sample config
+## < FCEUX > emulator PC lightgun aiming
 
 For NES games like Duck Hunt, follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
@@ -480,7 +521,7 @@ After starting the game, switch to fullscreen. If the resolution is incorrect, y
 
 <br>
 
-## < Flycast > emulator PC lightgun aiming sample config
+## < Flycast > emulator PC lightgun aiming
 
 For Dreamcast games like Confidential Mission.
 
@@ -508,15 +549,13 @@ Touchpad - Center: Gamepad X, West: Gamepad D-pad Left, East: Gamepad D-pad Righ
 
 In Flycast's Video settings, check VSync. In Controls settings, for Xbox 360 Controller, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Reload by pressing Touchpad Center. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
 
-Press F11 to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
-
-Calibrate the gun crosshair in game's Options menu.
+Press F11 to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio. Calibrate the gun crosshair in game's Options menu.
 
 For Naomi and Atomiswave arcade games (e.g. Ninja Assault), in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Xbox 360 Controller by selecting Arcade Controls in the mapping screen (in service menu of some games, Button 3 corresponds to ENTER SW, Up/Down for navigation). Calibrate the gun crosshair in the game's Service and Test menu.
 
 <br>
 
-## < Supermodel > emulator PC lightgun aiming sample config
+## < Supermodel > emulator PC lightgun aiming
 
 For Model 3 arcade games like The Lost World: Jurassic Park.
 
@@ -562,13 +601,13 @@ InputJoy2YDeadZone = 0
 
 After starting the game, don't move the mouse, otherwise input will be switched to mouse automatically by default. Optionally, you can remove the mouse mapping in Supermodel.ini. 
 
-Calibrate the gun crosshair in the game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
+If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
 
-If your screen's resolution is 16:9 and the game is 4:3, you need to modify ScaleYaw from 1000 to 1333 in the config file in order to get the correct crosshair moving scale (and restart app, text editor needs to be run as admin).
+Calibrate the gun crosshair in the game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
 
 <br>
 
-## < Demul > emulator PC lightgun aiming sample config
+## < Demul > emulator PC lightgun aiming
 
 For Hikaru arcade games like Brave Firefighters, follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
@@ -601,4 +640,3 @@ You can back up the user config file for different settings or game profiles. Ex
 - Turn on game mode of TV or monitor if available
 - Turn on low latency mode or anti-lag of GPU driver
 - Keep the controller within good coverage of Bluetooth
-
