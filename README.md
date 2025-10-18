@@ -66,7 +66,7 @@ Details
 - [< RPCS3 > emulator PC lightgun aiming (for Time Crisis: Razing Storm, etc)](#-rpcs3--emulator-pc-lightgun-aiming)
 - [< PCSX2 > emulator PC lightgun aiming (for Time Crisis 3, Vampire Night, etc)](#-pcsx2--emulator-pc-lightgun-aiming)
 - [< DuckStation > emulator PC lightgun aiming (for Time Crisis: Project Titan, Point Blank 3, etc)](#-duckstation--emulator-pc-lightgun-aiming)
-- [< Dolphin > emulator PC lightgun aiming (for Ghost Squad, etc)](#-dolphin--emulator-pc-lightgun-aiming)
+- [< Dolphin > emulator PC lightgun aiming (for Ghost Squad, The House of the Dead: Overkill, etc)](#-dolphin--emulator-pc-lightgun-aiming)
 - [< Snes9x > emulator PC lightgun aiming (for Yoshi's Safari, etc)](#-snes9x--emulator-pc-lightgun-aiming)
 - [< FCEUX > emulator PC lightgun aiming (for Duck Hunt, etc)](#-fceux--emulator-pc-lightgun-aiming)
 - [< Flycast > emulator PC lightgun aiming (for Confidential Mission, Ninja Assault, etc)](#-flycast--emulator-pc-lightgun-aiming)
@@ -535,9 +535,9 @@ Back = SDL-0/RightShoulder
 
 ## < Dolphin > emulator PC lightgun aiming
 
-For Wii games like Ghost Squad.
+For Wii games.
 
-### Option 1: Lightgun emulation replacing mouse
+### Option 1: Lightgun emulation replacing mouse (e.g. Ghost Squad)
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
@@ -553,7 +553,7 @@ Some games use shake to reload, it's mapped to mouse middle button (Touchpad Nor
 
 After starting the game, if the crosshair moving scale is incorrect, try to adjust Total Yaw or Total Pitch in Controller settings. When ready, set Mouse Cursor Visibility to Never in Interface configuration. Press Alt-Enter to switch to fullscreen.
 
-### Option 2: Lightgun emulation replacing gamepad left stick
+### Option 2: Lightgun emulation replacing gamepad left stick (e.g. The House of the Dead: Overkill)
 
 Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
