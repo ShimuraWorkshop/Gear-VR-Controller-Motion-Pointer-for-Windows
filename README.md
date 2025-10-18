@@ -253,8 +253,6 @@ Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emul
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game.
 
-For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgun-input-using-demulshooter).
-
 <br>
 
 ## < The House of the Dead III > PC lightgun aiming
