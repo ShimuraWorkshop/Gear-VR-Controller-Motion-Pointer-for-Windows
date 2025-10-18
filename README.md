@@ -52,6 +52,7 @@ Details
 - [Lightgun emulation](#lightgun-emulation)
 - [Gyro aiming for rail shooting games](#gyro-aiming-for-rail-shooting-games)
 - [Pairing 2 or more Gear VR controllers *\*\*New\*\**](#pairing-2-or-more-gear-vr-controllers)
+- [Lightgun input using DemulShooter](#lightgun-input-using-demulshooter)
 - [< The House of the Dead 2: Remake > PC gyro aiming](#-the-house-of-the-dead-2-remake--pc-gyro-aiming)
 - [< The House of the Dead: Remake > PC gyro/lightgun aiming](#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming)
 - [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming)
@@ -182,6 +183,24 @@ Procedures:
 
 <br>
 
+## Lightgun input using DemulShooter
+
+[DemulShooter](https://github.com/argonlefou/DemulShooter/releases) allows using up to 4 gamepad-based controllers to input as light guns to some games or emulators.
+
+Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
+
+Trigger: Gamepad A, Touchpad Center: Gamepad B, Touchpad North: Gamepad X, Touchpad South: Pointer reset
+
+Run DemulShooter_GUI, in Page Selection, select the Configuration for each active player (P1, P2, etc). Set the Device to [Gamepad] [Unknown Manufacturer] - Controller (XBOX 360 For Windows), and test the corresponding controller on the GUI.
+
+DemulShooter has light gun buttons assignment for Trigger, Off-Screen and Action Button only. For other keys of the game (e.g. Coin, Start, Up, Down, etc), you can assign them to other buttons of the controller in app.
+
+See the [Wiki](https://github.com/argonlefou/DemulShooter/wiki/Usage) for supported games and detailed settings. Note that for some games, only output (LED, force feedback, etc) is supported by DemulShooter, but not input. Therefore, there is no effect to use it with the controller for those games.
+
+DemulShooter.exe and DemulShooterX64.exe need to be run in Windows command prompt with admin privilege.
+
+<br>
+
 ## < The House of the Dead 2: Remake > PC gyro aiming
 
 Follow the instructions of [gyro aiming](#gyro-aiming-for-rail-shooting-games), and assign keys for example:
@@ -205,6 +224,8 @@ Touchpad - Center: Mouse right button, West: Q, East: E, North: F, South: Pointe
 If you have installed a lightgun or arcade plugin (like [this](https://steamcommunity.com/app/1694600/discussions/0/3271312219438716734/) or [this](https://github.com/argonlefou/HotdRemake_ArcadePlugin/)), follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and change the key assignments according to the plugin.
 
 With either config, in game options, set controller type to Keyboard/Mouse, sensitivity to 1.0, crosshair speed to 1.00 (some settings may be unavailable in arcade plugin).
+
+For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgun-input-using-demulshooter).
 
 <br>
 
@@ -232,17 +253,23 @@ Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emul
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game.
 
+For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgun-input-using-demulshooter).
+
 <br>
 
 ## < The House of the Dead III > PC lightgun aiming
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game.
 
+For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgun-input-using-demulshooter).
+
 <br>
 
 ## < The House of the Dead 2 > PC lightgun aiming
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game. In game's config, select Mouse + Keyboard for player controller.
+
+For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgun-input-using-demulshooter).
 
 <br>
 
