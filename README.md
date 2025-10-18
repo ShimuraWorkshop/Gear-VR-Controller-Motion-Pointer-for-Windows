@@ -272,7 +272,7 @@ Touchpad - Center: Mouse right button, North: Mouse middle button, South: Pointe
 
 In MAME game's Input Device Options, set Lightgun Device Assignment to lightgun, Pedal Device Assignment to lightgun, Keyboard Input Provider to dinput, Lightgun Input Provider to win32.
 
-Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
+Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
 If you want to use non-press touchpad for pedal, assign Mouse right button to Non-Press Touchpad Center.
 
@@ -286,7 +286,7 @@ Touchpad - Center: Gamepad B, North: Gamepad X, South: Pointer reset
 
 Press Touchpad South to reset stick. In MAME game's Input Device Options, set Keyboard Input Provider to dinput, Joystick Input Provider to xinput. In Advanced Options, set Joystick to On, Joystick deadzone to 0, Joystick saturation to 1.
 
-Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
+Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
 For some games like Terminator 2: Judgment Day which need to calibrate the gun for player 2, if not playing, press keyboard key A (default for player 2's gun trigger) to pass.
 
@@ -304,7 +304,7 @@ Touchpad - Center: Gamepad B (for Reload), West: Gamepad X (for Weapon Change), 
 
 In Cxbx-Reloaded's Input settings, select MS Gamepad S, click Configure. Set Device to XInput/0/Gamepad, click Default Bindings. Give the Profile a name and Save. In Video settings, set Display Resolution to your screen resolution and refresh rate, uncheck Use Exclusive Fullscreen Mode, check Maintain Aspect Ratio, and check Force VSync. Rename the file boot.id to something else in the root folder of game if existing.
 
-Open the game by vc3.xbe, start emulation. Press Alt-Enter to switch to fullscreen. As the game is 4:3, if your screen's resolution is 16:9, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio. Due to the curved crosshair movement used by the game, aim will have some distortions especially at corners of the screen.
+Open the game by vc3.xbe, start emulation. Press Alt-Enter to switch to fullscreen. As the game is 4:3, if your screen's resolution is 16:9, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio. Due to the curved crosshair movement used by the game, aim will have some distortions especially at corners of the screen.
 
 For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input settings, use Default Bindings. Assign Gamepad RS Button to a button/motion to hide Laser dot in game, also assign Gamepad D-pad Up/Down/Left/Right to buttons/motions for menu navigation when necessary.
 
@@ -347,11 +347,11 @@ MAIN_PATH ./NVRAM/
 <br>
 BACKUP_PATH ./NVRAM/
 
-For Haunted Museum II, to fix the movie read error, install [wmv9VCMsetup](https://www.videohelp.com/software/WMV9-VCM), also in Windows command prompt with admin privilege, run "regsvr32 %SystemRoot%\SysWOW64\ir50_32.dll". In game settings, uncheck Custom Crosshairs - Enable.
+For Haunted Museum II and Gaia Attack 4, to fix the movie read error, install [wmv9VCMsetup](https://www.videohelp.com/software/WMV9-VCM), also in Windows command prompt with admin privilege, run "regsvr32 %SystemRoot%\SysWOW64\ir50_32.dll". In game settings, uncheck Custom Crosshairs - Enable.
 
 For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if the player 2 crosshair is shown even when not playing, rename P2.png to something else to hide it.
 
-For games with aspect ratio of 4:3, if your screen's resolution is 16:9, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
+For games with aspect ratio of 4:3, if your screen's resolution is 16:9, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
 <br>
 
@@ -605,7 +605,7 @@ Shake/Y = \`Button X\`
 <br>
 Shake/Z = \`Button X\`
 
-Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
+Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
 For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map the Nunchuk stick directions by assigning Gamepad RS Up/Down/Left/Right to Non-Press Touchpad North/South/West/East. Then in Controller settings, set Extension to Nunchuk and in Configure Extension, set Up/Down/Left/Right to Right Y+, Right Y-, Right X-, Right X+ respectively, Save the Profile. Also change other assignments to suit the game. If editing the ini file for mapping:
 
@@ -683,7 +683,7 @@ Touchpad - Center: Gamepad X, West: Gamepad D-pad Left, East: Gamepad D-pad Righ
 
 In Flycast's Video settings, check VSync. In Controls settings, for Xbox 360 Controller, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Reload by pressing Touchpad Center. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
 
-Press F11 to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio. Calibrate the gun crosshair in game's Options menu.
+Press F11 to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio. Calibrate the gun crosshair in game's Options menu.
 
 For Naomi and Atomiswave arcade games (e.g. Ninja Assault), in General settings, uncheck Hide Legacy Naomi Roms, set the mapping for Xbox 360 Controller by selecting Arcade Controls in the mapping screen (in service menu of some games, Button 3 corresponds to ENTER SW, Up/Down for navigation). Calibrate the gun crosshair in the game's Service and Test menu.
 
@@ -735,7 +735,7 @@ InputJoy2YDeadZone = 0
 
 After starting the game, don't move the mouse, otherwise input will be switched to mouse automatically by default. Optionally, you can remove the mouse mapping in Supermodel.ini. 
 
-If your screen's resolution is 16:9 and the game is 4:3, adjust motion pointer AR correction to 1333 to get the correct crosshair moving aspect ratio.
+If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
 Calibrate the gun crosshair in the game's Service and Test menu. If unable to exit the calibration screen by pressing 7 (default for Test), try to press 5 (default for Service) and 7 together several times.
 
