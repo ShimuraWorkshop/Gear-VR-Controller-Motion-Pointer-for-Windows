@@ -374,7 +374,7 @@ BACKUP_PATH ./NVRAM/
 
 For Haunted Museum II and Gaia Attack 4, to fix the movie read error, install [wmv9VCMsetup](https://www.videohelp.com/software/WMV9-VCM), also in Windows command prompt with admin privilege, run "regsvr32 %SystemRoot%\SysWOW64\ir50_32.dll". In game settings, uncheck Custom Crosshairs - Enable.
 
-For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if the player 2 crosshair is shown even when not playing, rename P2.png to something else to hide it.
+For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if an inactive player's crosshair is shown, try to rename the corresponding png file to something else to hide it.
 
 For games with aspect ratio of 4:3, if your screen's resolution is 16:9, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
@@ -692,7 +692,7 @@ Trigger: Mouse left button, Home: Mouse middle button (default for Start), +: Up
 <br>
 Touchpad - Center: Mouse X1 button, West: Left arrow, East: Right arrow, North: Mouse right button (default for B), South: Pointer reset
 
-In Flycast's Video settings, check VSync. In Controls settings, for Default Mouse, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Then map Reload to Button 4, click Done. For Keyboard, select Port A, click Map, Reset the mapping, click Done. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
+In Flycast's Video settings, check VSync. In Controls settings, for Default Mouse, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Then map Reload to Button 4, click Done. For Keyboard, select Port A, click Map, Reset the mapping, click Done. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair. To hide the crosshair of inactive player, set the corresponding crosshair color alpha value (A) to 0.
 
 Press F11 to switch to fullscreen. Calibrate the gun crosshair in game's Options menu.
 
@@ -706,7 +706,7 @@ Trigger: Gamepad A, Home: Gamepad Start/Menu, +: Gamepad D-pad Up, -: Gamepad D-
 <br>
 Touchpad - Center: Gamepad X, West: Gamepad D-pad Left, East: Gamepad D-pad Right, North: Gamepad B, South: Pointer reset
 
-In Flycast's Video settings, check VSync. In Controls settings, for Xbox 360 Controller, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Reload by pressing Touchpad Center. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair.
+In Flycast's Video settings, check VSync. In Controls settings, for Xbox 360 Controller, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Reload by pressing Touchpad Center. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair. To hide the crosshair of inactive player, set the corresponding crosshair color alpha value (A) to 0.
 
 Press F11 to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio. Calibrate the gun crosshair in game's Options menu.
 
