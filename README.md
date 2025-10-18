@@ -267,7 +267,7 @@ For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgu
 
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game. In game's config, select Mouse + Keyboard for player controller.
 
-For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgun-input-using-demulshooter).
+For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgun-input-using-demulshooter). Use Enter and Tab for start buttons of P1 and P2, Up/Down arrow for menu navigation.
 
 <br>
 
