@@ -630,8 +630,6 @@ Shake/Y = \`Button X\`
 <br>
 Shake/Z = \`Button X\`
 
-Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
-
 For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map the Nunchuk stick directions by assigning Gamepad RS Up/Down/Left/Right to Non-Press Touchpad North/South/West/East. Then in Controller settings, set Extension to Nunchuk and in Configure Extension, set Up/Down/Left/Right to Right Y+, Right Y-, Right X-, Right X+ respectively, Save the Profile. Also change other assignments to suit the game. If editing the ini file for mapping:
 
 [Wiimote1]
@@ -648,7 +646,7 @@ Nunchuk/Stick/Right = \`Right X+\`
 
 Some games use shake to reload, it's mapped to Gamepad X (Touchpad North).
 
-After starting the game, if the crosshair moving scale is incorrect, try to adjust Total Yaw or Total Pitch in Controller settings. Some data are available from [Dolphin Lightguns Accuracy Inis](https://github.com/ProfgLX/Dolphin-Lightguns-Accuracy-Inis).
+Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
 <br>
 
