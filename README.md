@@ -50,7 +50,7 @@ System requirements
 Details
 - [\*Secret\* gyro/motion gamepad emulation](#secret-gyromotion-gamepad-emulation)
 - [Lightgun emulation](#lightgun-emulation)
-- [Gyro aiming for rail shooting games](#gyro-aiming-for-rail-shooting-games)
+- [Gyro aiming for rail shooter games](#gyro-aiming-for-rail-shooter-games)
 - [Pairing 2 or more Gear VR controllers *\*\*New\*\**](#pairing-2-or-more-gear-vr-controllers)
 - [Lightgun input using DemulShooter](#lightgun-input-using-demulshooter)
 - [< The House of the Dead 2: Remake > PC gyro aiming](#-the-house-of-the-dead-2-remake--pc-gyro-aiming)
@@ -86,7 +86,7 @@ Windows is a trademark or registered trademark of Microsoft Corporation
 
 ## \*Secret\* gyro/motion gamepad emulation
 
-You can use the controller like a gyro gamepad, with gyro aiming together with analog touch stick (needn't press). Gamepad buttons and sticks are available in key assignment list for mapping to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures.
+You can use the controller like a gyro gamepad, with analog touch stick (needn't press) with gyro aiming support. Gamepad buttons and sticks are available in key assignment list for mapping to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures.
 
 To use the gamepad mode, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
 
@@ -144,7 +144,7 @@ With either config, if the game or emulator is run as admin, this app also needs
 
 <br>
 
-## Gyro aiming for rail shooting games
+## Gyro aiming for rail shooter games
 
 Config file [Link](https://www.mediafire.com/file/t7shxu9czk3wdj1/Gear_VR_Controller.dll.config_gyro.zip/file) (if supported by the game or emulator)
 
@@ -197,13 +197,13 @@ DemulShooter has light gun buttons assignment for Trigger, Off-Screen and Action
 
 See the [Wiki](https://github.com/argonlefou/DemulShooter/wiki/Usage) for supported games and detailed settings. Note that for some games, only output (LED, force feedback, etc) is supported by DemulShooter, but not input. Therefore, there is no effect to use it with the controller for those games.
 
-DemulShooter.exe and DemulShooterX64.exe need to be run in Windows command prompt with admin privilege.
+DemulShooter.exe and DemulShooterX64.exe need to be run as admin or run in Windows command prompt with admin privilege.
 
 <br>
 
 ## < The House of the Dead 2: Remake > PC gyro aiming
 
-Follow the instructions of [gyro aiming](#gyro-aiming-for-rail-shooting-games), and assign keys for example:
+Follow the instructions of [gyro aiming](#gyro-aiming-for-rail-shooter-games), and assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, Home: Tab, +: F, -: Esc
 <br>
@@ -215,7 +215,7 @@ In game options, set controller to Keyboard/Mouse, aiming stick to Both Sticks, 
 
 ## < The House of the Dead: Remake > PC gyro/lightgun aiming
 
-For gyro aiming, follow the [instructions](#gyro-aiming-for-rail-shooting-games), and assign keys for example:
+For gyro aiming, follow the [instructions](#gyro-aiming-for-rail-shooter-games), and assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, -: Esc
 <br>
@@ -231,7 +231,7 @@ For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgu
 
 ## < Panzer Dragoon: Remake > PC gyro aiming
 
-Follow the instructions of [gyro aiming](#gyro-aiming-for-rail-shooting-games), and assign keys for example:
+Follow the instructions of [gyro aiming](#gyro-aiming-for-rail-shooter-games), and assign keys for example:
 
 Trigger: Mouse left button, Back: Enter, Home: Esc, +: R, -: F
 <br>
@@ -736,9 +736,9 @@ Trigger: Gamepad A, Back: Gamepad LS Button (default for Start), Home: Gamepad R
 <br>
 Touchpad Center: Gamepad B, Touchpad South: Pointer reset
 
-In Supermodel's Core settings, set InputSystem to dinput. In Video settings, check FullScreen (required in order to hide cursor), check VSync, check NoWhiteFlash, set Crosshairs to 1 (1 means only player 1, 2 means only player 2, 3 means both players).
+In Supermodel's Core settings, set InputSystem to dinput. In Video settings, check FullScreen (required in order to hide cursor), check VSync, check NoWhiteFlash, set Crosshairs to 1 (1: player 1 only, 2: player 2 only, 3: both players).
 
-By default, only player 1 gun is mapped to gamepad, if you want to map second gamepad to player 2, you need to edit the file .\Config\Supermodel.ini in Supermodel folder, modify these settings to:
+By default, only player 1 gun is mapped to gamepad, if you want to map player 2 gun to second gamepad, you need to edit the ini file .\Config\Supermodel.ini in Supermodel folder:
 
 InputAnalogGunX2 = JOY2_XAXIS
 <br>
@@ -748,7 +748,7 @@ InputAnalogTriggerLeft2 = JOY2_BUTTON1
 <br>
 InputAnalogTriggerRight2 = JOY2_BUTTON2
 
-Supermodel has a little dead zone for gamepad by default, you can set the dead zone to 0 by appending the following lines to Supermodel.ini:
+Supermodel has a little dead zone for gamepad by default, you can set the dead zone to 0 by appending the following lines to the ini file (edit if existing):
 
 InputJoy1XDeadZone = 0
 <br>
@@ -758,7 +758,7 @@ InputJoy2XDeadZone = 0
 <br>
 InputJoy2YDeadZone = 0
 
-After starting the game, don't move the mouse, otherwise input will be switched to mouse automatically by default. Optionally, you can remove the mouse mapping in Supermodel.ini. 
+After starting the game, don't move the mouse, otherwise input will be switched to mouse automatically by default. Optionally, you can remove the mouse mapping from InputAnalogGunX/Y in the ini file. 
 
 If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
