@@ -17,6 +17,7 @@ Features
 - No VR headset or mobile phone needed
 - Wireless presenter, air mouse and motion pointer
 - Emulated light gun, gyro and motion gamepad
+- 2 or more Gear VR controllers
 - Key or action mapping to buttons and motions
 - Combo editor for keys input
 - Trackpad mouse cursor or scrolling
@@ -257,7 +258,7 @@ Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emul
 
 ## < The House of the Dead III > PC lightgun aiming
 
-Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game.
+Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game. In game launcher's controller settings, select Mouse or Usb Gun.
 
 For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgun-input-using-demulshooter).
 
@@ -588,7 +589,7 @@ Touchpad - Center: Gamepad A, West: Gamepad D-pad Left, East: Gamepad D-pad Righ
 
 In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, Total Yaw to 19 degree, Total Pitch to 19 degree (different for some games, usually Total Yaw around 15 to 19 degree, and Total Pitch around 11 to 19 degree, try to find the data in [Dolphin Lightguns Accuracy Inis](https://github.com/ProfgLX/Dolphin-Lightguns-Accuracy-Inis)). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
 
-Alternatively, edit the ini file "%APPDATA%\Dolphin Emulator\Config\WiimoteNew.ini" directly for the mapping:
+Alternatively, edit the ini file "%APPDATA%\Dolphin Emulator\Config\WiimoteNew.ini" (default) directly for the mapping:
 
 [Wiimote1]
 <br>
