@@ -361,9 +361,15 @@ In TeknoParrotUI game settings, set General - Input API to XInput, check Crossha
 
 Adjust the motion pointer speed to around 8~12 for the game.
 
+For games with aspect ratio of 4:3, if your screen's resolution is 16:9, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
+
+For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if an inactive player's crosshair is shown, try to rename the corresponding png file to something else to hide it.
+
 For Operation GHOST, check General - Windowed in game settings, and patch the game to correct screen resolution by [OpGhost_ResChanger](https://forum.arcadecontrols.com/index.php/topic,149714.msg1673148.html#msg1673148). Set max frame rate to 60 fps for the game (gs.exe) in GPU driver when necessary. If your version of game has the crosshair removed, try to restore the backup folder ".\root\img\UI\UI_hud_common.crosshair" if available.
 
 For Rabbids Hollywood, if the crosshair or trigger doesn't work, maybe your version of game has a non-working trigger fix or Unity Plugin installed. Try to restore the backup file ".\Game_Data\Managed\Assembly-CSharp.dll.original" if available, also rename the file ".\winhttp.dll" to something else if existing. If the crosshair is unresponsive in stage selection screen, before pressing Start, try to wait 5 seconds after the demo game video is shown.
+
+For Haunted Museum II and Gaia Attack 4, to fix the movie read error, install [wmv9VCMsetup](https://www.videohelp.com/software/WMV9-VCM), also in Windows command prompt with admin privilege, run "regsvr32 %SystemRoot%\SysWOW64\ir50_32.dll".
 
 For Point Blank X, to fix the ticket dispenser error and memory test freeze, append following lines to file ".\PBX100-2-NA-MPR0-A63_Data\Setting.ini" in game folder:
 
@@ -372,12 +378,6 @@ TICKET 0
 MAIN_PATH ./NVRAM/
 <br>
 BACKUP_PATH ./NVRAM/
-
-For Haunted Museum II and Gaia Attack 4, to fix the movie read error, install [wmv9VCMsetup](https://www.videohelp.com/software/WMV9-VCM), also in Windows command prompt with admin privilege, run "regsvr32 %SystemRoot%\SysWOW64\ir50_32.dll".
-
-For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if an inactive player's crosshair is shown, try to rename the corresponding png file to something else to hide it.
-
-For games with aspect ratio of 4:3, if your screen's resolution is 16:9, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
 <br>
 
