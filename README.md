@@ -647,7 +647,7 @@ Nunchuk/Stick/Right = \`Right X+\`
 
 Some games use shake to reload, it's mapped to Gamepad X (Touchpad North).
 
-Press Alt-Enter to switch to fullscreen. Due to the native resolution of 4:3.3, if your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1467 in app, if the game is 16:9, set AR correction to 1100 to get the correct crosshair moving aspect ratio (not required for option 1).
+Press Alt-Enter to switch to fullscreen. Due to the native resolution of 4:3.3, if your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1467 in app to get the correct crosshair moving aspect ratio (not required for option 1).
 
 <br>
 
