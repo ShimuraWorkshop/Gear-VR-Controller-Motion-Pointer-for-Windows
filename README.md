@@ -34,7 +34,7 @@ Calibration for motion sensing and motion pointer
 
 Download latest version
 
-- v2.2.0 [Link](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
+- v2.2.0 (from [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Gear-VR-Controller.shtml))
 - md5: f1b921deeaf0bbdf0e60673b7e6b4663
 - sha-1: 694fe2b6fb66f26c5d4d69e3a386988f2c46f163
 
@@ -87,7 +87,7 @@ Windows is a trademark or registered trademark of Microsoft Corporation
 
 ## \*Secret\* gyro/motion gamepad emulation
 
-You can use the controller like a gyro gamepad, with analog touch stick (needn't press) and gyro aiming support. Gamepad buttons and sticks are available in key assignment list for mapping to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures.
+You can use the controller like a gyro gamepad, with analog touch stick (needn't press) and gyro aiming (replacing mouse) support. Gamepad buttons and sticks are available in key assignment list for mapping to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures.
 
 To use the gamepad mode, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
 
