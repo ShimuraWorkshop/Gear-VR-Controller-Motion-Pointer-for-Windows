@@ -27,7 +27,7 @@ Features
 Setup guide
 - No manual pairing needed, just turn on PC Bluetooth and install batteries to the controller
 - Press any button on the controller, then click the Search icon in app
-- Click the Connect button, that's it
+- Click the Connect button
 
 Calibration for motion sensing and motion pointer
 - Place the controller upside down on a stable surface, then click the CAL button, that's it
@@ -587,7 +587,7 @@ Trigger: Gamepad B, Back: Gamepad Back/View, Home: Gamepad Start/Menu, +: Gamepa
 <br>
 Touchpad - Center: Gamepad A, West: Gamepad D-pad Left, East: Gamepad D-pad Right, North: Gamepad X, South: Pointer reset
 
-In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, Total Yaw to 19 degree, Total Pitch to 19 degree (different for some games, usually Vertical Offset around 0 to 15 cm, Total Yaw around 15 to 20 degree, Total Pitch around 11 to 19 degree, try to find the data in [Dolphin Lightguns Accuracy Inis](https://github.com/ProfgLX/Dolphin-Lightguns-Accuracy-Inis)). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
+In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, Total Yaw to 19 degree, Total Pitch to 19 degree (different for some games, usually Vertical Offset around 0 to 15 cm, Total Yaw around 15 to 20 degree, Total Pitch around 11 to 19 degree, use the same settings as option 1, or try to find the data in [Dolphin Lightguns Accuracy Inis](https://github.com/ProfgLX/Dolphin-Lightguns-Accuracy-Inis)). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
 
 Alternatively, edit the ini file "%APPDATA%\Dolphin Emulator\Config\WiimoteNew.ini" (default) directly for the mapping:
 
