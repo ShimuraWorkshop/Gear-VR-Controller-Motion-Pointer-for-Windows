@@ -371,7 +371,7 @@ For Rabbids Hollywood, if the crosshair or trigger doesn't work, maybe your vers
 
 For Haunted Museum II and Gaia Attack 4, to fix the movie read error, install [wmv9VCMsetup](https://www.videohelp.com/software/WMV9-VCM), also in Windows command prompt with admin privilege, run "regsvr32 %SystemRoot%\SysWOW64\ir50_32.dll".
 
-For Tomb Raider, to fix the aiming issue, set screen resolution to 1920x1080, you may need to reset previous settings in Windows registry, in folder "\HKEY_CURRENT_USER\SOFTWARE\Sarbakan\SquareEnix_TombRaider", set "Screenmanager Resolution Width..." to 1920 (Decimal), "Screenmanager Resolution Height..." to 1080 (Decimal).
+For Tomb Raider, to fix the aiming issue, set screen resolution to 1920x1080, you may need to reset previous settings in Windows registry, in folder "\HKEY_CURRENT_USER\SOFTWARE\Sarbakan\SquareEnix_TombRaider", set "Screenmanager Resolution Height..." to 1080 (Decimal), "Screenmanager Resolution Width..." to 1920 (Decimal).
 
 For Gundam Spirits of Zeon, to fix title screen freezing, try to uncheck General - Hideconsolewindow in game settings.
 
