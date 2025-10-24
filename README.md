@@ -371,6 +371,14 @@ For Rabbids Hollywood, if the crosshair or trigger doesn't work, maybe your vers
 
 For Haunted Museum II and Gaia Attack 4, to fix the movie read error, install [wmv9VCMsetup](https://www.videohelp.com/software/WMV9-VCM), also in Windows command prompt with admin privilege, run "regsvr32 %SystemRoot%\SysWOW64\ir50_32.dll".
 
+For Tomb Raider, to fix the aiming issue, set screen resolution to 1920x1080, you may need to reset previous settings in Windows registry, in folder "\HKEY_CURRENT_USER\SOFTWARE\Sarbakan\SquareEnix_TombRaider", set "Screenmanager Resolution Width..." to 1920 (Decimal), "Screenmanager Resolution Height..." to 1080 (Decimal).
+
+For Gundam Spirits of Zeon, to fix title screen freezing, try to uncheck General - Hideconsolewindow in game settings.
+
+For Night Hunter After Dark Chapter 2, to fix the crosshair issue, try to check General - Windowed in game settings.
+
+For games like Castlevania and Wartran Troopers, the Coin key mapping may not work, try to check General - Freeplay in game settings.
+
 For Point Blank X, to fix the ticket dispenser error and memory test freeze, append following lines to file ".\PBX100-2-NA-MPR0-A63_Data\Setting.ini" in game folder:
 
 TICKET 0
@@ -391,11 +399,11 @@ Touchpad - Center: Mouse right button, West: Mouse middle button, East: Mouse X2
 
 In RPCS3 game's GPU configuration, set Framelimit to Auto, check Write Color Buffers (required in order to fix screen brightness), check VSync. In I/O tab, set Mouse Handler to Basic, Move Handler to Mouse, Camera Input to PS Eye, Camera Handler to Fake, check Show PS Move Cursor. In Advanced tab, set VBlank Frequency to 59 Hz, uncheck VBlank NTSC Fixup (only available in game custom configuration, and it's important in order to get correct mouse button response).
 
-In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively, set Button 6/7/8 to 6/7/8 (without Num+) respectively. In USB Devices->PS Move (Mouse) configuration, set Start/Select/Triangle/Circle/Cross/Square/Move/T to Mouse 7/6/4/5/2/3/8/1 respectively, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler for PS3 Controller to navigate menus in game, as RPCS3 doesn't support PS Move navigation. When using a keyboard handler, use Ctrl-F11 in game to switch between PS3 Controller mode and PS Move mode.
+In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively, set Button 6/7/8 to 6/7/8 (without Num+) respectively. In USB Devices->PS Move (Mouse) configuration, set Start/Select/Triangle/Circle/Cross/Square/Move/T to Mouse 7/6/4/5/2/3/8/1 respectively, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler for PS3 Controller to navigate menus in game, as RPCS3 doesn't support PS Move navigation. When using a keyboard handler, press Ctrl-F11 in game to switch between PS3 Controller mode and PS Move mode.
 
 In the crosshair calibration screen, make sure PS Move mode is active. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required in order to align the Windows cursor with the PS Move cursor).
 
-For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except the center target, you should shoot each target at a little further from the outermost ring toward the window edge to get the correct calibration. But don't shoot too far, otherwise you can't turn left/right in the game when you need to point the crosshair to the window edge. For Deadstorm Pirates, press Back button to start calibration, just shoot at the center of each target.
+For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except the center target, you should aim at a little further from the outermost ring of each target toward the window edge to get the correct calibration. But don't aim too far, otherwise you can't turn left/right in the game when you need to point the crosshair to the window edge. For Deadstorm Pirates, press Back button to start calibration, just aim at the center of each target.
 
 Press Touchpad East to retry, or press Touchpad North to confirm, then Touchpad East to go back to title screen. Press Touchpad Center to select menu items and start a new game. Make sure the player controller is set to Motion Controller No.7.
 
