@@ -411,6 +411,8 @@ Press Touchpad East to retry, or press Touchpad North to confirm, then Touchpad 
 
 After calibration, you can uncheck Show PS Move Cursor in I/O configuration. Optionally hide the Windows cursor by [nomousy](https://www.autohotkey.com/board/topic/2083-nomousy-disablehide-your-mouse-pointer-cmd/) ([download](https://www.mediafire.com/file/oglzpabl50b8juq/nomousy.zip/file)), run "nomousy /hide" to switch the Windows cursor on/off.
 
+For games like The House of the Dead 4, which require shake to reload, as RPCS3 doesn't support PS Move motion gestures, you need to let the games reload automatically. The House of the Dead III uses button to reload and works correctly.
+
 <br>
 
 ## < PCSX2 > emulator PC lightgun aiming
