@@ -399,7 +399,7 @@ Touchpad - Center: Mouse right button, West: Mouse middle button, East: Mouse X2
 
 In RPCS3 game's GPU configuration, set Framelimit to Auto, check Write Color Buffers (to fix screen brightness), check VSync. In I/O tab, set Mouse Handler to Basic, Move Handler to Mouse, Camera Input to PS Eye, Camera Handler to Fake, check Show PS Move Cursor. In Advanced tab, set VBlank Frequency to 58 Hz and uncheck VBlank NTSC Fixup (only available in game custom configuration, and it's important in order to get correct mouse button response and audio sync).
 
-In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively, set Button 6/7/8 to 6/7/8 (without Num+) respectively. In USB Devices->PS Move (Mouse) configuration, set Start/Select/Triangle/Circle/Cross/Square/Move/T to Mouse 7/6/4/5/2/3/8/1 respectively, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler for PS3 Controller to navigate menus in game, as RPCS3 doesn't support PS Move navigation. When using a keyboard handler, you can press Ctrl-F11 in game to switch between PS3 Controller mode and PS Move mode.
+In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Middle/Back/Fwd respectively, set Button 6/7/8 to 6/7/8 (without Num+) respectively. In USB Devices->PS Move (Mouse) configuration, set Start/Select/Triangle/Circle/Cross/Square/Move/T to Mouse 7/6/4/5/2/3/8/1 respectively, and clear all other buttons. In Gamepad configuration, setup a keyboard or gamepad handler for PS3 Controller to navigate menus in game, as RPCS3 doesn't support PS Move navigation by mouse. When using a keyboard handler, you can press Ctrl-F11 in game to switch between PS3 Controller mode and PS Move mode.
 
 In the crosshair calibration screen, make sure PS Move mode is active. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required in order to align the Windows cursor with the PS Move cursor).
 
@@ -411,7 +411,7 @@ Press Touchpad East to retry, or press Touchpad North to confirm, then Touchpad 
 
 After calibration, you can uncheck Show PS Move Cursor in I/O configuration. Optionally hide the Windows cursor by [nomousy](https://www.autohotkey.com/board/topic/2083-nomousy-disablehide-your-mouse-pointer-cmd/) ([download](https://www.mediafire.com/file/oglzpabl50b8juq/nomousy.zip/file)), run "nomousy /hide" to switch the Windows cursor on/off.
 
-For games like The House of the Dead 4, which require shake to reload, as RPCS3 doesn't support PS Move motion gestures, you need to let the games reload automatically. The House of the Dead III uses button to reload and works correctly.
+For games like The House of the Dead 4, which require shake to reload, as RPCS3 doesn't support PS Move motion gestures by mouse, you need to let the games reload automatically. The House of the Dead III uses button to reload and works correctly.
 
 <br>
 
