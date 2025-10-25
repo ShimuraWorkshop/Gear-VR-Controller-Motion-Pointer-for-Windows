@@ -296,11 +296,13 @@ Trigger: Mouse left button, Back: 1, Home: 5
 <br>
 Touchpad - Center: Mouse right button, North: Mouse middle button, South: Pointer reset
 
-In MAME game's Input Device Options, set Lightgun Device Assignment to lightgun, Pedal Device Assignment to lightgun, Keyboard Input Provider to dinput, Lightgun Input Provider to win32.
+In MAME game's Input Device Options, set Lightgun Device Assignment to lightgun, Keyboard Input Provider to dinput, Lightgun Input Provider to win32.
 
 Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
 If you want to use non-press touchpad for pedal, assign Mouse right button to Non-Press Touchpad Center.
+
+For 2-player support by using 2 Gear VR controllers, set Lightgun Device Assignment to joystick and follow instructions of option 2.
 
 ### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Alien 3: The Gun)
 
