@@ -749,7 +749,7 @@ Trigger: Gamepad A, Back: Gamepad LS Button (default for Start), Home: Gamepad R
 <br>
 Touchpad Center: Gamepad B, Touchpad South: Pointer reset
 
-In Supermodel's Core settings, set InputSystem to dinput. In Video settings, check FullScreen (required in order to hide cursor), check VSync, check NoWhiteFlash, set Crosshairs to 1 (1: player 1 only, 2: player 2 only, 3: both players).
+In Supermodel's Core settings, set InputSystem to dinput. In Video settings, check FullScreen (required in order to hide cursor), check VSync, check NoWhiteFlash, set Crosshairs to 1 (1: player 1 only, 2: player 2 only, 3: both players, you can also press Alt-I in game to change).
 
 By default, only player 1 gun is mapped to gamepad, if you want to map player 2 gun to second gamepad, you need to edit the ini file .\Config\Supermodel.ini in Supermodel folder:
 
