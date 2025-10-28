@@ -405,7 +405,7 @@ In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Mid
 
 In the crosshair calibration screen, make sure PS Move mode is active. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required in order to align the Windows cursor with the PS Move cursor).
 
-Alternatively, use [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html) to set maximized window by running "nircmd win -style process rpcs3.exe 0xC40000" to hide title bar and border, and "nircmd win setsize process rpcs3.exe 0 0 1920 1080" (example of 1920x1080 screen) to set window size. Don't switch to real fullscreen, otherwise the crosshair will move incorrectly.
+Alternatively, use [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html) to set maximized window by running "nircmd win -style process rpcs3.exe 0xC40000" to hide title bar and border, and "nircmd win setsize process rpcs3.exe 0 0 1920 1080" (example of 1920x1080 screen) to set window size. RPCS3 may switch to fullscreen itself, press Alt-Enter to switch back to window mode. Don't switch to real fullscreen, otherwise the crosshair will move incorrectly.
 
 For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except the center target, you should aim at a little further from the outermost ring of each target toward the window edge to get the correct calibration. But don't aim too far, otherwise you can't turn left/right in the game when you need to point the crosshair to the window edge. For Deadstorm Pirates, press Back button to start calibration, just aim at the center of each target.
 
