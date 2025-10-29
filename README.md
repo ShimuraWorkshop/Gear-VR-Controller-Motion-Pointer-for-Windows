@@ -58,7 +58,7 @@ Details
 - [< The House of the Dead: Remake > PC gyro/lightgun aiming](#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming)
 - [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming)
 - [< Blue Estate The Game > PC lightgun aiming](#-blue-estate-the-game--pc-lightgun-aiming)
-- [< The Typing of the Dead: Overkill > PC lightgun aiming](#-the-typing-of-the-dead-overkill--pc-lightgun-aiming)
+- [< The House of the Dead: Overkill > PC lightgun aiming](#-the-house-of-the-dead-overkill--pc-lightgun-aiming)
 - [< The House of the Dead III > PC lightgun aiming](#-the-house-of-the-dead-iii--pc-lightgun-aiming)
 - [< The House of the Dead 2 > PC lightgun aiming](#-the-house-of-the-dead-2--pc-lightgun-aiming)
 - [< House of the Dead: Scarlet Dawn > PC lightgun aiming](#-house-of-the-dead-scarlet-dawn--pc-lightgun-aiming)
@@ -250,9 +250,9 @@ Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emul
 
 <br>
 
-## < The Typing of the Dead: Overkill > PC lightgun aiming
+## < The House of the Dead: Overkill > PC lightgun aiming
 
-Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game.
+In The Typing of the Dead: Overkill. Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys to suit the game.
 
 <br>
 
@@ -274,7 +274,7 @@ For 2-player support by using 2 Gear VR controllers, see [DemulShooter](#lightgu
 
 ## < House of the Dead: Scarlet Dawn > PC lightgun aiming
 
-For TeknoParrot, follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
+For TeknoParrot. Follow the instructions of [lightgun emulation option 2](#option-2-lightgun-emulation-replacing-gamepad-stick), and assign keys for example:
 
 Trigger: Gamepad A, Back: Gamepad Back/View
 <br>
