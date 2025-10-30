@@ -87,7 +87,7 @@ Windows is a trademark or registered trademark of Microsoft Corporation
 
 ## \*Secret\* gyro/motion gamepad emulation
 
-You can use the controller like a gyro gamepad, with analog touch stick (needn't press) and gyro aiming (replacing mouse) support. Gamepad buttons and sticks are available in key assignment list for mapping to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures.
+You can use the controller like a gyro gamepad, with analog touch stick (needn't press) and gyro aiming (replacing mouse) support. Gamepad buttons and sticks are available in key assignment list for mapping to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures. (SteamVR, gyro/motion of Steam Input, Wii/Switch emulators and games built-in controls are not supported at the moment.)
 
 To use the gamepad mode, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
 
