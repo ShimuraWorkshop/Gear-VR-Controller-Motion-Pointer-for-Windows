@@ -405,7 +405,7 @@ In Mice->Basic Mouse configuration, set Button 1/2/3/4/5 to Mouse Left/Right/Mid
 
 In the crosshair calibration screen, make sure PS Move mode is active. Keep in window mode and resize the window as large as possible at the center of the screen while matching the game's aspect ratio (required in order to align the Windows cursor with the PS Move cursor).
 
-Alternatively, use [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html) to set maximized window by running "nircmd win -style process rpcs3.exe 0xC40000" to hide title bar and border, and "nircmd win setsize process rpcs3.exe 0 0 1920 1080" (example of 1920x1080 screen) to set window size. RPCS3 may switch to fullscreen itself, press Alt-Enter to switch back to window mode. Don't switch to real fullscreen, otherwise the crosshair will move incorrectly.
+Alternatively, use [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html) to set maximized window by running "nircmd win -style process rpcs3.exe 0xC40000" to hide title bar and sizing border, then "nircmd win setsize process rpcs3.exe 0 0 1920 1080" (example of 1920x1080 screen) to set window size. RPCS3 may switch to fullscreen itself, press Alt-Enter to switch back to window mode. Don't switch to real fullscreen, otherwise the crosshair will move incorrectly.
 
 For Time Crisis 4 and Razing Storm, press Trigger to start calibration. Except the center target, you should aim at a little further from the outermost ring of each target toward the window edge to get the correct calibration. But don't aim too far, otherwise you can't turn left/right in the game when you need to point the crosshair to the window edge. For Deadstorm Pirates, press Back button to start calibration, just aim at the center of each target.
 
@@ -795,7 +795,7 @@ After starting game, press F4 to enter Service and Test menu, F4 again to exit (
 
 Press Alt-Enter to switch to fullscreen. If the resolution is incorrect, you need to set in the demul.exe Compatibility properties, click Change high DPI settings, check Override high DPI scaling behavior, set Scaling performed by: to Application, and restart Demul.
 
-Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, download [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html), run "nircmd win -style process demul.exe 0xC00000" to hide title bar and "nircmd win setsize process demul.exe 240 -26 1440 1106" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to set maximized window.
+Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, use [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html) to set maximized window by running "nircmd win -style process demul.exe 0xC00000" to hide title bar and thin border, then "nircmd win setsize process demul.exe 240 -26 1440 1106" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to set window position and size.
 
 Calibrate the crosshair in the game's Service and Test menu -> B.F.F. TEST MENU -> NOZZLE SENSOR SETTING. Press Touchpad South to reset stick, to get a better calibration, during "Aim at CENTER of the screen", press Trigger when CC X:7f Y:7f is shown. Alternatively, calibration can be done easily by mouse without running DemulShooter.
 
