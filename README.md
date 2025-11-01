@@ -795,7 +795,7 @@ After starting game, press F4 to enter Service and Test menu, F4 again to exit (
 
 Press Alt-Enter to switch to fullscreen. If the resolution is incorrect, you need to set in the demul.exe Compatibility properties, click Change high DPI settings, check Override high DPI scaling behavior, set Scaling performed by: to Application, and restart Demul.
 
-Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, download [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html), run "nircmd win -style process demul.exe 0xC00000" to hide title bar and "nircmd win setsize process demul.exe 240 0 1440 1080" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to switch to maximized window.
+Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, download [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html), run "nircmd win -style process demul.exe 0xC00000" to hide title bar and "nircmd win setsize process demul.exe 240 -26 1440 1106" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to set maximized window.
 
 Calibrate the crosshair in the game's Service and Test menu -> B.F.F. TEST MENU -> NOZZLE SENSOR SETTING. Press Touchpad South to reset stick, to get a better calibration, during "Aim at CENTER of the screen", press Trigger when CC X:7f Y:7f is shown. Alternatively, calibration can be done easily by mouse without running DemulShooter.
 
