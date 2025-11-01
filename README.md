@@ -751,7 +751,7 @@ Touchpad Center: Gamepad B, Touchpad South: Pointer reset
 
 In Supermodel's Core settings, set InputSystem to dinput. In Video settings, check FullScreen (required in order to hide cursor), check VSync, check NoWhiteFlash, set Crosshairs to 1 (1: player 1 only, 2: player 2 only, 3: both players, you can also press Alt-I in game to change).
 
-By default, only player 1 gun is mapped to gamepad, if you want to map player 2 gun to second gamepad, you need to edit the ini file .\Config\Supermodel.ini in Supermodel folder:
+By default, only player 1 gun is mapped to gamepad, if you want to map player 2 gun to second gamepad, you need to edit the ini file ".\Config\Supermodel.ini" in Supermodel folder:
 
 InputAnalogGunX2 = JOY2_XAXIS
 <br>
@@ -795,7 +795,7 @@ After starting game, press F4 to enter Service and Test menu, F4 again to exit (
 
 Press Alt-Enter to switch to fullscreen. If the resolution is incorrect, you need to set in the demul.exe Compatibility properties, click Change high DPI settings, check Override high DPI scaling behavior, set Scaling performed by: to Application, and restart Demul.
 
-Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, use [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html) to set maximized window by running "nircmd win -style process demul.exe 0xC00000" to hide title bar and thin border, then "nircmd win setsize process demul.exe 240 -26 1440 1106" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to set window position and size.
+Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, use [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html) to set maximized window by running "nircmd win -style process demul.exe 0xC00000" to hide title bar and thin border, then "nircmd win setsize process demul.exe 240 -20 1440 1100" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to set window position and size.
 
 Calibrate the crosshair in the game's Service and Test menu -> B.F.F. TEST MENU -> NOZZLE SENSOR SETTING. Press Touchpad South to reset stick, to get a better calibration, during "Aim at CENTER of the screen", press Trigger when CC X:7f Y:7f is shown. Alternatively, calibration can be done easily by mouse without running DemulShooter.
 
