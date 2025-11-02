@@ -381,9 +381,9 @@ For Gundam Spirits of Zeon, to fix title screen freezing, try to uncheck General
 
 For Night Hunter After Dark Chapter 2, to fix the crosshair issue, try to check General - Windowed in game settings.
 
-For games like Castlevania and Wartran Troopers, the Coin key mapping may not work, try to check General - Freeplay in game settings.
-
 For Point Blank X, to fix the ticket dispenser error, enter and exit the Test menu once to disable the dispenser. But XInput mapping of Test button doesn't work, use DirectInput or RawInput Input API temporarily.
+
+For games like Castlevania and Wartran Troopers, the Coin key mapping may not work, try to check General - Freeplay in game settings.
 
 <br>
 
