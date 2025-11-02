@@ -365,7 +365,7 @@ Adjust the motion pointer speed to around 8~12 for the game.
 
 For games with aspect ratio of 4:3, if your screen's resolution is 16:9, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
-XInput mapping of Test button doesn't work in most games. If you need to enter the Test menu, use DirectInput or RawInput Input API temporarily.
+XInput mapping of Test button doesn't work in most games. If you need to enter the Test menu, try to use DirectInput or RawInput Input API temporarily.
 
 For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if an inactive player's crosshair is shown, try to rename the corresponding png file to something else to hide it.
 
@@ -381,7 +381,7 @@ For Gundam Spirits of Zeon, to fix title screen freezing, try to uncheck General
 
 For Night Hunter After Dark Chapter 2, to fix the crosshair issue, try to check General - Windowed in game settings.
 
-For Point Blank X, to fix the ticket dispenser error, enter and exit the Test menu once to disable the dispenser. But XInput mapping of Test button doesn't work, use DirectInput or RawInput Input API temporarily.
+For Point Blank X, to fix the ticket dispenser error, try to enter and exit the Test menu once to disable the dispenser. But XInput mapping of Test button doesn't work, use DirectInput or RawInput Input API temporarily.
 
 For games like Castlevania and Wartran Troopers, the Coin key mapping may not work, try to check General - Freeplay in game settings.
 
