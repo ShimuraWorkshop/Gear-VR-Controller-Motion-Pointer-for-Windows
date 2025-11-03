@@ -46,6 +46,10 @@ System requirements
 
 [Troubleshooting](https://github.com/ShimuraWorkshop/Gear-VR-Controller-Motion-Pointer-for-Windows/wiki#troubleshooting)
 
+Donate
+- [Buy me a coffee](https://buymeacoff.ee/shimuraworkshop)
+- BTC: 1Ldb1X4gNiZW2SnzJAyW23XA2bpDN3iLYu
+
 <br>
 
 Details
@@ -165,7 +169,7 @@ By default, only a single Gear VR controller can be paired with Windows. To make
 
 A maximum of 4 gamepad-based Gear VR controllers plus 1 mouse-based Gear VR controller can work at the same time, depending on the support by games or emulators. For example, in TeknoParrot, 4 gamepads can be set. In PCSX2, DuckStation, Dolphin and Flycast, both mouse and gamepad can be set for players. In MAME, multiple gamepads are set for different players by default. For games supported by DemulShooter input, 4 gamepads can be set as light guns input.
 
-Beware that modifying the registry incorrectly may make your Windows corrupt, do it at your own risk.
+Beware that modifying the registry incorrectly may make your Windows corrupt, follow the procedures carefully.
 
 Procedures:
 1. Update the app to v2.2.0.
