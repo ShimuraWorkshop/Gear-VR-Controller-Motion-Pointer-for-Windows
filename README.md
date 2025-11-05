@@ -34,9 +34,10 @@ Calibration for motion sensing and motion pointer
 
 Download latest version
 
-- v2.2.0 (from [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Gear-VR-Controller.shtml))
-- md5: f1b921deeaf0bbdf0e60673b7e6b4663
-- sha-1: 694fe2b6fb66f26c5d4d69e3a386988f2c46f163
+- v2.2.1
+[Link](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
+- md5: f91dd7ca225454c7c0608dfea737a3c8
+- sha-1: 28cec6f7cf3bc1ee3b21c59f8dd331145b83edfc
 
 System requirements
 - Windows 10 x64 or Windows 11
@@ -133,7 +134,7 @@ If the game is run as admin, this app also needs to be run as admin, otherwise W
 
 Config file [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file) (if supported by the game or emulator)
 
-ViGEmBus not required, update the app to v2.2.0, unzip the config to "C:\Program Files\Gear VR Controller" (default).
+ViGEmBus not required, update the app to v2.2.1, unzip the config to "C:\Program Files\Gear VR Controller" (default).
 
 Assign "Pointer reset" to Touchpad South, "Mouse left button" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
 
@@ -141,7 +142,7 @@ Assign "Pointer reset" to Touchpad South, "Mouse left button" to Trigger, also o
 
 Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file) (if supported by the game or emulator)
 
-Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.2.0, unzip the config to "C:\Program Files\Gear VR Controller" (default).
+Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.2.1, unzip the config to "C:\Program Files\Gear VR Controller" (default).
 
 Assign "Pointer reset" to Touchpad South, "Gamepad A" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 8~12 in app for the game.
 
@@ -153,7 +154,7 @@ With either config, if the game or emulator is run as admin, this app also needs
 
 Config file [Link](https://www.mediafire.com/file/t7shxu9czk3wdj1/Gear_VR_Controller.dll.config_gyro.zip/file) (if supported by the game or emulator)
 
-ViGEmBus not required, update the app to v2.2.0, unzip the config to "C:\Program Files\Gear VR Controller" (default).
+ViGEmBus not required, update the app to v2.2.1, unzip the config to "C:\Program Files\Gear VR Controller" (default).
 
 Assign "Pointer temporary off" to Touchpad South, "Mouse left button" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 4 in app and switch to motion pointer mode before starting the game. Also adjust the cursor speed in Windows mouse settings when necessary.
 
@@ -172,7 +173,7 @@ A maximum of 4 gamepad-based Gear VR controllers plus 1 mouse-based Gear VR cont
 Beware that modifying the registry incorrectly may make your Windows corrupt, follow the procedures carefully.
 
 Procedures:
-1. Update the app to v2.2.0.
+1. Update the app to v2.2.1.
 2. Make a note of the MAC address of existing Gear VR controller from the lower left corner of the app.
 3. Disconnect the controller and exit the app.
 4. Download and unzip [PSTools](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec).
