@@ -34,8 +34,7 @@ Calibration for motion sensing and motion pointer
 
 Download latest version
 
-- v2.2.1
-[Link](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
+- v2.2.1 (from [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Gear-VR-Controller.shtml))
 - md5: f91dd7ca225454c7c0608dfea737a3c8
 - sha-1: 28cec6f7cf3bc1ee3b21c59f8dd331145b83edfc
 
