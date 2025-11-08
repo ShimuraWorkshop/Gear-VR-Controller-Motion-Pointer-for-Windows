@@ -363,7 +363,7 @@ Touchpad - Center: Gamepad B, North: Gamepad X, West: Gamepad LB, East: Gamepad 
 
 In TeknoParrotUI game settings, set General - Input API to XInput (set to DirectInput if you need keyboard input, but gamepad device ID will not be shown in controller setup), check Crosshair - Enable, uncheck General - Windowed. In controller setup, set the mapping by pressing the buttons on Gear VR controller. Press Touchpad South to re-center stick, then set Coin by pressing Home, Gun Trigger by Trigger, Gun Button by Touchpad North, Left Pedal by Touchpad West, Right Pedal by Touchpad East. Set Player 1 Gun X by pointing the controller to left and right slowly until X+ or X- is shown, set Gun Y by pointing to up and down slowly until Y+ or Y- is shown. (For easier input during setup, you may adjust the motion pointer speed or dead zone in app temporarily.)
 
-For games with aspect ratio of 4:3, if your screen's resolution is 16:9, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
+For some games with aspect ratio of 4:3, if your screen's resolution is 16:9, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio. (Not required if the game can switch the screen resolution to 4:3.)
 
 XInput mapping of Test button sometimes doesn't work, try to restart TeknoParrotUI.
 
