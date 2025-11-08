@@ -56,7 +56,7 @@ Details
 - [\*Secret\* gyro/motion gamepad emulation](#secret-gyromotion-gamepad-emulation)
 - [Lightgun emulation](#lightgun-emulation)
 - [Gyro aiming for rail shooter games](#gyro-aiming-for-rail-shooter-games)
-- [Pairing 2 or more Gear VR controllers *\*\*New\*\**](#pairing-2-or-more-gear-vr-controllers)
+- [Pairing 2 or more Gear VR controllers *\*New\**](#pairing-2-or-more-gear-vr-controllers)
 - [Lightgun input using DemulShooter](#lightgun-input-using-demulshooter)
 - [< The House of the Dead 2: Remake > PC gyro aiming](#-the-house-of-the-dead-2-remake--pc-gyro-aiming)
 - [< The House of the Dead: Remake > PC gyro/lightgun aiming](#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming)
@@ -167,7 +167,7 @@ If the game or emulator is run as admin, this app also needs to be run as admin,
 
 By default, only a single Gear VR controller can be paired with Windows. To make it possible to pair and connect multiple Gear VR controllers at the same time, you need to modify the Bluetooth IRK of the existing controller in Windows registry.
 
-A maximum of 4 gamepad-based Gear VR controllers plus 1 mouse-based Gear VR controller can work at the same time, depending on the support by games or emulators. For example, in TeknoParrot, 4 gamepads can be set. In PCSX2, DuckStation, Dolphin and Flycast, both mouse and gamepad can be set for players. In MAME, multiple gamepads are set for different players by default. For games supported by DemulShooter input, 4 gamepads can be set as light guns input.
+A maximum of 5 Gear VR controllers (4 gamepad-based plus 1 mouse-based) can work at the same time, depending on the support by games or emulators. For example, in TeknoParrot, 4 gamepads can be set. In PCSX2, DuckStation, Dolphin and Flycast, both mouse and gamepad can be set for players. In MAME, multiple gamepads are set for different players by default. For games supported by DemulShooter input, 4 gamepads can be set as light guns input.
 
 Beware that modifying the registry incorrectly may make your Windows corrupt, follow the procedures carefully.
 
@@ -176,8 +176,8 @@ Procedures:
 2. Make a note of the MAC address of existing Gear VR controller from the lower left corner of the app.
 3. Disconnect the controller and exit the app.
 4. Download and unzip [PSTools](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec).
-5. In Windows command prompt with admin privilege, go to the folder of unzipped files, run "psexec64 -s -i regedit".
-6. In regedit, go to the folder "\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters\Keys".
+5. In Windows command prompt with admin privilege, go to the folder of unzipped files, run "psexec64 -s -i regedit". Registry Editor should show up.
+6. In Registry Editor, go to the folder "\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters\Keys".
 7. Inside "Keys" folder, go to the sub-sub folder with the folder name same as the MAC address of the existing Gear VR controller.
 8. Modify the "IRK" data, the original value should be "01 23 45 ...". Change the first byte from "01" to "02", and make sure to delete "01", not just insert new byte. If you're using more than 2 Gear VR controllers, change to "03" or "04", etc, as long as there's no duplicate IRK and not keeping the original "01".
 10. Click OK to save, exit regedit, and restart the computer.
@@ -284,9 +284,7 @@ Trigger: Gamepad A, Back: Gamepad Back/View
 <br>
 Touchpad - West: Gamepad LB, North: Gamepad X, South: Pointer reset
 
-In TeknoParrotUI game settings, set General - Input API to XInput, uncheck General - Windowed, check General - HideCursor, check Crosshairs - Enable Native. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app. Then for Player 1, set Start by pressing Back, Gun Trigger by Trigger, Sub Trigger by Touchpad North, Controller Select by Touchpad West. Set dead zone back to 15 (default) and press Touchpad South to reset stick. Then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
-
-Adjust the motion pointer speed to around 8~12 for the game.
+In TeknoParrotUI game settings, set General - Input API to XInput, uncheck General - Windowed, check General - HideCursor, check Crosshairs - Enable Native. In controller setup, set the mapping by pressing the buttons on Gear VR controller. Press Touchpad South to re-center stick, then for Player 1, set Start by pressing Back, Gun Trigger by Trigger, Sub Trigger by Touchpad North, Controller Select by Touchpad West. Set Player 1 Gun X by pointing the controller to left and right slowly until X+ or X- is shown, set Gun Y by pointing to up and down slowly until Y+ or Y- is shown. (For easier input during setup, you may adjust the motion pointer speed or dead zone in app temporarily.)
 
 <br>
 
@@ -316,7 +314,7 @@ Trigger: Gamepad A, Back: 1, Home: 5
 <br>
 Touchpad - Center: Gamepad B, North: Gamepad X, South: Pointer reset
 
-Press Touchpad South to reset stick. In MAME game's Input Device Options, set Keyboard Input Provider to dinput, Joystick Input Provider to xinput. In Advanced Options, set Joystick to On, Joystick deadzone to 0, Joystick saturation to 1.
+Press Touchpad South to re-center stick. In MAME game's Input Device Options, set Keyboard Input Provider to dinput, Joystick Input Provider to xinput. In Advanced Options, set Joystick to On, Joystick deadzone to 0, Joystick saturation to 1.
 
 Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
@@ -363,9 +361,7 @@ Trigger: Gamepad A, Back: Gamepad Back/View, Home: Gamepad Start/Menu
 <br>
 Touchpad - Center: Gamepad B, North: Gamepad X, West: Gamepad LB, East: Gamepad RB, South: Pointer reset
 
-In TeknoParrotUI game settings, set General - Input API to XInput, check Crosshair - Enable, uncheck General - Windowed. In controller setup, set the mapping by pressing the buttons on Gear VR controller. For easier input during setup, set motion pointer speed to 1 and dead zone to 10000 in app, then set Coin by pressing Home, Gun Trigger by Trigger, Gun Button by Touchpad North, Left Pedal by Touchpad West, Right Pedal by Touchpad East. Set dead zone back to 15 (default) and press Touchpad South to reset stick, then set Player 1 Gun X by pointing the controller rightward slowly until X+ is shown, set Gun Y by pointing upward until Y+ is shown.
-
-Adjust the motion pointer speed to around 8~12 for the game.
+In TeknoParrotUI game settings, set General - Input API to XInput (set to DirectInput if you need keyboard input, but gamepad device ID will not be shown in controller setup), check Crosshair - Enable, uncheck General - Windowed. In controller setup, set the mapping by pressing the buttons on Gear VR controller. Press Touchpad South to re-center stick, then set Coin by pressing Home, Gun Trigger by Trigger, Gun Button by Touchpad North, Left Pedal by Touchpad West, Right Pedal by Touchpad East. Set Player 1 Gun X by pointing the controller to left and right slowly until X+ or X- is shown, set Gun Y by pointing to up and down slowly until Y+ or Y- is shown. (For easier input during setup, you may adjust the motion pointer speed or dead zone in app temporarily.)
 
 For games with aspect ratio of 4:3, if your screen's resolution is 16:9, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
@@ -447,7 +443,7 @@ Trigger: Gamepad A, Back: Gamepad Y, Home: Gamepad Start/Menu
 <br>
 Touchpad - Center: Gamepad B, West: Gamepad LB, East: Gamepad RB, North: Gamepad X, South: Pointer reset
 
-In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings -> Display tab, check Show Overscan (better for some games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, click Automatic Mapping, select SDL-0 (XInput Controller). Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Trigger to SDL-0 Face South, Shoot Offscreen to SDL-0 Face East, Calibration Shot to SDL-0 Face North. Set Buttons A/B/C to SDL-0 Left Shoulder, SDL-0 Right Shoulder, SDL-0 Face West respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0 -Left Y/+Left Y/-Left X/+Left X. In Settings tab, set a crosshair png image in Cursor Path, uncheck Manual Screen Configuration.
+In PCSX2's Emulation settings, check Vertical Sync. In Graphics settings -> Display tab, check Show Overscan (better for some games). In Controller settings -> USB Port 1, select GunCon 2. In Bindings tab, click Automatic Mapping, select SDL-0 (XInput Controller). Press Touchpad South to re-center stick, and set the mapping by pressing the buttons on Gear VR controller. Set Trigger to SDL-0 Face South, Shoot Offscreen to SDL-0 Face East, Calibration Shot to SDL-0 Face North. Set Buttons A/B/C to SDL-0 Left Shoulder, SDL-0 Right Shoulder, SDL-0 Face West respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0 -Left Y/+Left Y/-Left X/+Left X. In Settings tab, set a crosshair png image in Cursor Path, uncheck Manual Screen Configuration.
 
 Alternatively, edit the ini file "%USERPROFILE%\Documents\PCSX2\inis\PCSX2.ini" directly for the mapping:
 
@@ -523,7 +519,7 @@ Trigger: Gamepad A, Back: Gamepad LB (used when pressing at the same time both B
 <br>
 Touchpad - Center: Gamepad B, West: Gamepad LB, East: Gamepad RB, North: Unassigned, South: Pointer reset
 
-In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -> Rendering tab, set Crop to None (better for some games). In Controller settings -> Controller Port 1, select GunCon. In Bindings tab, click Clear Mapping. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Fire to SDL-0/A, Fire Offscreen to SDL-0/B. Set Side Buttons A/B to SDL-0/LeftShoulder, SDL-0/RightShoulder respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0/-LeftY, SDL-0/+LeftY, SDL-0/-LeftX, SDL-0/+LeftX respectively. In Settings tab, set X Scale to 98% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 98% to 100%). If setting for 2 players, set different crosshair png images in Crosshair Image Path.
+In DuckStation's Emulation settings, check Vertical Sync. In Graphics settings -> Rendering tab, set Crop to None (better for some games). In Controller settings -> Controller Port 1, select GunCon. In Bindings tab, click Clear Mapping. Press Touchpad South to re-center stick, and set the mapping by pressing the buttons on Gear VR controller. Set Fire to SDL-0/A, Fire Offscreen to SDL-0/B. Set Side Buttons A/B to SDL-0/LeftShoulder, SDL-0/RightShoulder respectively. Set Relative Aiming Up/Down/Left/Right to SDL-0/-LeftY, SDL-0/+LeftY, SDL-0/-LeftX, SDL-0/+LeftX respectively. In Settings tab, set X Scale to 98% (different for some games, if the crosshair moving scale during calibration is incorrect, try around 98% to 100%). If setting for 2 players, set different crosshair png images in Crosshair Image Path.
 
 Alternatively, edit the ini file "%USERPROFILE%\Documents\DuckStation\settings.ini" directly for the mapping:
 
@@ -601,7 +597,7 @@ Trigger: Gamepad B, Back: Gamepad Back/View, Home: Gamepad Start/Menu, +: Gamepa
 <br>
 Touchpad - Center: Gamepad A, West: Gamepad D-pad Left, East: Gamepad D-pad Right, North: Gamepad X, South: Pointer reset
 
-In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, Total Yaw to 19 degree, Total Pitch to 19 degree (different for some games, usually Vertical Offset around 0 to 15 cm, Total Yaw around 15 to 20 degree, Total Pitch around 11 to 19 degree, use the same settings as option 1, or try to find the data in [Dolphin Lightguns Accuracy Inis](https://github.com/ProfgLX/Dolphin-Lightguns-Accuracy-Inis)). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
+In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Press Touchpad South to re-center stick, and set the mapping by pressing the buttons on Gear VR controller. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, Total Yaw to 19 degree, Total Pitch to 19 degree (different for some games, usually Vertical Offset around 0 to 15 cm, Total Yaw around 15 to 20 degree, Total Pitch around 11 to 19 degree, use the same settings as option 1, or try to find the data in [Dolphin Lightguns Accuracy Inis](https://github.com/ProfgLX/Dolphin-Lightguns-Accuracy-Inis)). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
 
 Alternatively, edit the ini file "%APPDATA%\Dolphin Emulator\Config\WiimoteNew.ini" (default) directly for the mapping:
 
@@ -719,7 +715,7 @@ Trigger: Gamepad A, Home: Gamepad Start/Menu, +: Gamepad D-pad Up, -: Gamepad D-
 <br>
 Touchpad - Center: Gamepad X, West: Gamepad D-pad Left, East: Gamepad D-pad Right, North: Gamepad B, South: Pointer reset
 
-In Flycast's Video settings, check VSync. In Controls settings, for Xbox 360 Controller, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Press Touchpad South to reset stick, and set the mapping by pressing the buttons on Gear VR controller. Set Reload by pressing Touchpad Center. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair. To hide the crosshair of inactive player, set the corresponding crosshair color alpha value (A) to 0.
+In Flycast's Video settings, check VSync. In Controls settings, for Xbox 360 Controller, select Port A, click Map, select Dreamcast Controls, Reset the mapping. Press Touchpad South to re-center stick, and set the mapping by pressing the buttons on Gear VR controller. Set Reload by pressing Touchpad Center. Under Dreamcast Devices, set Port A to Light Gun, select Sega VMU, check Crosshair. To hide the crosshair of inactive player, set the corresponding crosshair color alpha value (A) to 0.
 
 Press F11 to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio. Calibrate the gun crosshair in game's Options menu.
 
@@ -797,7 +793,7 @@ Press Alt-Enter to switch to fullscreen. If the resolution is incorrect, you nee
 
 Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, use [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html) to set maximized window by running "nircmd win -style process demul.exe 0xC00000" to hide title bar and thin border, then "nircmd win setsize process demul.exe 240 -20 1440 1100" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to set window position and size.
 
-Calibrate the crosshair in the game's Service and Test menu -> B.F.F. TEST MENU -> NOZZLE SENSOR SETTING. Press Touchpad South to reset stick, to get a better calibration, during "Aim at CENTER of the screen", press Trigger when CC X:7f Y:7f is shown. Alternatively, calibration can be done easily by mouse without running DemulShooter.
+Calibrate the crosshair in the game's Service and Test menu -> B.F.F. TEST MENU -> NOZZLE SENSOR SETTING. Press Touchpad South to re-center stick, to get a better calibration, during "Aim at CENTER of the screen", press Trigger when CC X:7f Y:7f is shown. Alternatively, calibration can be done easily by mouse without running DemulShooter.
 
 <br>
 
