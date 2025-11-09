@@ -166,7 +166,7 @@ If the game or emulator is run as admin, this app also needs to be run as admin,
 
 ## Config for passthru buttons
 
-The default config handles button press for keyboard mapping with automatic key repeat, and allows only single button press at a time. If you need a passthru handling of button press, you can edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
+The default config handles button press for keyboard mapping with automatic key repeat, and allows only a single button action at a time. If you need a pass-thru handling of button press, you can edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
 
 Modify these options from False to True:
 
