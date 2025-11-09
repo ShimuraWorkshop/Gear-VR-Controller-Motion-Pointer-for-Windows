@@ -56,6 +56,7 @@ Details
 - [\*Secret\* gyro/motion gamepad emulation](#secret-gyromotion-gamepad-emulation)
 - [Lightgun emulation](#lightgun-emulation)
 - [Gyro aiming for rail shooter games](#gyro-aiming-for-rail-shooter-games)
+- [Config for passthru buttons](#config-for-passthru-buttons)
 - [Pairing 2 or more Gear VR controllers *\*New\**](#pairing-2-or-more-gear-vr-controllers)
 - [Lightgun input using DemulShooter](#lightgun-input-using-demulshooter)
 - [< The House of the Dead 2: Remake > PC gyro aiming](#-the-house-of-the-dead-2-remake--pc-gyro-aiming)
@@ -160,6 +161,26 @@ Assign "Pointer temporary off" to Touchpad South, "Mouse left button" to Trigger
 Mouse acceleration will be disabled by default, the original state will be restored after exiting the app.
 
 If the game or emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+
+<br>
+
+## Config for passthru buttons
+
+The default config handles button press for keyboard mapping with automatic key repeat, and allows only single button press at a time. If you need a passthru handling of button press, you can edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
+
+Modify these options from False to True:
+
+DefaultGameMode
+<br>
+DefaultGameKeyboardMode
+
+Modify this option from True to False:
+
+GameModeUseTouchStick
+
+With this config, a mapped key will be kept pressed until the controller button is released (except "Combo" input), and multiple buttons can be pressed at the same time. But mapping will be limited to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures. 
+
+To work with some system programs or programs run as admin, this app also needs to be run as admin.
 
 <br>
 
