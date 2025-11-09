@@ -124,7 +124,7 @@ DefaultGamepadUseYaw
 
 Some games may work better with keyboard+mouse emulation, or if you want to use mixed input with another gamepad, in that case, leave the DefaultEmulateGamepad option to False.
 
-If the game is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+If the game is run as admin, this app also needs to be run as admin.
 
 <br>
 
@@ -166,7 +166,7 @@ Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), u
 
 Assign "Pointer reset" to Touchpad South, "Gamepad A" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 8~12 in app for the game.
 
-With either config, if the game or emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+With either config, if the game or emulator is run as admin, this app also needs to be run as admin.
 
 <br>
 
@@ -180,7 +180,7 @@ Assign "Pointer temporary off" to Touchpad South, "Mouse left button" to Trigger
 
 Mouse acceleration will be disabled by default, the original state will be restored after exiting the app.
 
-If the game or emulator is run as admin, this app also needs to be run as admin, otherwise Windows won't let them work together.
+If the game or emulator is run as admin, this app also needs to be run as admin.
 
 <br>
 
@@ -396,7 +396,9 @@ For Rabbids Hollywood, if the crosshair or trigger doesn't work, maybe your vers
 
 For Haunted Museum II and Gaia Attack 4, to fix the movie read error, install [wmv9VCMsetup](https://www.videohelp.com/software/WMV9-VCM), also in Windows command prompt with admin privilege, run "regsvr32 %SystemRoot%\SysWOW64\ir50_32.dll".
 
-For Tomb Raider, to fix the aiming issue, set screen resolution to 1920x1080, you may need to reset previous settings in Windows registry, in folder "\HKEY_CURRENT_USER\SOFTWARE\Sarbakan\SquareEnix_TombRaider", set "Screenmanager Resolution Height..." to 1080 (Decimal), "Screenmanager Resolution Width..." to 1920 (Decimal).
+For Tomb Raider, to fix the crosshair issue, set screen resolution to 1920x1080. You may need to reset previous settings in Windows registry, in folder "\HKEY_CURRENT_USER\SOFTWARE\Sarbakan\SquareEnix_TombRaider", set "Screenmanager Resolution Height..." to 1080 (Decimal), "Screenmanager Resolution Width..." to 1920 (Decimal).
+
+For Wild West Shootout, to fix the crosshair movement issue, set screen resolution to 1920x1080. You may need to reset previous settings in Windows registry, in folder "\HKEY_CURRENT_USER\SOFTWARE\Yingqi\CowBoy", set "Screenmanager Resolution Height..." to 1080 (Decimal), "Screenmanager Resolution Width..." to 1920 (Decimal). To fix the P2 gun incorrect mapping to P1 crosshair, download and unzip the [fixed xml file](https://www.mediafire.com/file/f19f4hzik5ju0kx/WildWestShootout_xml.zip/file) to replace ".\GameProfiles\WildWestShootout.xml" in TeknoParrot folder and re-add the game.
 
 For Gundam Spirits of Zeon, to fix title screen freezing, try to uncheck General - Hideconsolewindow in game settings.
 
