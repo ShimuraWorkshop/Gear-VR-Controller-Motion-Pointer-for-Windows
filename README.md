@@ -327,7 +327,7 @@ Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and
 
 If you want to use non-press touchpad for pedal, assign Mouse right button to Non-Press Touchpad Center.
 
-For 2-player support by using 2 Gear VR controllers, set Lightgun Device Assignment to joystick and follow instructions of option 2.
+For 2-player support by using 2 Gear VR controllers, follow instructions of option 2.
 
 ### Option 2: Lightgun emulation replacing gamepad left stick (e.g. Alien 3: The Gun)
 
@@ -337,7 +337,7 @@ Trigger: Gamepad A, Back: 1, Home: 5
 <br>
 Touchpad - Center: Gamepad B, North: Gamepad X, South: Pointer reset
 
-Press Touchpad South to re-center stick. In MAME game's Input Device Options, set Keyboard Input Provider to dinput, Joystick Input Provider to xinput. In Advanced Options, set Joystick to On, Joystick deadzone to 0, Joystick saturation to 1.
+Press Touchpad South to re-center stick. In MAME game's Input Device Options, set Lightgun Device Assignment to joystick, Keyboard Input Provider to dinput, Joystick Input Provider to xinput. In Advanced Options, set Joystick to On, Joystick deadzone to 0, Joystick saturation to 1.
 
 Press Alt-Enter to switch to fullscreen. If your screen's resolution is 16:9 and the game is 4:3, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio.
 
