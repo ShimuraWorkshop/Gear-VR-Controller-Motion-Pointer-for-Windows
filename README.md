@@ -94,7 +94,7 @@ Windows is a trademark or registered trademark of Microsoft Corporation
 
 You can use the controller like a gyro gamepad, with analog touch stick (needn't press) and gyro aiming (replacing mouse) support. Gamepad buttons and sticks are available in key assignment list for mapping to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures. (SteamVR, gyro/motion of Steam Input and Wii/Switch emulators, games built-in gyro/motion controls are not supported at the moment.)
 
-To use the gamepad mode, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
+To use the gamepad mode, install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) as follows and restart the app.
 
 Modify this option from True to False:
 
@@ -114,13 +114,15 @@ Adjust the motion pointer speed to around 1~4 in app and switch to motion pointe
 
 KeyTouchButtonCenter2 / KeyBackButton2 / KeyHomeButton2 / KeyVolumeUpButton2 / KeyVolumeDownButton2 / KeyTouchButton2 / KeyTriggerButton2 / KeyTouchDirectCenter2
 
-You can also map controller roll, pitch, yaw motions to stick axes or triggers to make it a motion gamepad. Adjust the motion pointer speed to around 1~3 and assign "Pointer reset" to a button. Explore more settings if you're interested.
+You can also make the controller a motion gamepad by mapping its roll, pitch, yaw motions to stick axes or triggers as follows.
 
 Modify these options from False to True:
 
 DefaultGamepadUsePitch
 <br>
 DefaultGamepadUseYaw
+
+Adjust the motion pointer speed to around 1~3 and assign "Pointer reset" to a button. Explore more settings if you're interested.
 
 Some games may work better with keyboard+mouse emulation, or if you want to use mixed input with another gamepad, in that case, leave the DefaultEmulateGamepad option to False.
 
@@ -130,7 +132,7 @@ If the game is run as admin, this app also needs to be run as admin.
 
 ## Config for passthru buttons
 
-The default config handles button press for keyboard mapping with automatic key repeat, and allows only a single button action at a time. If you need a pass-thru handling of button press, you can edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) and restart the app.
+The default config handles button press for keyboard mapping with automatic key repeat, and allows only one button action at a time. If you need a pass-thru handling of button press, you can edit the file "C:\Program Files\Gear VR Controller\Gear_VR_Controller.dll.config" (default, text editor needs to be run as admin) as follows and restart the app.
 
 Modify these options from False to True:
 
@@ -142,7 +144,7 @@ Modify this option from True to False:
 
 GameModeUseTouchStick
 
-With this config, a mapped key will be kept pressed until the controller button is released (except "Combo" input), and multiple buttons can be pressed at the same time. But mapping will be limited to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures. 
+With this config, a mapped key will be kept in pressed state until the controller button is released (except "Combo" input), and multiple buttons can be pressed at the same time. But mapping will be limited to touchpad press (4 directions, center and lower edge), other 5 buttons and 12 motion gestures. 
 
 To work with some system programs or programs run as admin, this app also needs to be run as admin.
 
@@ -370,6 +372,7 @@ For Silent Scope 2 (in Silent Scope Complete), select EMS TopGun II in Input set
 Follow the instructions of [lightgun emulation option 1](#option-1-lightgun-emulation-replacing-mouse), and assign keys for example:
 
 Trigger: Mouse left button, Back: 1, Home: 5
+<br>
 Touchpad - Center: Mouse right button, West: Mouse middle button, East: Mouse X2 button, North: Mouse X1 button, South: Pointer reset
 
 In TeknoParrotUI game settings, set General - Input API to RawInput, uncheck General - Windowed, check General - HideCursor, check Crosshairs - Enable, check Crosshairs - Scaling (some settings may be unavailable in some games). In controller setup, set the mapping by pressing the buttons on Gear VR controller, and set Light Gun to Unknown Device.
