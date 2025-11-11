@@ -409,6 +409,10 @@ For Night Hunter After Dark Chapter 2, to fix the crosshair issue, try to check 
 
 For Point Blank X, to fix the ticket dispenser error, try to enter and exit the Test menu once to disable the dispenser. XInput mapping of Test button sometimes doesn't work, try to restart TeknoParrotUI.
 
+For Transformers Human Alliance, to fix the P2 crosshair issue, download and unzip the [fixed exe file](https://www.mediafire.com/file/2xttafsk29zdvg9/TFHA_fixed_exe.zip/file) to replace ".\exe\TF_Gun_R_Ring_dumped.exe" in the game folder.
+
+For Bug Busters, to fix the P2 Trigger issue, assign "Left Ctrl" to Trigger in app (it may be a bug of TeknoParrot, the P2 trigger key is Left Ctrl).
+
 For games like Castlevania and Wartran Troopers, the Coin key mapping may not work, try to check General - Freeplay in game settings.
 
 <br>
