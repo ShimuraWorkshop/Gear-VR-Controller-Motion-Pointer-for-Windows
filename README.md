@@ -389,7 +389,7 @@ In TeknoParrotUI game settings, set General - Input API to XInput (set to Direct
 
 For some games with aspect ratio of 4:3, if your screen's resolution is 16:9, set motion pointer AR correction to 1333 in app to get the correct crosshair moving aspect ratio. (Not required if the game can switch the screen resolution to 4:3.)
 
-XInput mapping of Test button sometimes doesn't work, try to restart TeknoParrotUI.
+XInput mapping of Test button sometimes doesn't work, try to press Touchpad South to re-center stick and restart TeknoParrotUI.
 
 For games like The House of the Dead 4 without in-game crosshair, copy crosshair images P1.png and P2.png to folder of the game startup program, and check Crosshairs - Enable and Crosshairs - Scaling in game settings. But if an inactive player's crosshair is shown, try to rename the corresponding png file to something else to hide it.
 
@@ -403,11 +403,11 @@ For Tomb Raider, to fix the crosshair issue, set screen resolution to 1920x1080.
 
 For Wild West Shootout, to fix the crosshair movement issue, set screen resolution to 1920x1080. You may need to reset previous settings in Windows registry, in folder "\HKEY_CURRENT_USER\SOFTWARE\Yingqi\CowBoy", set "Screenmanager Resolution Height..." to 1080 (Decimal), "Screenmanager Resolution Width..." to 1920 (Decimal). To fix the P2 gun incorrect mapping to P1 crosshair, download and unzip the [fixed xml file](https://www.mediafire.com/file/f19f4hzik5ju0kx/WildWestShootout_xml.zip/file) to replace ".\GameProfiles\WildWestShootout.xml" in TeknoParrot folder and re-add the game.
 
-For Gundam Spirits of Zeon, to fix title screen freezing, try to uncheck General - Hideconsolewindow in game settings.
+For Gundam Spirits of Zeon, it starts up with black screen randomly, try to restart the game. To fix the 2 PLAYERS game mode issue, try to search and download "3 - Gundam SvPatch + Dummy Data.rar", extract the dual screen version of game.exe to the game folder. Alternatively, use a hex editor like HxD to find the hex-values "31 0A 66 72" in game.exe and modify to "32 0A 66 72".
 
 For Night Hunter After Dark Chapter 2, to fix the crosshair issue, try to check General - Windowed in game settings.
 
-For Point Blank X, to fix the ticket dispenser error, try to enter and exit the Test menu once to disable the dispenser. XInput mapping of Test button sometimes doesn't work, try to restart TeknoParrotUI.
+For Point Blank X, to fix the ticket dispenser error, try to enter and exit the Test menu once to disable the dispenser. XInput mapping of Test button sometimes doesn't work, try to press Touchpad South to re-center stick and restart TeknoParrotUI.
 
 For Transformers Human Alliance, to fix the P2 crosshair issue, download and unzip the [fixed exe file](https://www.mediafire.com/file/2xttafsk29zdvg9/TFHA_fixed_exe.zip/file) to replace ".\exe\TF_Gun_R_Ring_dumped.exe" in the game folder.
 
