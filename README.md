@@ -409,7 +409,7 @@ For Night Hunter After Dark Chapter 2, to fix the crosshair issue, try to check 
 
 For Point Blank X, to fix the ticket dispenser error, try to enter and exit the Test menu once to disable the dispenser. XInput mapping of Test button sometimes doesn't work, try to press Touchpad South to re-center stick and restart TeknoParrotUI.
 
-For Transformers Human Alliance, to fix the P2 crosshair issue, download and unzip the [fixed exe file](https://www.mediafire.com/file/2xttafsk29zdvg9/TFHA_fixed_exe.zip/file) to replace ".\exe\TF_Gun_R_Ring_dumped.exe" in the game folder.
+For Transformers Human Alliance, to fix the P2 crosshair issue and stage 3 crash, download and unzip the [fixed exe file](https://www.mediafire.com/file/2xttafsk29zdvg9/TFHA_fixed_exe.zip/file) (fixed by P2 gun calibration and NTCore 4GB patch) to replace ".\exe\TF_Gun_R_Ring_dumped.exe" in the game folder.
 
 For Bug Busters, to fix the P2 Trigger issue, assign "Left Ctrl" to Trigger in app (it may be a bug of TeknoParrot, the P2 trigger key is Left Ctrl).
 
