@@ -413,6 +413,8 @@ For Transformers Human Alliance, to fix the stage 3 crash and P2 crosshair issue
 
 For Bug Busters, to fix the P2 Trigger issue, assign "Left Ctrl" to Trigger in app (it may be a bug of TeknoParrot, the P2 trigger key is Left Ctrl).
 
+For Silent Hill The Arcade, use FixSilentHillCodec.bat in game folder to install clvsd.ax, keep default resolution of 640x480.
+
 For games like Castlevania and Wartran Troopers, the Coin key mapping may not work, try to check General - Freeplay in game settings.
 
 <br>
