@@ -203,10 +203,10 @@ Procedures:
 6. In Registry Editor, go to the folder "\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters\Keys".
 7. Inside "Keys" folder, go to the sub-sub folder with the folder name same as the MAC address of the existing Gear VR controller.
 8. Modify the "IRK" data, the original value should be "01 23 45 ...". Change the first byte from "01" to "02", and make sure to delete "01", not just insert new byte. If you're using more than 2 Gear VR controllers, change to "03" or "04", etc, as long as there's no duplicate IRK and not keeping the original "01".
-10. Click OK to save, exit regedit, and restart the computer.
+10. Click OK to save, exit Registry Editor, and restart the computer.
 11. Make a copy of the Gear VR Controller app folder with all contents ("C:\Program Files\Gear VR Controller" by default), with a new folder name e.g. "Gear VR Controller P2".
 12. Make sure only the new controller is powered on by removing batteries from other controllers. Don't pair the controller manually in Windows bluetooth settings.
-13. Start the new copy of app and setup the new controller as usual. A new set of user config will be created in "%LOCALAPPDATA%\Gear_VR_Controller".
+13. Start the new copy of app (Gear_VR_Controller.exe) and setup the new controller as usual. A new set of user config will be created in "%LOCALAPPDATA%\Gear_VR_Controller".
 14. Start other copies of app as usual. Multiple instances of the app in different folders can be run at the same time. The order of XInput device ID will be according to the order of starting instance of the app.
 
 <br>
@@ -413,7 +413,7 @@ For Transformers Human Alliance, to fix the stage 3 crash and P2 crosshair issue
 
 For Bug Busters, to fix the P2 Trigger issue, assign "Left Ctrl" to Trigger in app (it may be a bug of TeknoParrot, the P2 trigger key is Left Ctrl).
 
-For Silent Hill The Arcade, use FixSilentHillCodec.bat in game folder to install clvsd.ax, keep default resolution of 640x480.
+For Silent Hill The Arcade, use FixSilentHillCodec.bat in game folder to install clvsd.ax (follow your version's instructions if unavailable), keep default resolution of 640x480.
 
 For games like Castlevania and Wartran Troopers, the Coin key mapping may not work, try to check General - Freeplay in game settings.
 
