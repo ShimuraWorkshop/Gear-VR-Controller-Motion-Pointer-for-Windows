@@ -49,6 +49,7 @@ System requirements
 Donate
 - [Buy me a coffee](https://buymeacoff.ee/shimuraworkshop)
 - BTC: 1Ldb1X4gNiZW2SnzJAyW23XA2bpDN3iLYu
+- ETH: 0xc0F5F368d67E080275a9f905ed0Ef26317504fAe
 
 <br>
 
@@ -613,7 +614,7 @@ Trigger: Mouse right button, Back: Q, Home: E, +: 1, -: 2
 <br>
 Touchpad - Center: Mouse left button, West: Left arrow, East: Right arrow, North: Mouse middle button, South: Pointer reset
 
-In Dolphin's Configuration -> Interface, set Mouse Cursor Visibility to Always. In Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to DInput/0/Keyboard Mouse, then click Default. In Motion Simulation tab, under the Point section, set Vertical Offset to 15 cm, Total Yaw to 19 degree, Total Pitch to 19 degree (different for some games, usually Vertical Offset around 0 to 15 cm, Total Yaw around 15 to 20 degree, Total Pitch around 11 to 19 degree, try to find the data in [Dolphin Lightguns Accuracy Inis](https://github.com/ProfgLX/Dolphin-Lightguns-Accuracy-Inis)). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
+In Dolphin's Configuration -> Interface, set Mouse Cursor Visibility to Always. In Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to DInput/0/Keyboard Mouse, then click Default. In Motion Simulation tab, under the Point section, set Vertical Offset to 15 cm, Total Yaw to 19 degree, Total Pitch to 19 degree (different for some games, usually Vertical Offset around 0 to 15 cm, Total Yaw around 15 to 20 degree, Total Pitch around 11 to 19 degree, try to find the values in [Dolphin Lightguns Accuracy Inis](https://github.com/ProfgLX/Dolphin-Lightguns-Accuracy-Inis/tree/main/Accuracy%20and%20control%20mappings/Config/Profiles/Wiimote)). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
 
 For games like Resident Evil: The Umbrella Chronicles which use the Nunchuk stick, you can map the Nunchuk stick keys by assigning W/S/A/D to Non-Press Touchpad North/South/West/East. Also change other assignments to suit the game.
 
@@ -629,7 +630,7 @@ Trigger: Gamepad B, Back: Gamepad Back/View, Home: Gamepad Start/Menu, +: Gamepa
 <br>
 Touchpad - Center: Gamepad A, West: Gamepad D-pad Left, East: Gamepad D-pad Right, North: Gamepad X, South: Pointer reset
 
-In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Press Touchpad South to re-center stick, and set the mapping by pressing the buttons on Gear VR controller. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, Total Yaw to 19 degree, Total Pitch to 19 degree (different for some games, usually Vertical Offset around 0 to 15 cm, Total Yaw around 15 to 20 degree, Total Pitch around 11 to 19 degree, use the same settings as option 1, or try to find the data in [Dolphin Lightguns Accuracy Inis](https://github.com/ProfgLX/Dolphin-Lightguns-Accuracy-Inis)). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
+In Dolphin's Graphics settings, check V-Sync. In Controller settings, under the Wii Remotes section, select Emulate the Wii's Bluetooth adapter, set Wii Remote 1 to Emulated Wii Remote. Click Configure, set Device to XInput/0/Gamepad. Press Touchpad South to re-center stick, and set the mapping by pressing the buttons on Gear VR controller. Set Buttons A/B/1/2/-/+ to Button A, Button B, Shoulder R, Shoulder L, Back, Start respectively. Set D-Pad Left/Right to Pad W, Pad E respectively. In Motion Simulation tab, under the Shake section, set all of X/Y/Z to Button X. Under the Point section, set Up/Down/Left/Right to Left Y+, Left Y-, Left X-, Left X+ respectively. Set Vertical Offset to 15 cm, Total Yaw to 19 degree, Total Pitch to 19 degree (different for some games, usually Vertical Offset around 0 to 15 cm, Total Yaw around 15 to 20 degree, Total Pitch around 11 to 19 degree, use the same values as option 1, or try to find the values in [Dolphin Lightguns Accuracy Inis](https://github.com/ProfgLX/Dolphin-Lightguns-Accuracy-Inis/tree/main/Accuracy%20and%20control%20mappings/Config/Profiles/Wiimote)). Give the Profile a name and Save, then Close the settings. Don't click Calibrate, it doesn't work.
 
 Alternatively, edit the ini file "%APPDATA%\Dolphin Emulator\Config\WiimoteNew.ini" (default) directly for the mapping:
 
