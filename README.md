@@ -17,7 +17,8 @@ Features
 - No VR headset or mobile phone needed
 - Wireless presenter, air mouse and motion pointer
 - Emulated light gun, gyro and motion gamepad
-- 2 or more Gear VR controllers
+- Pairing multiple Gear VR controllers
+- 2 controllers as left and right sides
 - Key or action mapping to buttons and motions
 - Combo editor for keys input
 - Trackpad mouse cursor or scrolling
@@ -34,9 +35,9 @@ Calibration for motion sensing and motion pointer
 
 Download latest version
 
-- v2.2.1 (from [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Gear-VR-Controller.shtml))
-- md5: f91dd7ca225454c7c0608dfea737a3c8
-- sha-1: 28cec6f7cf3bc1ee3b21c59f8dd331145b83edfc
+- v2.2.2 [Link](https://www.mediafire.com/file/mr4r299a5cj822j/Gear_VR_Controller_setup.exe/file)
+- md5: c79d93fab74776f8168c962365b0faf0
+- sha-1: 5c280eb604840da9a34f9e4b1d820d8942e82ee3
 
 System requirements
 - Windows 10 x64 or Windows 11
@@ -58,8 +59,9 @@ Details
 - [Config for passthru buttons](#config-for-passthru-buttons)
 - [Lightgun emulation](#lightgun-emulation)
 - [Gyro aiming for rail shooter games](#gyro-aiming-for-rail-shooter-games)
-- [Pairing 2 or more Gear VR controllers *\*New\**](#pairing-2-or-more-gear-vr-controllers)
+- [Pairing 2 or more Gear VR controllers](#pairing-2-or-more-gear-vr-controllers)
 - [Lightgun input using DemulShooter](#lightgun-input-using-demulshooter)
+- [Using 2 Gear VR controllers as left and right sides *\*New\**](#using-2-gear-vr-controllers-as-left-and-right-sides)
 - [< The House of the Dead 2: Remake > PC gyro aiming](#-the-house-of-the-dead-2-remake--pc-gyro-aiming)
 - [< The House of the Dead: Remake > PC gyro/lightgun aiming](#-the-house-of-the-dead-remake--pc-gyrolightgun-aiming)
 - [< Panzer Dragoon: Remake > PC gyro aiming](#-panzer-dragoon-remake--pc-gyro-aiming)
@@ -157,7 +159,7 @@ To work with some system programs or programs run as admin, this app also needs 
 
 Config file [Link](https://www.mediafire.com/file/nr93jqt7o9zzsg4/Gear_VR_Controller.dll.config_lightgun.zip/file) (if supported by the game or emulator)
 
-ViGEmBus not required, update the app to v2.2.1, unzip the config to "C:\Program Files\Gear VR Controller" (default).
+ViGEmBus not required, update the app to v2.2.2, unzip the config to "C:\Program Files\Gear VR Controller" (default).
 
 Assign "Pointer reset" to Touchpad South, "Mouse left button" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 8~12 in app and switch to motion pointer mode before starting game.
 
@@ -165,7 +167,7 @@ Assign "Pointer reset" to Touchpad South, "Mouse left button" to Trigger, also o
 
 Config file [Link](https://www.mediafire.com/file/lo7iu6lflxh00hl/Gear_VR_Controller.dll.config_lightgun.by.gamepad.zip/file) (if supported by the game or emulator)
 
-Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.2.1, unzip the config to "C:\Program Files\Gear VR Controller" (default).
+Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0), update the app to v2.2.2, unzip the config to "C:\Program Files\Gear VR Controller" (default).
 
 Assign "Pointer reset" to Touchpad South, "Gamepad A" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 8~12 in app for the game.
 
@@ -177,11 +179,9 @@ With either config, if the game or emulator is run as admin, this app also needs
 
 Config file [Link](https://www.mediafire.com/file/t7shxu9czk3wdj1/Gear_VR_Controller.dll.config_gyro.zip/file) (if supported by the game or emulator)
 
-ViGEmBus not required, update the app to v2.2.1, unzip the config to "C:\Program Files\Gear VR Controller" (default).
+ViGEmBus not required, update the app to v2.2.2, unzip the config to "C:\Program Files\Gear VR Controller" (default).
 
 Assign "Pointer temporary off" to Touchpad South, "Mouse left button" to Trigger, also other keys to suit the game. Adjust the motion pointer speed to around 4 in app and switch to motion pointer mode before starting the game. Also adjust the cursor speed in Windows mouse settings when necessary.
-
-Mouse acceleration will be disabled by default, the original state will be restored after exiting the app.
 
 If the game or emulator is run as admin, this app also needs to be run as admin.
 
@@ -191,12 +191,12 @@ If the game or emulator is run as admin, this app also needs to be run as admin.
 
 By default, only a single Gear VR controller can be paired with Windows. To make it possible to pair and connect multiple Gear VR controllers at the same time, you need to modify the Bluetooth IRK of the existing controller in Windows registry.
 
-A maximum of 5 Gear VR controllers (4 gamepad-based plus 1 mouse-based) can work at the same time, depending on the support by games or emulators. For example, in TeknoParrot, 4 gamepads can be set. In PCSX2, DuckStation, Dolphin and Flycast, both mouse and gamepad can be set for players. In MAME, multiple gamepads are set for different players by default. For games supported by DemulShooter input, 4 gamepads can be set as light guns input.
+A maximum of 5 Gear VR controllers (4 gamepad-based plus 1 mouse-based) can work at the same time (maximum 10 if using both left and right sides), depending on the support by games or emulators. For example, in TeknoParrot, 4 gamepads can be set. In PCSX2, DuckStation, Dolphin and Flycast, both mouse and gamepad can be set for players. In MAME, multiple gamepads are set for different players by default. For games supported by DemulShooter input, 4 gamepads can be set as light guns input.
 
-Beware that modifying the registry incorrectly may make your Windows corrupt, follow the procedures carefully.
+Beware that modifying the registry incorrectly may make your Windows corrupt. Follow the procedures carefully.
 
 Procedures:
-1. Update the app to v2.2.1.
+1. Update the app to v2.2.2.
 2. Make a note of the MAC address of existing Gear VR controller from the lower left corner of the app.
 3. Disconnect the controller and exit the app.
 4. Download and unzip [PSTools](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec).
@@ -227,6 +227,42 @@ DemulShooter has light gun buttons assignment for Trigger, Off-Screen and Action
 See the [Wiki](https://github.com/argonlefou/DemulShooter/wiki/Usage) for supported games and detailed settings. Note that for some games, only output (LED, force feedback, etc) is supported by DemulShooter, but not input. Therefore, there is no effect to use it with the controller for those games.
 
 DemulShooter.exe and DemulShooterX64.exe need to be run as admin or run in Windows command prompt with admin privilege.
+
+<br>
+
+## Using 2 Gear VR controllers as left and right sides
+
+For mouse-based config, the second controller can be set with keyboard mapping for another side.
+
+For gamepad-based config (or with gyro to mouse), you can use 2 controllers to act as a single XInput gamepad device. Update the app to v2.2.2, edit the config file "Gear_VR_Controller.dll.config" in app folders as follows (text editor may need to be run as admin) and restart both copies of app. (Not required for mouse-based config.)
+
+For the first controller (host), modify this option from False to True:
+
+GamepadUseHostClient
+ 
+For the second controller (client), modify these options from False to True:
+
+GamepadUseHostClient
+<br>
+GamepadAsClient
+
+You need to start the app of the host side first.
+
+If you have 2 more controllers for player 2, in those 2 copies of app, also modify this option from False to True (for gamepad-based config only):
+
+GamepadHostClientSecondOrFourth
+
+Make sure the same XInput gamepad stick or triggers are not mapped to both controllers, otherwise they may conflict with each other. For example, for the client side of lightgun emulation config, modify these options from True to False:
+
+DefaultGamepadUsePitch
+<br>
+DefaultGamepadUseYaw
+
+Instead of non-press touchpad key assignment, you can map the touchpad as analog touch stick to XInput right stick (e.g. as Wii Remote Nunchuk stick) by modifying these options from False to True:
+
+GamepadUseTouchAnalog
+<br>
+DefaultTouchAnalogForRightStick
 
 <br>
 
@@ -408,9 +444,9 @@ For Gundam Spirits of Zeon, it starts up with black screen randomly, try to rest
 
 For Night Hunter After Dark Chapter 2, to fix the crosshair issue, try to check General - Windowed in game settings.
 
-For Point Blank X, to fix the ticket dispenser error, try to enter and exit the Test menu once to disable the dispenser. XInput mapping of Test button sometimes doesn't work, try to press Touchpad South to re-center stick and restart TeknoParrotUI.
+For Point Blank X, to fix the ticket dispenser error, try to enter and exit the Test menu once (dispenser will be disabled). XInput mapping of Test button sometimes doesn't work, try to press Touchpad South to re-center stick and restart TeknoParrotUI.
 
-For Transformers Human Alliance, to fix the stage 3 crash and P2 crosshair issue, download and unzip the [fixed exe file](https://www.mediafire.com/file/2xttafsk29zdvg9/TFHA_fixed_exe.zip/file) (new) to replace ".\exe\TF_Gun_R_Ring_dumped.exe" in the game folder.
+For Transformers Human Alliance, to fix the stage 3 crash and P2 crosshair issue, download and unzip the [fixed exe file](https://www.mediafire.com/file/2xttafsk29zdvg9/TFHA_fixed_exe.zip/file) to replace ".\exe\TF_Gun_R_Ring_dumped.exe" in the game folder.
 
 For Bug Busters, to fix the P2 Trigger issue, assign "Left Ctrl" to Trigger in app (it may be a bug of TeknoParrot, the P2 trigger key is Left Ctrl).
 
@@ -826,7 +862,7 @@ Press Alt-Enter to switch to fullscreen. If the resolution is incorrect, you nee
 
 Optionally, if your screen isn't 4:3 and you want to play the game in 4:3, use [NirCmd 64-bit](https://www.nirsoft.net/utils/nircmd.html) to set maximized window by running "nircmd win -style process demul.exe 0xC00000" to hide title bar and thin border, then "nircmd win setsize process demul.exe 240 -20 1440 1100" (example of 1920x1080 screen, change numbers to suit your screen's resolution) to set window position and size.
 
-Calibrate the crosshair in the game's Service and Test menu -> B.F.F. TEST MENU -> NOZZLE SENSOR SETTING. Press Touchpad South to re-center stick, to get a better calibration, during "Aim at CENTER of the screen", press Trigger when CC X:7f Y:7f is shown. Alternatively, calibration can be done easily by mouse without running DemulShooter.
+Calibrate the crosshair in the game's Service and Test menu -> B.F.F. TEST MENU -> NOZZLE SENSOR SETTING. Press Touchpad South to re-center stick. To get a better calibration, during "Aim at CENTER of the screen", press Trigger when CC X:7f Y:7f is shown. Alternatively, calibration can be done easily by mouse without running DemulShooter.
 
 <br>
 
